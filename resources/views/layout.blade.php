@@ -110,6 +110,15 @@
                 float: left;
                 margin: 19px 25px -19px 25px;
             }
+            .blog-item .image {
+                height: 220px;
+            }
+            .blog-item .image img {
+                width: 100%;
+                height: 100%;
+            }
+
+
             /*            ul li a {
                             font-family: Cabin;
                             font-weight: bold;
@@ -153,6 +162,9 @@
             }
             .text-12{
                 font-size: 12px;
+            }
+            .text-11{
+                font-size: 11px;
             }
             .text-10{
                 font-size: 10px;
