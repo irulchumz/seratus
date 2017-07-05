@@ -112,3 +112,7 @@ Route::get('most-loved-brand', function () {
 Route::get('login', function () {
     return view('front.login');
 });
+
+Route::get('register', function () {
+    return view('front.register');
+});
