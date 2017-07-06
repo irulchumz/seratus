@@ -116,3 +116,7 @@ Route::get('login', function () {
 Route::get('register', function () {
     return view('front.register');
 });
+
+Route::get('magazine', function () {
+    return view('front.magazine');
+});

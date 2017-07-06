@@ -60,6 +60,12 @@
                 font-weight: bold;
                 font-size: 24px;
             }
+            .title span.kecil{
+                color: black;
+                margin-left: 20px;
+                font-weight: 300;
+                font-size: 14px;
+            }
 
             .bg-putih {
                 background-color: white;
