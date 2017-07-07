@@ -14,9 +14,9 @@
 </div>
 <div class="section pt-40">
     <div class="container">
-        <div class="col-md-6" style="padding-left: 0;">
+        <div class="col-md-8" style="padding-left: 0;">
             <!--<div>-->
-            <div class="col-md-2 warnadasar magazine-left" style="height: 724px;">
+            <div class="col-md-2 warnadasar magazine-left" style="height: 443px;">
                 <ul style="margin-top: 20px;border: solid 1px white;margin-left: 20%;width: 32px;">
                     <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-facebook"></i></a></li>
                     <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-twitter"></i></a></li>
@@ -24,16 +24,15 @@
                 </ul>
             </div>
             <div class="col-md-10 box-product1" style="height: 100%;padding-left: 0;">
-                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 724px;width: 100%;" alt=""/>
+                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 443px;width: 100%;" alt=""/>
             </div>
             <div class="col-md-offset-1 col-md-11 text-10">Caption foto disini</div>
         </div>
-        <div class="col-md-6">
-            <div class="text-16 mb-35" style="margin-top: 210px;font-weight: bold;">Personality</div>
-            <div class="mb-60" style="font-size: 40px;font-weight: bold;line-height: 44px">Berkunjung ke Dalam Pikiran Miebi Sikoki</div>
-            <div class="mb-60 text-roboto text-18" style="">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+        <div class="col-md-4">
+            <div class="text-16 mb-25" style="margin-top: 110px;font-weight: bold;">A-Story</div>
+            <div class="mb-30" style="font-size: 40px;line-height: 42px">Berkunjung ke Dalam Pikiran Miebi Sikoki</div>
+            <div class="mb-30 text-roboto text-18" style="">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
             <div class="text-16" style="">
                 12 Desember 2017
@@ -67,9 +66,24 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
             </p>
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 455px;width: 100%;" alt=""/>
-            <span>Caption Foto disini</span>
-            <p class="text-cabin text-16" style="line-height: 25px;color: black;margin-top: 20px;margin-left: 10%;margin-bottom: 0;">
+        </div>
+        <div class="mb-40" style="float: left;width: 75%;margin-right: 25%;">
+            <div class="" style="float: left;width: 50%;padding-right: 15px;">                
+                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 320px;width: 100%;" alt=""/>
+                <span>Caption Foto disini</span>
+            </div>
+            <div class="" style="float: left;width: 50%;">                
+                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 320px;width: 100%;" alt=""/>
+                <!--<span>Caption Foto disini</span>-->
+            </div>
+        </div>
+        <div class="" style="float: left;width: 50%;margin-left: 25%;margin-right: 25%;">
+            <p class="text-cabin text-16" style="line-height: 25px;color: black;margin-bottom: 40px;">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
@@ -80,6 +94,7 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
             </p>
+            <button class="no-border bg-putih" style="float: right;color: black">HALAMAN SELANJUTNYA&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
         </div>
     </div>
 </div>

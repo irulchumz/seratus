@@ -120,3 +120,9 @@ Route::get('register', function () {
 Route::get('magazine', function () {
     return view('front.magazine');
 });
+Route::get('a-story', function () {
+    return view('front.a-story');
+});
+Route::get('news', function () {
+    return view('front.news');
+});
