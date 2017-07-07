@@ -67,7 +67,7 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
             </p>
         </div>
-        <div class="mb-40" style="float: left;width: 75%;margin-right: 25%;">
+        <div class="mb-40" style="float: left;width: 50%;margin-left: 25%;margin-right: 25%;">
             <div class="" style="float: left;width: 50%;padding-right: 15px;">                
                 <img src="{{asset('front/img/product/1.jpg')}}" style="height: 320px;width: 100%;" alt=""/>
                 <span>Caption Foto disini</span>
@@ -94,7 +94,6 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
             </p>
-            <button class="no-border bg-putih" style="float: right;color: black">HALAMAN SELANJUTNYA&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
         </div>
     </div>
 </div>
