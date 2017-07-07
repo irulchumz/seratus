@@ -11,13 +11,15 @@
         <span class="title">TOP 10 MOST LOVED PRODUCTS</span>
     </div>
 </div>
-<div class="container pt-10">
+<!--<div class="container pt-10">
     <span class="text-12">Author SIMPUL, DESEMBER 2016</span>
+</div>-->
+<div class="section pt-40">
+    <div class="container">
+        <span class="text-12">This is a monthly updated chart of most loved products in 100+</span>
+    </div>
 </div>
-<div class="container pt-20">
-    <span class="text-12">This is a monthly updated chart of most loved products in 100+</span>
-</div>
-<div class="section pt-60 pb-10">
+<div class="section pt-40 pb-10">
     <div class="container">
         @for($i=0;$i<8;$i++)
         <div class="col-md-3 box-prod" style="">
@@ -46,13 +48,13 @@
         @endfor
     </div>
 </div>
-<div class="section pt-20 pb-20">
+<div class="section pt-30 pb-10">
     <div class="container">
-        <h5>RELATED ARTICLES IN THE MAGAZINE</h5>
+        <span class="text-14 text-cabin">RELATED ARTICLES IN THE MAGAZINE</span>
         <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
 </div>
-<div class="blog-section section pt-20 pb-20">
+<div class="blog-section section pt-10 pb-20">
     <div class="container">
         <div class="row">
             <!-- blog-item start -->
@@ -118,7 +120,7 @@
         /*height: 300px;*/
     }
     .box-product1 {
-        height: 200px;
+        height: 220px;
         width: 100%;
         padding: 0 0 0 0;
     }
@@ -139,8 +141,8 @@
         float: right;
     }
     .desc-product {
-        height: 40px;
-        padding: 10px 10px 20px 10px;
+        height: 41px;
+        padding: 8px 10px 20px 10px;
         font-family: cabin;
         font-size: 10px;
     }
@@ -151,14 +153,14 @@
         float: right;
     }
     .title-product {
-        height: 60px;
-        padding: 15px 10px 20px 10px;
+        height: 70px;
+        padding: 23px 20px 20px 20px;
         font-family: cabin;
-        font-size: 10px;
+        font-size: 50px;
     }
     .title-left{
         float: left;
-        font-size: 40px;
+        font-size: 50px;
         font-weight: bold;
     }
     .title-right{

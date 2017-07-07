@@ -11,13 +11,15 @@
         <span class="title">TOP 10 MOST LOVED BRANDS</span>
     </div>
 </div>
-<div class="container pt-10">
+<!--<div class="container pt-10">
     <span class="text-12">Author SIMPUL, DESEMBER 2016</span>
+</div>-->
+<div class="section pt-40">
+    <div class="container">
+        <span class="text-12">This is a monthly updated chart of most loved products in 100+</span>
+    </div>
 </div>
-<div class="container pt-20">
-    <span class="text-12">This is a monthly updated chart of most loved products in 100+</span>
-</div>
-<div class="section pt-60 pb-10">
+<div class="section pt-60">
     <div class="container">
         @for($i=0;$i<20;$i++)
         <div class="box-prod" style="width: 20%;float: left;">
@@ -30,9 +32,9 @@
                     <span>250</span>
                 </div>
             </div>
-<!--            <div class="bg-pink box-product1" style="">
-                <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-            </div>-->
+            <!--            <div class="bg-pink box-product1" style="">
+                            <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                        </div>-->
             <div class="bg-abuabu desc-product">
                 AEDI
             </div>
@@ -40,13 +42,13 @@
         @endfor
     </div>
 </div>
-<div class="section pt-20 pb-20">
+<div class="section pt-30 pb-10">
     <div class="container">
-        <h5>RELATED ARTICLES IN THE MAGAZINE</h5>
+        <span class="text-14 text-cabin">RELATED ARTICLES IN THE MAGAZINE</span>
         <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
 </div>
-<div class="blog-section section pt-20 pb-20">
+<div class="blog-section section pt-10 pb-20">
     <div class="container">
         <div class="row">
             <!-- blog-item start -->
@@ -98,7 +100,6 @@
         <p class="text-cabin" style="color: black">INGIN MEMASTIKAN KONSUMEN TAU DIMANA BISA MENDAPATKAN PRODUK ANDA?<br>TEMUKAN CARANYA DISINI</p>
     </div>
 </div>
-
 @endsection
 @section('css')
 <style media="screen" type="text/css">
@@ -108,7 +109,7 @@
     }
     .box-prod {
         padding: 0 25px 0 0;
-        margin: 3px 0 3px 0;
+        margin: 0px 0 60px 0;
         /*height: 300px;*/
     }
     .box-product1 {
@@ -133,8 +134,8 @@
         float: right;
     }
     .desc-product {
-        height: 40px;
-        padding: 5px 10px 20px 10px;
+        height: 70px;
+        padding: 22px 10px 20px 10px;
         font-family: cabin;
         font-size: 25px;
         text-align: center;
@@ -156,12 +157,14 @@
         float: left;
         font-size: 30px;
         font-weight: bold;
-        color: maroon;
+        color: red;
     }
     .title-right{
         float: right;
-        font-size: 45px;
-        font-weight: bold;
+        font-size: 40px;
+        /*font-weight: bold;*/
+        font-family: cabin;
+        color: red;
     }
 </style>
 @endsection

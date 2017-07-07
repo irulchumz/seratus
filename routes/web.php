@@ -108,3 +108,21 @@ Route::get('most-loved-brand', function () {
     return view('front.most-loved-brand');
 });
 
+
+Route::get('login', function () {
+    return view('front.login');
+});
+
+Route::get('register', function () {
+    return view('front.register');
+});
+
+Route::get('magazine', function () {
+    return view('front.magazine');
+});
+Route::get('a-story', function () {
+    return view('front.a-story');
+});
+Route::get('news', function () {
+    return view('front.news');
+});
