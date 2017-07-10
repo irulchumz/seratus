@@ -126,3 +126,9 @@ Route::get('a-story', function () {
 Route::get('news', function () {
     return view('front.news');
 });
+Route::get('personality', function () {
+    return view('front.personality');
+});
+Route::get('visual', function () {
+    return view('front.visual');
+});

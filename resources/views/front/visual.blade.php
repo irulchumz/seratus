@@ -14,30 +14,61 @@
 </div>
 <div class="section pt-40">
     <div class="container">
-        <div class="col-md-8" style="padding-left: 0;">
-            <!--<div>-->
-            <div class="col-md-2 warnadasar magazine-left" style="height: 443px;">
-                <ul style="margin-top: 20px;border: solid 1px white;margin-left: 20%;width: 32px;">
-                    <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-facebook"></i></a></li>
-                    <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-twitter"></i></a></li>
-                    <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-envelope-o"></i></a></li>
-                </ul>
-            </div>
-            <div class="col-md-10 box-product1" style="height: 100%;padding-left: 0;">
-                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 443px;width: 100%;" alt=""/>
-            </div>
-            <div class="col-md-offset-1 col-md-11 text-10">Caption foto disini</div>
+        <!--<div>-->
+        <!--<div class="col-md-12" style="padding-left: 0;padding-right: 0;">-->
+        <div class="col-md-1 warnadasar" style="height: 590px;">
+            <ul style="margin-top: 20px;border: solid 1px white;margin-left: 20%;width: 32px;">
+                <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-facebook"></i></a></li>
+                <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-twitter"></i></a></li>
+                <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-envelope-o"></i></a></li>
+            </ul>
         </div>
-        <div class="col-md-4">
-            <div class="text-16 mb-25" style="margin-top: 110px;font-weight: bold;">A-Story</div>
-            <div class="mb-30" style="font-size: 40px;line-height: 42px">Berkunjung ke Dalam Pikiran Miebi Sikoki</div>
-            <div class="mb-30 text-roboto text-18" style="">
+        <div class="col-md-8" style="height: 100%;padding-left: 0;padding-right: 0;">
+            <div class="slideshow" style="width: 100%;height: 590px;">
+                <input type="radio" name="ss1" id="ss1-item-1" class="slideshow--bullet" checked="checked" />
+                <div class="slideshow--item" style="width: 100%;height: 100%;">
+                    <img src="http://lorempixel.com/640/360/sports/1" width="100%" height="590" />
+                    <label for="ss1-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+                    <label for="ss1-item-2" class="slideshow--nav slideshow--nav-next">Go to slide 2</label>
+                </div>
+
+                <input type="radio" name="ss1" id="ss1-item-2" class="slideshow--bullet" />
+                <div class="slideshow--item">
+                    <img src="http://lorempixel.com/640/360/sports/2" />
+                    <label for="ss1-item-1" class="slideshow--nav slideshow--nav-previous">Go to slide 1</label>
+                    <label for="ss1-item-3" class="slideshow--nav slideshow--nav-next">Go to slide 3</label>
+                </div>
+
+                <input type="radio" name="ss1" id="ss1-item-3" class="slideshow--bullet" />
+                <div class="slideshow--item">
+                    <img src="http://lorempixel.com/640/360/sports/3" />
+                    <label for="ss1-item-2" class="slideshow--nav slideshow--nav-previous">Go to slide 2</label>
+                    <label for="ss1-item-4" class="slideshow--nav slideshow--nav-next">Go to slide 4</label>
+                </div>
+
+                <input type="radio" name="ss1" id="ss1-item-4" class="slideshow--bullet" />
+                <div class="slideshow--item">
+                    <img src="http://lorempixel.com/640/360/people/3" />
+                    <label for="ss1-item-3" class="slideshow--nav slideshow--nav-previous">Go to slide 3</label>
+                    <label for="ss1-item-1" class="slideshow--nav slideshow--nav-next">Go to slide 1</label>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3  warnadasar" style="height: 590px;padding-left: 35px;padding-right: 35px;">
+            <div class="text-16 mt-20" style="font-weight: bold;">Visual</div>
+            <div class="text-16 mt-20" style="font-weight: bold;">Berkunjung ke dalam pikiran miebi sikoki</div>
+            <div class="text-12" style="margin-top: 180px;font-weight: bold;">1/6</div>
+            <div class="mt-20 text-12" style="font-weight: bold;">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
-            <div class="text-16" style="">
-                12 Desember 2017
-            </div>
+            <div class="text-10 mt-30" style="">
+                Fotographer
+            </div>                
         </div>
+        <!--</div>-->
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 40px;margin-bottom: 0;">
         </div>
@@ -50,6 +81,9 @@
             <span>Fryza Pravitta P.</span>
         </div>
         <div style="float: left;width: 50%;margin-right: 25%;">
+            <div class="text-roboto" style="font-weight: bold;margin-bottom: 40px;">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+            </div>
             <p class="text-cabin text-16" style="line-height: 25px;color: black;margin-bottom: 40px;">
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
@@ -66,35 +100,6 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
             </p>
-        </div>
-        <div class="mb-40" style="float: left;width: 75%;margin-right: 25%;">
-            <div class="" style="float: left;width: 50%;padding-right: 15px;">                
-                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 320px;width: 100%;" alt=""/>
-                <span>Caption Foto disini</span>
-            </div>
-            <div class="" style="float: left;width: 50%;">                
-                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 320px;width: 100%;" alt=""/>
-                <!--<span>Caption Foto disini</span>-->
-            </div>
-        </div>
-        <div class="" style="float: left;width: 50%;margin-left: 25%;margin-right: 25%;">
-            <p class="text-cabin text-16" style="line-height: 25px;color: black;margin-bottom: 40px;">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
-            </p>
-            <button class="no-border bg-putih" style="float: right;color: black">HALAMAN SELANJUTNYA&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
         </div>
     </div>
 </div>
@@ -174,10 +179,24 @@
 
 @endsection
 @section('css')
+<link rel="stylesheet" href="{{asset('front/css/slide/reset.css')}}">
+<link rel="stylesheet" href="{{asset('front/css/slide/default.css')}}">
+<link rel="stylesheet" href="{{asset('front/css/slide/slideshow.css')}}">
 <style media="screen" type="text/css">
     .magazine-left{
         width: 83px;  
         float: left;
+    }
+    .slideshow--item {
+        width: 100%;
+        height: 100%;
+    }
+    .slideshow--item img{
+        width: 100%;
+        height: 590px;
+    }
+    .slideshow--bullet {
+        position: initial;
     }
 </style>
 @endsection

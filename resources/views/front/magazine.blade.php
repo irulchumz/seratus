@@ -8,7 +8,7 @@
         <ul class="breadcrumb">
             <li><a href="#">HOME</a></li>
         </ul>
-        <span class="title">TOP 10 MOST LOVED PRODUCTS<span class="kecil">Magazine Tagline Here</span></span>
+        <span class="title">Seratusplus Magazine<span class="kecil">Magazine Tagline Here</span></span>
         <span style="float: right;font-weight: 16px;">Januari: The Futurist</span>
     </div>
 </div>
