@@ -132,3 +132,9 @@ Route::get('personality', function () {
 Route::get('visual', function () {
     return view('front.visual');
 });
+Route::get('journal', function () {
+    return view('front.journal');
+});
+Route::get('loved-product/empty', function () {
+    return view('front.loved-product');
+});
