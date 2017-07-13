@@ -136,5 +136,8 @@ Route::get('journal', function () {
     return view('front.journal');
 });
 Route::get('loved-product/empty', function () {
-    return view('front.loved-product');
+    return view('front.loved-product', ['tipe' => 0]);
+});
+Route::get('loved-product', function () {
+    return view('front.loved-product', ['tipe' => 1]);
 });

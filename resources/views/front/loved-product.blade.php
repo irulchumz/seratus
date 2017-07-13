@@ -28,13 +28,198 @@
 </div>
 <div class="section pt-10 pb-10" style="">
     <div class="container">
+        @if($tipe==0)
         <div class="col-md-12 bg-abuabu" style="height: 334px;text-align: center;padding-top: 135px;">
             <div style="font-size: 105px;font-weight: bold;color: blue;">No love? :(</div>><br><br>
             <div style="font-size: 24px;font-weight: bold;color: black;margin-top: 45px;">There must be something <a href="{{URL::to('produk-karya')}}" style="color: blue">here</a> you will love</div>
         </div>
+        @else
+        <div class="col-md-6" style="padding-left: 0;padding-right: 0;">
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product1" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-abuabu box-product2" style="">
+<!--                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">-->
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <!--                    <div class="desc-left">
+                                            Name, Brands, Store
+                                        </div>
+                                        <div class="desc-right">
+                                            <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                        </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6" style="padding-left: 0;padding-right: 0;">
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product1" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-abuabu box-product2" style="">
+<!--                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">-->
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <!--                    <div class="desc-left">
+                                            Name, Brands, Store
+                                        </div>
+                                        <div class="desc-right">
+                                            <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                        </div>-->
+                </div>
+            </div>
+            <div class="col-md-6 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-abuabu box-product2" style="">
+<!--                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">-->
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <!--                    <div class="desc-left">
+                                            Name, Brands, Store
+                                        </div>
+                                        <div class="desc-right">
+                                            <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                        </div>-->
+                </div>
+            </div>
+        </div>
+        @endif
     </div>
 </div>
-<div class="section pt-70 pb-10">
+<div class="section pt-40 pb-10">
+    <div class="container">
+        <div class="col-md-12" style="text-align: center">
+            <button type="button" class="no-border warnadasar" style="border-radius: 50%;height: 30px;width: 30px;padding-top: 2px;"><i class="fa fa-plus"></i></button><br>
+            <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">TAMBAH PRODUK</span>
+        </div>
+    </div>
+</div>
+<div class="section pt-40 pb-10">
     <div class="container">
         <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
@@ -51,6 +236,74 @@
     .magazine-left{
         width: 83px;  
         float: left;
+    }
+    .gambar-full{
+        width: 100%;
+        height: 100%;
+    }   
+    .box-prod {
+        padding: 0 8px 0 0;
+        margin: 3px 0 3px 0;
+        /*        background-color: #d1d2d3;*/
+    }
+    .box-product1 {
+        height: 400px;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .box-product1 > .corner-left{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        margin-top: -260px;
+        margin-left: -13px;
+        float: left;
+    }
+    .box-product1 > .corner-right{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        margin-top: -255px;
+        margin-right: -4px;
+        float: right;
+    }
+    .box-product2 {
+        height: 177px;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .box-product2 > .corner-left{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        margin-top: -120px;
+        margin-left: -13px;
+        float: left;
+    }
+    .box-product2 > .corner-right{
+        height: 60px;
+        width: 60px;
+        position: relative;
+        margin-top: -115px;
+        margin-right: -4px;
+        float: right;
+    }
+    .box-product3 {
+        height: 45px;
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .desc-product {
+        height: 40px;
+        padding: 10px 10px 20px 10px;
+        font-family: cabin;
+        font-size: 10px;
+    }
+    .desc-left{
+        float: left;
+    }
+    .desc-right{
+        float: right;
     }
 </style>
 @endsection
