@@ -14,23 +14,22 @@
 </div>
 <div class="section pt-40">
     <div class="container">
-        <div class="col-md-8" style="padding-left: 0;">
+        <div class="col-md-7" style="padding-left: 0;">
             <!--<div>-->
-            <div class="col-md-2 warnadasar magazine-left" style="height: 443px;">
-                <ul style="margin-top: 20px;border: solid 1px white;margin-left: 20%;width: 32px;">
+            <div class="warnadasar magazine-left" style="height: 443px;width: 8%">
+                <ul style="margin-top: 20px;border: solid 1px white;margin-left: 25%;width: 32px;">
                     <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-facebook"></i></a></li>
                     <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-twitter"></i></a></li>
                     <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-envelope-o"></i></a></li>
                 </ul>
             </div>
-            <div class="col-md-10 box-product1" style="height: 100%;padding-left: 0;">
+            <div class="" style="height: 100%;padding-left: 0;width: 92%;float: right">
                 <img src="{{asset('front/img/product/1.jpg')}}" style="height: 443px;width: 100%;" alt=""/>
             </div>
-            <div class="col-md-offset-1 col-md-11 text-10">Caption foto disini</div>
         </div>
-        <div class="col-md-4">
-            <div class="text-16 mb-25" style="margin-top: 110px;font-weight: bold;">A-Story</div>
-            <div class="mb-30" style="font-size: 40px;line-height: 42px">Berkunjung ke Dalam Pikiran Miebi Sikoki</div>
+        <div class="col-md-5" style="padding-left: 25px;">
+            <div class="text-16 mb-25" style="margin-top: 110px;font-weight: bold;">News</div>
+            <div class="mb-30" style="font-size: 40px;line-height: 42px;font-weight: bolder">Berkunjung ke Dalam Pikiran Miebi Sikoki</div>
             <div class="mb-30 text-roboto text-18" style="">
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
@@ -175,7 +174,7 @@
 @section('css')
 <style media="screen" type="text/css">
     .magazine-left{
-        width: 83px;  
+        /*width: 83px;*/  
         float: left;
     }
 </style>

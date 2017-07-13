@@ -57,9 +57,9 @@
         </div>
         <div class="col-md-3  warnadasar" style="height: 590px;padding-left: 35px;padding-right: 35px;">
             <div class="text-16 mt-20" style="font-weight: bold;">Visual</div>
-            <div class="text-16 mt-20" style="font-weight: bold;">Berkunjung ke dalam pikiran miebi sikoki</div>
+            <div class="mt-20" style="font-weight: bold;font-size: 24px;">Berkunjung ke dalam pikiran miebi sikoki</div>
             <div class="text-12" style="margin-top: 180px;font-weight: bold;">1/6</div>
-            <div class="mt-20 text-12" style="font-weight: bold;">
+            <div class="mt-20 text-12" style="font-weight: bold;line-height: 16px;">
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                

@@ -14,28 +14,28 @@
 </div>
 <div class="section" style="padding-top: 162px;">
     <div class="container">
-        <div class="col-md-12 bg-pink" style="padding-left: 0;">
+        <div class="col-md-12" style="padding-left: 0;background-color: #FFF7E9">
             <div class="col-md-3" style="padding-left: 30px;">
                 <img src="{{asset('front/img/product/1.jpg')}}" style="height: 224px;width: 224px;border-radius: 50%;position: relative;top: -112px;" alt=""/>
                 <!--<div class="text-16 mt-35" style="font-weight: bold;">Journal / Joshua Simandjuntak</div>-->
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" style="padding-left: 0;">
                 <div class="text-16 mt-35" style="font-weight: bold;">Journal / Joshua Simandjuntak</div>
                 <div class="mt-35" style="font-weight: bold;font-size: 40px;">Policy of Creativity</div>
                 <div class="mt-10 text-12" style="font-weight: bold;">12 Desember 2017</div>
             </div>
             <div class="col-md-3" style="padding-left: 30px;">
-                <ul style="margin-top: 20px;border: solid 1px white;width: 110px;">
+                <ul style="margin-top: 20px;border: solid 1px white;width: 110px;float: right">
                     <li style="display: inline-block;text-align: center;margin: 3px 0;padding: 0 10px;"><a href="#" style="color: black"><i class="fa fa-facebook"></i></a></li>
                     <li style="display: inline-block;text-align: center;margin: 3px 0;padding: 0 10px;"><a href="#" style="color: black"><i class="fa fa-twitter"></i></a></li>
                     <li style="display: inline-block;text-align: center;margin: 3px 0;padding: 0 10px;"><a href="#" style="color: black"><i class="fa fa-envelope-o"></i></a></li>
                 </ul>
             </div>            
         </div>
-        <div class="col-md-12 bg-pink pb-30" style="padding-left: 0;">
+        <div class="col-md-12 pb-30" style="padding-left: 0;background-color: #FFF7E9">
             <div class="" style="float: left;margin-left: 10%;width: 10%;margin-right: 5%;">
-                <span>Ditulis Oleh:</span><br>
-                <span>Fryza Pravitta P.</span>
+                <span class="text-roboto text-11">Ditulis Oleh:</span><br>
+                <span class="text-roboto text-11">Fryza Pravitta P.</span>
             </div>
             <div style="float: left;width: 50%;margin-right: 25%;">
                 <div class="text-18" style="font-weight: bold;margin-bottom: 49px;">
