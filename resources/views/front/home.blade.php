@@ -145,6 +145,9 @@
                             </div>-->
         <div class="row">
             <!-- blog-item start -->
+            <div class="col-md-12 pb-20">
+                <span class="text-14 text-cabin" style="font-weight: bold;">CURATED LIST</span>
+            </div>
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="blog-item bg-putih">
                     <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
@@ -259,7 +262,7 @@
 <div class="blog-section section pt-30 pb-30 bg-abuabu hidden" id="exp">
     <div class="container" style="padding-left: 2%;padding-right: 2%;padding-bottom: 0;width: 96%">
         <div class="row">
-            <!-- blog-item start -->
+            <!-- blog-item start -->            
             <div class="col-md-6 col-sm-6 col-xs-12">
                 <div class="blog-item bg-putih">
                     <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
@@ -332,6 +335,9 @@
         font-weight: 500;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    .blog-item .image{
+        height: 619px;
     }
 </style>
 @endsection

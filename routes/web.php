@@ -141,3 +141,6 @@ Route::get('loved-product/empty', function () {
 Route::get('loved-product', function () {
     return view('front.loved-product', ['tipe' => 1]);
 });
+Route::get('loved-product/collection', function () {
+    return view('front.loved-product', ['tipe' => 2]);
+});
