@@ -11,8 +11,8 @@
 </div>
 <div class="section pt-50" style="">
     <div class="container">
-        <button type="button" class="{{($tipe==2)?'lebar-12':'bg-putih'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;&nbsp;Collection</button>
-        <button type="button" class="{{($tipe==2)?'bg-putih':'lebar-12'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3;"><i class="fa fa-heart" style="color: blue"></i>&nbsp;&nbsp;&nbsp;Loved</button>
+        <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'lebar-12':'bg-putih'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;&nbsp;Collection</button></a>
+        <a href="{{URL::to('loved-product/')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'bg-putih':'lebar-12'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3;"><i class="fa fa-heart" style="color: blue"></i>&nbsp;&nbsp;&nbsp;Loved</button></a>
         <span class="text-12" style="float: right;font-weight: bold;padding-top: 5px;">PRODUCTS YOU'RE QUOTING&nbsp;&nbsp;&nbsp;<i class="fa fa-dollar"></i></span>
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 5px;margin-bottom: 0;">
@@ -23,7 +23,7 @@
     <div class="container">
         <button type="button" class="no-border warnadasar" style="border-radius: 50%;height: 30px;width: 30px;padding-top: 2px;"><i class="fa fa-plus"></i></button>
         <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">TAMBAH PRODUK</span>
-        <button type="button" class="warnadasar no-border text-10" style="float: right;width: 12%;height: 25px;color: black;font-weight: bold;margin-top: 2.5px;">COMPARE PRODUCTS</button>
+        <button type="button" id="compare-btn" data-tipe="0" class="warnadasar no-border text-10" style="float: right;width: 12%;height: 25px;color: black;font-weight: bold;margin-top: 2.5px;">COMPARE PRODUCTS</button>
     </div>
 </div>
 <div class="section pt-10 pb-10" style="">
@@ -37,42 +37,192 @@
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product1" style="">
+                <a href="{{URL::to('loved-product/collection/detail')}}">
+                    <div class="bg-pink box-product1" style="">
+                        <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    </div>
+                    <div class="bg-abuabu desc-product1">
+                        <span class="text-roboto text-11">Collection</span><br>
+                        <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <a href="{{URL::to('loved-product/collection/detail')}}">
+                    <div class="bg-pink box-product1" style="">
+                        <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    </div>
+                    <div class="bg-abuabu desc-product1">
+                        <span class="text-roboto text-11">Collection</span><br>
+                        <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <a href="{{URL::to('loved-product/collection/detail')}}">
+                    <div class="bg-pink box-product1" style="">
+                        <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    </div>
+                    <div class="bg-abuabu desc-product1">
+                        <span class="text-roboto text-11">Collection</span><br>
+                        <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <a href="{{URL::to('loved-product/collection/detail')}}">
+                    <div class="bg-pink box-product1" style="">
+                        <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    </div>
+                    <div class="bg-abuabu desc-product1">
+                        <span class="text-roboto text-11">Collection</span><br>
+                        <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        @elseif($tipe==3)
+        <div class="col-md-12" style="padding-left: 0;padding-right: 0;padding-top: 30px;text-align: center">
+            <span class="text-roboto" style="font-size: 21px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+        </div>
+        <div class="col-md-12" style="padding-left: 0;padding-right: 0;padding-top: 50px">
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">                    
                 </div>
-                <div class="bg-abuabu desc-product1">
-                    <span class="text-roboto text-11">Collection</span><br>
-                    <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product1" style="">
+                <div class="bg-pink box-product2" style="">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
                 </div>
-                <div class="bg-abuabu desc-product1">
-                    <span class="text-roboto text-11">Collection</span><br>
-                    <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product1" style="">
+                <div class="bg-pink box-product2" style="">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
                 </div>
-                <div class="bg-abuabu desc-product1">
-                    <span class="text-roboto text-11">Collection</span><br>
-                    <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product1" style="">
+                <div class="bg-pink box-product2" style="">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
                 </div>
-                <div class="bg-abuabu desc-product1">
-                    <span class="text-roboto text-11">Collection</span><br>
-                    <span class="" style="font-size: 27px;font-weight: bold">Proyek Rumah Kemang Timur</span>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,10 +230,11 @@
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -97,10 +248,11 @@
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -114,10 +266,11 @@
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -131,10 +284,11 @@
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -148,10 +302,11 @@
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -165,10 +320,11 @@
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -182,10 +338,11 @@
             </div>
             <div class="col-md-3 box-prod" style="">
                 <!--<div>-->
-                <div class="bg-pink box-product2" style="">
+                <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                     <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
@@ -321,6 +478,14 @@
     }
     .lebar-12{
         width: 12%;
+    }  
+    a.add-compare i {
+        color: #e0c4cc;
+        opacity: 0.7;
+    }
+    a.add-compare.active i {
+        color: blue;
+        opacity: 1;
     }
 </style>
 @endsection
@@ -332,6 +497,35 @@
                 $('.brand-list').append('<li>CAHAYA</li>');
             }
         })
+        $('.add-compare').click(function () {
+            var jml = $('.add-compare.active').length;
+
+            if ($(this).hasClass('active')) {
+                if (jml < 4) {
+                    $(this).removeClass('active');
+                } else {
+                    alert('Produk yang dipilih tidak boleh lebih dati 3.');
+                }
+            } else {
+                if (jml < 3) {
+                    $(this).addClass('active');
+                } else {
+                    alert('Produk yang dipilih tidak boleh lebih dati 3.');
+                }
+            }
+
+        });
+        $('#compare-btn').click(function () {
+            var tipe = $(this).data('tipe');
+            if (tipe == '0') {
+                $('.add-compare').removeClass('hidden');
+                $(this).data('tipe', '1');
+            } else {
+                $('.add-compare').addClass('hidden');
+                $('.add-compare').removeClass('active');
+                $(this).data('tipe', '0');
+            }
+        });
     });
     function open() {
         $('#modalView').modal('show');
