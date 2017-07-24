@@ -13,7 +13,7 @@
     <div class="container">
         <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'lebar-12':'bg-putih'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;&nbsp;Collection</button></a>
         <a href="{{URL::to('loved-product/')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'bg-putih':'lebar-12'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3;"><i class="fa fa-heart" style="color: blue"></i>&nbsp;&nbsp;&nbsp;Loved</button></a>
-        <span class="text-12" style="float: right;font-weight: bold;padding-top: 5px;">PRODUCTS YOU'RE QUOTING&nbsp;&nbsp;&nbsp;<i class="fa fa-dollar"></i></span>
+        <a href="{{URL::to('loved-product/quote')}}"><span class="text-12" style="float: right;font-weight: bold;padding-top: 5px;">PRODUCTS YOU'RE QUOTING&nbsp;&nbsp;&nbsp;<i class="fa fa-dollar"></i></span></a>
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 5px;margin-bottom: 0;">
         </div>
@@ -32,6 +32,152 @@
         <div class="col-md-12 bg-abuabu" style="height: 334px;text-align: center;padding-top: 135px;">
             <div style="font-size: 105px;font-weight: bold;color: blue;">No love...? :(</div>><br><br>
             <div style="font-size: 24px;font-weight: bold;color: black;margin-top: 45px;">There must be something <a href="{{URL::to('produk-karya')}}" style="color: blue">here</a> you will love</div>
+        </div>
+        @elseif($tipe==1)
+        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-pink box-product2" style="text-align: center">
+                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <div class="desc-left">
+                        Name, Brands, Store
+                    </div>
+                    <div class="desc-right">
+                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                        <a href="#"><i class="fa fa-heart"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 box-prod" style="">
+                <!--<div>-->
+                <div class="bg-abuabu box-product2" style="">
+<!--                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
+                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
+                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">-->
+                </div>
+                <div class="bg-abuabu desc-product">
+                    <!--                    <div class="desc-left">
+                                            Name, Brands, Store
+                                        </div>
+                                        <div class="desc-right">
+                                            <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
+                                            <a href="#"><i class="fa fa-heart"></i></a>
+                                        </div>-->
+                </div>
+            </div>
         </div>
         @elseif($tipe==2)
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
@@ -233,153 +379,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-        @else
-        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-pink box-product2" style="text-align: center">
-                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
-                    <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
-                <div class="bg-abuabu box-product2" style="">
-<!--                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">-->
-                </div>
-                <div class="bg-abuabu desc-product">
-                    <!--                    <div class="desc-left">
-                                            Name, Brands, Store
-                                        </div>
-                                        <div class="desc-right">
-                                            <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                                            <a href="#"><i class="fa fa-heart"></i></a>
-                                        </div>-->
-                </div>
-            </div>
-        </div>
+        </div>        
         @endif
     </div>
 </div>
