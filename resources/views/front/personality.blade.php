@@ -12,134 +12,85 @@
         <span style="float: right;font-weight: 16px;">Januari: The Futurist</span>
     </div>
 </div>
-<div class="section pt-60">
-    <div class="container">
-        <div class="col-md-2" style="padding-left: 0">
-            <span class="text-12 text-cabin">Personality</span>
-        </div>
-        <div class="col-md-2">
-            <span class="text-12 text-cabin">A Story</span>
-        </div>
-        <div class="col-md-2">
-            <span class="text-12 text-cabin">Jurnal</span>
-        </div>
-        <div class="col-md-2">
-            <span class="text-12 text-cabin">Visual</span>
-        </div>
-        <div class="col-md-2">
-            <span class="text-12 text-cabin">Curation</span>
-        </div>
-        <div class="col-md-2" style="">
-            <span class="text-12 text-cabin">News</span>
-        </div>
-    </div>
-</div>
-<div class="section pt-10">
-    <div class="container">
-        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
-            <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 0;margin-bottom: 4px;">
-        </div>        
-        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
-            <i class="fa fa-youtube-play"></i><span class="text-12">&nbsp;&nbsp;&nbsp;Subscribe to Monthly E-Magazine</span>
-            <div class="text-12" style="float: right;">
-                <form action="" autocomplete="on" style="border-bottom: solid 1px black">
-                    <input class="no-border" name="search" type="text" placeholder="Cari Topik">
-                    <button class="no-border bg-putih" style="margin-left: -5px;" type="submit"><i class="fa fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
-            <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 4px;margin-bottom: 0;">
-        </div>
-
-    </div>
-</div>    
-<div class="section pt-35">
-    <div class="container">
-        <div class="col-md-6 img-main" style="padding-left: 0;padding-right: 0">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 425px;width: 100%;" alt=""/>
-        </div>
-        <div class="col-md-6 img-desc" style="padding-left: 35px;">
-            <div class="text-16 mt-35" style="font-weight: bold;">A-Story</div>
-            <div class="mt-35" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-            </div>
-            <div class="text-10 mt-100" style="font-weight: bold">
-                12 Desember 2017
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section pt-35 pb-35">
-    <div class="container">
-        <div class="col-md-6 img-main" style="padding-left: 0;padding-right: 0;float: right">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 425px;width: 100%;" alt=""/>
-        </div>
-        <div class="col-md-6 img-desc" style="padding-left: 35px;">
-            <div class="text-16 mt-35" style="font-weight: bold;">A-Story</div>
-            <div class="mt-35" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="padding-right: 30px;">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-            </div>
-            <div class="text-10 mt-100" style="font-weight: bold">
-                12 Desember 2017
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section bg-abuabu">
-    <div class="container">
-        <div class="col-md-3 mt-50 mb-50" style="padding-left: 0;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 310px;width: 310px;border-radius: 50%" alt=""/>
-        </div>
-        <div class="col-md-9 mt-50" style="padding-left: 40px">
-            <div class="text-16 mt-25" style="font-weight: bold;">Journal/Joshua Simandjuntak</div>
-            <div class="mt-35" style="font-size: 24px;">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="padding-right: 30px;">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section pt-35">
+<div class="section pt-40">
     <div class="container">
         <div class="col-md-6" style="padding-left: 0;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 440px;width: 100%;position: relative" alt=""/>
-            <span class="text-14" style="position: absolute;top: 300px;left: 30px;">Visuals</span>
-            <span style="position: absolute;top: 360px;left: 30px;font-size: 24px;">8 Karya Terbaik Kiat Architects</span>
+            <!--<div>-->
+            <div class="col-md-2 warnadasar magazine-left" style="height: 724px;">
+                <ul style="margin-top: 20px;border: solid 1px white;margin-left: 20%;width: 32px;">
+                    <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-facebook"></i></a></li>
+                    <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-twitter"></i></a></li>
+                    <li style="margin: 10px 0;text-align: center;"><a href="#" style="color: black"><i class="fa fa-envelope-o"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-10 box-product1" style="height: 100%;padding-left: 0;">
+                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 724px;width: 100%;" alt=""/>
+            </div>
+            <div class="col-md-offset-1 col-md-11 text-10">Caption foto disini</div>
         </div>
-        <div class="col-md-6" style="">
-            <div style="float: left;margin-bottom: 10px;">
-                <div class="col-md-6" style="">
-                    <img src="{{asset('front/img/product/1.jpg')}}" style="height: 215px;width: 100%;" alt=""/>
-                </div>
-                <div class="col-md-6" style="">
-                    <div class="text-16 mt-20" style="font-weight: bold;">Curation</div>
-                    <div class="mt-35" style="font-size: 24px;font-weight: bold">Amazon Interior Mengkhususkan Diri Pada Properti US</div>
-                </div>
+        <div class="col-md-6">
+            <div class="text-16 mb-35" style="margin-top: 210px;font-weight: bold;">Personality</div>
+            <div class="mb-60" style="font-size: 40px;font-weight: bold;line-height: 44px">Berkunjung ke Dalam Pikiran Miebi Sikoki</div>
+            <div class="mb-60 text-roboto text-18" style="">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
             </div>
-            <div style="float: left">
-                <div class="col-md-6" style="">
-                    <img src="{{asset('front/img/product/1.jpg')}}" style="height: 215px;width: 100%;" alt=""/>
-                </div>
-                <div class="col-md-6" style="">
-                    <div class="text-16 mt-20" style="font-weight: bold;">Curation</div>
-                    <div class="mt-35" style="font-size: 24px;font-weight: bold">Amazon Interior Mengkhususkan Diri Pada Properti US</div>
-                </div>
+            <div class="text-16" style="">
+                12 Desember 2017
             </div>
+        </div>
+        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
+            <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 40px;margin-bottom: 0;">
+        </div>
+    </div>
+</div>
+<div class="section pt-85">
+    <div class="container">
+        <div class="" style="float: left;margin-left: 10%;width: 10%;margin-right: 5%;">
+            <span>Ditulis Oleh:</span><br>
+            <span>Fryza Pravitta P.</span>
+        </div>
+        <div style="float: left;width: 50%;margin-right: 25%;">
+            <p class="text-cabin text-16" style="line-height: 25px;color: black;margin-bottom: 40px;">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+            </p>
+            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 455px;width: 100%;" alt=""/>
+            <span>Caption Foto disini</span>
+            <p class="text-cabin text-16" style="line-height: 25px;color: black;margin-top: 20px;margin-left: 10%;margin-bottom: 0;">
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
+            </p>
         </div>
     </div>
 </div>
 
-<div class="section pt-45">
+<div class="section pt-50">
     <div class="container">
+        <hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 40px;margin-bottom: 0;">
+        <div class="" style="float: left;width: 15%;height: 80px;"></div>
+        <div class="" style="float: left;width: 85%;height: 80px;">
+            <a href="#"><span style="line-height: 80px;font-size: 28px;"><i class="fa fa-plus-circle"></i>&nbsp;&nbsp;&nbsp;<span style="font-size: 20px;">VIEW COMMENTS</span></span></a>
+        </div>
         <div class="bg-pink" style="float: left;width: 15%;height: 80px;"></div>
         <div class="" style="float: left;width: 70%;height: 80px;">
             <img src="{{asset('front/img/product/1.jpg')}}" style="height: 100%;width: 100%;" alt=""/>
@@ -147,54 +98,56 @@
         <div class="bg-pink" style="float: left;width: 15%;height: 80px;"></div>
     </div>    
 </div>
-<div class="section pt-10 pb-10">
+<div class="section pt-40 pb-10">
     <div class="container">
-        <span class="text-14 text-cabin">Latest Articles</span>
+        <span class="text-14 text-cabin">RELATED ARTICLES IN THE MAGAZINE</span>
+        <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
 </div>
-<div class="blog-section section pb-20">
+<div class="blog-section section pt-10 pb-20">
     <div class="container">
         <div class="row">
             <!-- blog-item start -->
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
                 <div class="blog-item">
-                    <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
-                    <div class="blog-dsc pt-5">
-                        <span class="text-18" style="display: block;font-weight: bold">10 Best Asian Resort Furniture</span>
-                        <span class="text-14" style="margin-top: 20px;display: block">Eksportir dan proyek besar di Seychelles menjadi tujuan utama dunia furnitur saat ini</span>
+                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <div class="blog-dsc">
+                        <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
+                        <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
+                        <span class="text-12 text-roboto" style="font-weight: lighter;margin-top: 60px;display: block">SPONSORED, 100+</span>
                     </div>
                 </div>
-            </div>                      
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            </div>            
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
                 <div class="blog-item">
-                    <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
-                    <div class="blog-dsc pt-5">
-                        <span class="text-18" style="display: block;font-weight: bold">10 Best Asian Resort Furniture</span>
-                        <span class="text-14" style="margin-top: 20px;display: block">Eksportir dan proyek besar di Seychelles menjadi tujuan utama dunia furnitur saat ini</span>
+                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <div class="blog-dsc">
+                        <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
+                        <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
+                        <span class="text-12 text-roboto" style="font-weight: lighter;margin-top: 60px;display: block">SPONSORED, 100+</span>
                     </div>
                 </div>
-            </div>                      
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            </div>            
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
                 <div class="blog-item">
-                    <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
-                    <div class="blog-dsc pt-5">
-                        <span class="text-18" style="display: block;font-weight: bold">10 Best Asian Resort Furniture</span>
-                        <span class="text-14" style="margin-top: 20px;display: block">Eksportir dan proyek besar di Seychelles menjadi tujuan utama dunia furnitur saat ini</span>
+                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <div class="blog-dsc">
+                        <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
+                        <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
+                        <span class="text-12 text-roboto" style="font-weight: lighter;margin-top: 60px;display: block">SPONSORED, 100+</span>
                     </div>
                 </div>
-            </div>                      
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            </div>            
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
                 <div class="blog-item">
-                    <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
-                    <div class="blog-dsc pt-5">
-                        <span class="text-18" style="display: block;font-weight: bold">10 Best Asian Resort Furniture</span>
-                        <span class="text-14" style="margin-top: 20px;display: block">Eksportir dan proyek besar di Seychelles menjadi tujuan utama dunia furnitur saat ini</span>
+                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <div class="blog-dsc">
+                        <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
+                        <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
+                        <span class="text-12 text-roboto" style="font-weight: lighter;margin-top: 60px;display: block">SPONSORED, 100+</span>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-12">
-                <button type="button" id="next" class="bg-putih no-border text-cabin text-14" style="color: black;height: 40px;font-weight: bold;float: right">More Article&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
-            </div>
+            </div>            
         </div>
     </div>
 </div>

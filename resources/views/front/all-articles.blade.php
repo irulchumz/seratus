@@ -45,6 +45,7 @@
         </div>
     </div>
 </div>
+</div>
 <div class="section pt-10">
     <div class="container">
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
@@ -67,97 +68,54 @@
 </div>    
 <div class="section pt-35">
     <div class="container">
-        <div class="col-md-6 img-main" style="padding-left: 0;padding-right: 0">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 425px;width: 100%;" alt=""/>
-        </div>
-        <div class="col-md-6 img-desc" style="padding-left: 35px;">
-            <div class="text-16 mt-35" style="font-weight: bold;">A-Story</div>
-            <div class="mt-35" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-            </div>
-            <div class="text-10 mt-100" style="font-weight: bold">
-                12 Desember 2017
+        <div class="col-md-3" style="padding-left: 0;padding-right: 0;text-align: center">
+            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 121px;width: 121px;" alt=""/>
+            <div class="" style="font-size: 24px;font-weight: bold;padding-top: 15px;">
+                {{$title}}
             </div>
         </div>
-    </div>
-</div>
-<div class="section pt-35 pb-35">
-    <div class="container">
-        <div class="col-md-6 img-main" style="padding-left: 0;padding-right: 0;float: right">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 425px;width: 100%;" alt=""/>
-        </div>
-        <div class="col-md-6 img-desc" style="padding-left: 35px;">
-            <div class="text-16 mt-35" style="font-weight: bold;">A-Story</div>
-            <div class="mt-35" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="padding-right: 30px;">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
+        <div class="col-md-9" style="padding-left: 35px;">
+            <div class="col-md-4">
+                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 165px;width: 100%;" alt=""/>
             </div>
-            <div class="text-10 mt-100" style="font-weight: bold">
-                12 Desember 2017
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section bg-abuabu">
-    <div class="container">
-        <div class="col-md-3 mt-50 mb-50" style="padding-left: 0;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 310px;width: 310px;border-radius: 50%" alt=""/>
-        </div>
-        <div class="col-md-9 mt-50" style="padding-left: 40px">
-            <div class="text-16 mt-25" style="font-weight: bold;">Journal/Joshua Simandjuntak</div>
-            <div class="mt-35" style="font-size: 24px;">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="padding-right: 30px;">
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-                Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
-            </div>
-        </div>
-    </div>
-</div>
-<div class="section pt-35">
-    <div class="container">
-        <div class="col-md-6" style="padding-left: 0;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 440px;width: 100%;position: relative" alt=""/>
-            <span class="text-14" style="position: absolute;top: 300px;left: 30px;">Visuals</span>
-            <span style="position: absolute;top: 360px;left: 30px;font-size: 24px;">8 Karya Terbaik Kiat Architects</span>
-        </div>
-        <div class="col-md-6" style="">
-            <div style="float: left;margin-bottom: 10px;">
-                <div class="col-md-6" style="">
-                    <img src="{{asset('front/img/product/1.jpg')}}" style="height: 215px;width: 100%;" alt=""/>
+            <div class="col-md-8">
+                <div class="text-12" style="font-weight: bold">
+                    12 Desember 2017
                 </div>
-                <div class="col-md-6" style="">
-                    <div class="text-16 mt-20" style="font-weight: bold;">Curation</div>
-                    <div class="mt-35" style="font-size: 24px;font-weight: bold">Amazon Interior Mengkhususkan Diri Pada Properti US</div>
+                <div class="" style="font-size: 21px;font-weight: bold;padding-top: 32px;">
+                    10 Best Asian Resort Furniture
+                </div>
+                <div class="mt-10 text-16" style="font-weight: lighter">
+                    Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
+                    Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 </div>
             </div>
-            <div style="float: left">
-                <div class="col-md-6" style="">
-                    <img src="{{asset('front/img/product/1.jpg')}}" style="height: 215px;width: 100%;" alt=""/>
+        </div>
+        @for($i=0;$i<8;$i++)
+        <div class="col-md-offset-3 col-md-9 mt-35" style="padding-left: 35px;">
+            <div class="col-md-4">
+                <img src="{{asset('front/img/product/1.jpg')}}" style="height: 165px;width: 100%;" alt=""/>
+            </div>
+            <div class="col-md-8">
+                <div class="text-12" style="font-weight: bold">
+                    12 Desember 2017
                 </div>
-                <div class="col-md-6" style="">
-                    <div class="text-16 mt-20" style="font-weight: bold;">Curation</div>
-                    <div class="mt-35" style="font-size: 24px;font-weight: bold">Amazon Interior Mengkhususkan Diri Pada Properti US</div>
+                <div class="" style="font-size: 21px;font-weight: bold;padding-top: 32px;">
+                    Miebi Sikoki
+                </div>
+                <div class="mt-10 text-16" style="">
+                    Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
+                    Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.
                 </div>
             </div>
+        </div>
+        @endfor
+        <div class="col-md-offset-3 col-md-9 mt-35" style="padding-left: 35px;">
+            <button class="pull-right no-border" style="background-color: white;color: black">Next&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-right"></i></button>
         </div>
     </div>
 </div>
 
-<div class="section pt-45">
-    <div class="container">
-        <div class="bg-pink" style="float: left;width: 15%;height: 80px;"></div>
-        <div class="" style="float: left;width: 70%;height: 80px;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 100%;width: 100%;" alt=""/>
-        </div>
-        <div class="bg-pink" style="float: left;width: 15%;height: 80px;"></div>
-    </div>    
-</div>
 <div class="section pt-10 pb-10">
     <div class="container">
         <span class="text-14 text-cabin">Latest Articles</span>
