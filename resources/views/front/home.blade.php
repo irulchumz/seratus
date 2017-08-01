@@ -99,87 +99,37 @@
         </div>
     </div>
 </div>
-<!-- BANNER-SECTION START -->
-<div class="banner-section section pt-20 pb-10">
-    <div class="container">
-        <div class="row">
-            <!-- Banner Item Start -->
-            <div class="col-sm-3 col-xs-6">
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="single-banner">
-                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 pt-20">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
-                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
-                        </div>
-                    </div>
-                </div>                
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="single-banner">
-                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 pt-20">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
-                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
-                        </div>
-                    </div>
-                </div>                
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="single-banner">
-                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 pt-20">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
-                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
-                        </div>
-                    </div>
-                </div>                
-            </div>
-            <div class="col-sm-3 col-xs-6">
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="single-banner">
-                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-6 pt-20">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
-                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
-                        </div>
-                    </div>
-                </div>                
-            </div>
-        </div>
-    </div>
-</div> 
-<!-- BANNER-SECTION END -->
-<div class="banner-section section pt-10 pb-40">
-    <div style="margin-left: 5px;margin-right: 5px;width: 100%;">
-        <div class="row">
-            <div class="col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 col-xs-12" style="background-color: darkblue">
-                <br>
-                <br>
-                <br>
-            </div>
+<div class="section hidden-md hidden-lg">
+    <div class="container" style="">
+        <div class="col-sm-12 col-xs-12 text-center pt-10 pb-10" style="font-weight: bold;line-height: 14px;border-bottom: solid 3px black;border-top: solid 3px black;">
+            Explore Seratus Plus
         </div>
     </div>
 </div>
-<div class="banner-section section pt-40 pb-40" style="background-color: #e0c4cc">
+<div class="section hidden-md hidden-lg">
+    <div class="container" style="">
+        <div class="col-sm-12 col-xs-12 text-left pt-10 pb-10" style="line-height: 14px;border-bottom: solid 3px black;">
+            Product & Work Categoris
+        </div>
+    </div>
+</div>
+<div class="section hidden-md hidden-lg">
+    <div class="container" style="">
+        <div class="col-sm-12 col-xs-12 text-left pt-10 pb-10" style="line-height: 14px;border-bottom: solid 3px black;">
+            A-Z Brand & Showroom
+        </div>
+    </div>
+</div>
+<div class="banner-section section pt-20 pb-40">
+    <div class="container">        
+        <div class="col-md-offset-2 col-md-8" style="background-color: darkblue">
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+</div>
+<div class="banner-section section pt-40 pb-40 hidden-sm hidden-xs" style="background-color: #e0c4cc">
     <div class="container" style="margin-left: 15%;margin-right: 15%;width: 70%">
         <div class="row">
             <div class="col-md-4 text-center">
@@ -205,10 +155,10 @@
                             </div>-->
         <div class="row">
             <!-- blog-item start -->
-            <div class="col-md-12 pb-20">
+            <div class="col-md-12 pb-20 text-center-sm text-center-xs">
                 <span class="text-14 text-cabin" style="font-weight: bold;">CURATED LIST</span>
             </div>
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="blog-item bg-putih">
                     <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc" style="padding-left: 15px">
@@ -238,7 +188,7 @@
             </div>
             <!-- blog-item end -->
             <!-- blog-item start -->
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="blog-item bg-putih" style="margin-top: 350px">
                     <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/2.jpg')}}" alt=""></a>
                     <div class="blog-dsc" style="padding-left: 15px">
@@ -265,7 +215,7 @@
 <!-- PRODUCT SECTION START -->
 <div class="product-section section pt-30 pb-30">
     <div class="container">
-        <p class="text-cabin" style="font-size: 12px;font-weight: 400;color: black;margin-bottom: 20px">Highlight</p>
+        <p class="text-cabin text-center-sm text-center-xs" style="font-size: 12px;font-weight: 400;color: black;margin-bottom: 20px">Latest Product</p>
     </div>
     <div class="container">        
         <div class="row">
@@ -323,7 +273,7 @@
     <div class="container" style="padding-left: 2%;padding-right: 2%;padding-bottom: 0;width: 96%">
         <div class="row">
             <!-- blog-item start -->            
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="blog-item bg-putih">
                     <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc" style="padding-left: 15px">
@@ -353,7 +303,7 @@
             </div>
             <!-- blog-item end -->
             <!-- blog-item start -->
-            <div class="col-md-6 col-sm-6 col-xs-12">
+            <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="blog-item bg-putih" style="margin-top: 350px">
                     <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/2.jpg')}}" alt=""></a>
                     <div class="blog-dsc" style="padding-left: 15px">

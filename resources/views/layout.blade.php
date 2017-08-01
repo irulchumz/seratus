@@ -52,7 +52,20 @@
                     left: 15px;
                 }
                 .product-slider .slick-arrow {
-                    margin-top: -60px;
+                    margin-top: -60px!important;
+                }
+                .blog-item {
+                    margin-top: 0px!important;
+                }
+                .blog-item .image {
+                    height: 184px!important;
+                }
+                .blog-item .image img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .text-center-sm {
+                    text-align: center;
                 }
             }
             @media (max-width: 768px) {
@@ -69,7 +82,20 @@
                     left: 15px;
                 }
                 .product-slider .slick-arrow {
-                    margin-top: -60px;
+                    margin-top: -60px!important;
+                }
+                .blog-item {
+                    margin-top: 0px!important;
+                }
+                .blog-item .image {
+                    height: 184px!important;
+                }
+                .blog-item .image img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .text-center-xs {
+                    text-align: center;
                 }
             }
             .container{
@@ -310,16 +336,16 @@
             <div class="footer-top-section section pb-60 pt-20" style="background-color: white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>TENTANG</li>
                                     </ul>
 
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>100+</li>
                                         <li>SIMPUL GROUP</li>
@@ -327,13 +353,13 @@
                                         <li>MEDIA</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>BERPARTNER</li>
                                         <li>DENGAN 100+</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>UNTUK SHOWROOM</li>
                                         <li>UNTUK BRAND</li>
@@ -343,16 +369,16 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>FAQ</li>
-                                        <li>KONTAK KAMU</li>
+                                        <li>KONTAK KAMI</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
                                     <div class="footer-social fix pull-right">
                                         <a href="#" style="color: black"><i class="fa fa-facebook"></i></a>
                                         <a href="#" style="color: black"><i class="fa fa-instagram"></i></a>

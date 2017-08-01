@@ -20,108 +20,55 @@
         <div class="row">
             <div class="product-slider product-slider-4">
                 <!-- product-item start -->
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-12 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
@@ -180,15 +127,14 @@
                 </div>
             </li>
         </ul>
-        <div class="item-per-page" style="float: right">
+        <div class="item-per-page hidden-sm hidden-xs" style="float: right">
             <button class="warnadasar no-border" style="font-size: 10px;font-family: Roboto;">SUPRISE ME/RANDOMIZE</button>
         </div>
     </div>
 </div>
 <div class="section pt-50 pb-10">
     <div class="container">
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
             <div class="bg-pink box-product1" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
@@ -204,8 +150,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
             <div class="bg-pink box-product1" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
@@ -221,8 +166,7 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
             <div class="bg-pink box-product1" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
@@ -238,9 +182,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -255,9 +198,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -272,9 +214,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -289,9 +230,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -306,9 +246,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -323,9 +262,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -340,9 +278,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -357,9 +294,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -374,9 +310,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">           
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -391,9 +326,8 @@
                 </div>
             </div>
         </div>
-        <div class="col-md-3 box-prod" style="">
-            <!--<div>-->
-            <div class="bg-pink box-product2" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
+            <div class="bg-pink box-product2 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -412,7 +346,7 @@
 </div>
 <div class="section pt-10 pb-100">
     <!--<div class="container">-->
-    <a href="#"><img class="expand" src="{{asset('front/image/va-slide-down.png')}}"></a>
+    <a href="#"><img class="expand expand-sm" src="{{asset('front/image/va-slide-down.png')}}"></a>
     <!--</div>-->
 </div>
 <div class="section pt-30 pb-30 bg-abuabu">
@@ -476,7 +410,35 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
-
+    @media (min-width: 992px) {
+    }
+    @media(max-width: 992px) {
+        .box-product1-sm {
+            height: 250px!important;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .box-product1-sm > .corner-left{
+            height: 60px!important;
+            width: 60px!important;
+            position: relative;
+            margin-top: -260px!important;
+            margin-left: -13px!important;
+            float: left;
+        }
+        .box-product1-sm > .corner-right{
+            height: 60px!important;
+            width: 60px!important;
+            position: relative;
+            margin-top: -255px!important;
+            margin-right: -4px!important;
+            float: right;
+        }
+        img.expand-sm {
+            margin-top: -110px!important;
+            position: absolute;
+        }
+    }
     .gambar-full{
         width: 100%;
         height: 100%;
