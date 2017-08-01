@@ -38,7 +38,67 @@
     </div>
 </div>
 <!-- END SLIDER SECTION -->
-
+<div class="product-section section pt-20 pb-20" style="height: 150px;">
+    <div class="container">
+        <div class="row">
+            <div class="product-slider product-slider-4">
+                <!-- product-item start -->
+                <div class="col-xs-12 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- BANNER-SECTION START -->
 <div class="banner-section section pt-20 pb-10">
     <div class="container">
@@ -125,7 +185,7 @@
             <div class="col-md-4 text-center">
                 <button class="text-cabin box-btn">Browse by<br style="display: block;margin: 6px 0">Product / Work<br style="display: block;margin: 6px 0">Categories</button>
             </div>
-            <div class="col-md-4 text-center">
+            <div class="col-md-4 hidden-sm text-center">
             </div>
             <div class="col-md-4 text-center">
                 <button class="text-cabin box-btn">A - Z<br style="display: block;margin: 6px 0">Brand & Showroom<br style="display: block;margin: 6px 0">Names</button>
