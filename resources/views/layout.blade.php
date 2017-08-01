@@ -39,6 +39,39 @@
                     border-right: solid thick white;
                 }
             }
+            @media (min-width: 768px) and (max-width: 992px) {
+                .magazine-btn{
+                    border-left: solid thick white; 
+                }
+                .meanmenu-reveal{
+                    right: 150px!important;
+                }
+                .slidermini{
+                    position: relative;
+                    top: -88px;
+                    left: 15px;
+                }
+                .product-slider .slick-arrow {
+                    margin-top: -60px;
+                }
+            }
+            @media (max-width: 768px) {
+                .magazine-btn{
+                    border-left: solid thick white; 
+                }
+                .meanmenu-reveal{
+                    right: 100px!important;
+                    top: -65px!important;
+                }
+                .slidermini{
+                    position: relative;
+                    top: -88px;
+                    left: 15px;
+                }
+                .product-slider .slick-arrow {
+                    margin-top: -60px;
+                }
+            }
             .container{
                 padding-left: 2%;
                 padding-right: 2%;
@@ -205,13 +238,13 @@
                 <div class="container">
                     <div class="row">
                         <!-- logo -->
-                        <div class="col-md-2 col-sm-9 col-xs-9">
+                        <div class="col-md-2 col-sm-6 col-xs-6">
                             <div class="header-logo" style="padding-top: 30px;padding-bottom: 19px">
                                 <a href="index.html"><img src="{{asset('front/image/va-logo-100-top.png')}}" height="51" width="143" alt="main logo"></a>
                             </div>
                         </div>
                         <!-- header-search & total-cart -->
-                        <div class="col-md-1 col-sm-3 col-xs-3 float-right">
+                        <div class="col-md-1 col-sm-2 col-xs-2 float-right magazine-btn" style="padding-left: 0;padding-right: 0">
                             <div class="text-right" style="padding-top: 27px;padding-bottom: 19px">
                                 <a href="index.html"><img src="{{asset('front/image/va-magazine-icon.png')}}" height="54" width="86" alt="main logo"></a>
                             </div>
