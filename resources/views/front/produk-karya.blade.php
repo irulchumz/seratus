@@ -20,9 +20,9 @@
         <div class="row">
             <div class="product-slider product-slider-4">
                 <!-- product-item start -->
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-6">
                             <div class="single-banner">
                                 <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
                             </div>
@@ -33,9 +33,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-6">
                             <div class="single-banner">
                                 <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
                             </div>
@@ -46,9 +46,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-6">
                             <div class="single-banner">
                                 <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
                             </div>
@@ -59,9 +59,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-md-6 col-sm-12">
+                        <div class="col-md-6 col-sm-6">
                             <div class="single-banner">
                                 <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
                             </div>
@@ -135,7 +135,7 @@
 <div class="section pt-50 pb-10">
     <div class="container">
         <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
-            <div class="bg-pink box-product1" style="">
+            <div class="bg-pink box-product1 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -151,7 +151,7 @@
             </div>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
-            <div class="bg-pink box-product1" style="">
+            <div class="bg-pink box-product1 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -167,7 +167,7 @@
             </div>
         </div>
         <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
-            <div class="bg-pink box-product1" style="">
+            <div class="bg-pink box-product1 box-product1-sm" style="">
                 <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                 <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
                 <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">
@@ -412,25 +412,52 @@
 <style media="screen" type="text/css">
     @media (min-width: 992px) {
     }
-    @media(max-width: 992px) {
+    @media (min-width: 768px) and (max-width: 992px) {
         .box-product1-sm {
-            height: 250px!important;
+            height: 140px!important;
             width: 100%;
             padding: 0 0 0 0;
         }
         .box-product1-sm > .corner-left{
-            height: 60px!important;
-            width: 60px!important;
+            height: 40px!important;
+            width: 40px!important;
             position: relative;
-            margin-top: -260px!important;
-            margin-left: -13px!important;
+            margin-top: -150px!important;
+            margin-left: -8px!important;
             float: left;
         }
         .box-product1-sm > .corner-right{
-            height: 60px!important;
-            width: 60px!important;
+            height: 40px!important;
+            width: 40px!important;
             position: relative;
-            margin-top: -255px!important;
+            margin-top: -145px!important;
+            margin-right: -4px!important;
+            float: right;
+        }
+        img.expand-sm {
+            margin-top: -110px!important;
+            position: absolute;
+        }
+    }
+    @media (max-width: 768px) {
+        .box-product1-sm {
+            height: 140px!important;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .box-product1-sm > .corner-left{
+            height: 40px!important;
+            width: 40px!important;
+            position: relative;
+            margin-top: -150px!important;
+            margin-left: -8px!important;
+            float: left;
+        }
+        .box-product1-sm > .corner-right{
+            height: 40px!important;
+            width: 40px!important;
+            position: relative;
+            margin-top: -145px!important;
             margin-right: -4px!important;
             float: right;
         }

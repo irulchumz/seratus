@@ -8,7 +8,7 @@
         <ul class="breadcrumb">
             <li><a href="#">HOME</a></li>
         </ul>
-        <span class="title">PRODUK & KARYA</span>
+        <span class="title">BRAND & SHOWROOM</span>
     </div>
 </div>
 <!-- PRODUCT SECTION START -->
@@ -20,108 +20,55 @@
         <div class="row">
             <div class="product-slider product-slider-4">
                 <!-- product-item start -->
-                <div class="col-xs-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-6">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-6">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-6">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12">
+                <div class="col-xs-6 col-md-12">
                     <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
+                        <div class="col-md-6 col-sm-6">
+                            <div class="single-banner">
+                                <a href="#"><img src="{{asset('front/img/banner/1.jpg')}}" height="110" alt=""></a>
+                            </div>
                         </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xs-12">
-                    <div class="row">
-                        <div class="col-xs-6">
-                            <div class="product-item text-center">
-                                <div class="single-banner">
-                                    <a class="image" href="product-details.html"><img src="{{asset('front/img/product/1.jpg')}}" height="110" alt=""/></a>                                        
-                                </div>
-                            </div>        
-                        </div>
-                        <div class="col-xs-6 pt-60">
-                            <span class="text-16">Title</span><br>      
-                            <span class="text-16">Brand</span>      
+                        <div class="col-xs-6 pt-20 slidermini">
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
                 </div>
@@ -238,7 +185,7 @@
 </div>
 <div class="section pt-10 pb-40">
     <div class="container">
-        <a id="expand"><img class="expand" src="{{asset('front/image/va-slide-down.png')}}"></a>
+        <a id="expand"><img class="expand expand-sm" src="{{asset('front/image/va-slide-down.png')}}"></a>
     </div>
 </div>
 <div class="section pt-30 pb-30 bg-abuabu">
@@ -250,6 +197,44 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
+    @media (min-width: 992px) {
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        ul.brand-list {
+            list-style: none;
+            /*padding: 0;*/
+            padding-left: 0!important;
+        }
+        ul.brand-list > li.love:before {
+            margin-left: -1.7em!important; /* same as padding-left set on li */
+            width: 1.9em!important; /* same as padding-left set on li */
+        }
+        ul.brand-list > li:before {
+            margin-left: -1.7em!important; /* same as padding-left set on li */
+            width: 1.9em!important; /* same as padding-left set on li */
+        }
+        img.expand {
+            margin-top: -110px!important;
+        }
+    }
+    @media (max-width: 768px) {
+        ul.brand-list {
+            list-style: none;
+            /*padding: 0;*/
+            padding-left: 0!important;
+        }
+        ul.brand-list > li.love:before {
+            margin-left: -1.7em!important; /* same as padding-left set on li */
+            width: 1.9em!important; /* same as padding-left set on li */
+        }
+        ul.brand-list > li:before {
+            margin-left: -1.7em!important; /* same as padding-left set on li */
+            width: 1.9em!important; /* same as padding-left set on li */
+        }
+        img.expand {
+            margin-top: -110px!important;
+        }
+    }
     img.expand {
         margin-top: -200px;
     }
@@ -299,7 +284,7 @@
 <script type="text/javascript">
     $(document).ready(function () {
         $('#expand').click(function () {
-            for(var i =0;i<10;i++){
+            for (var i = 0; i < 10; i++) {
                 $('.brand-list').append('<li>CAHAYA</li>');
             }
         })
