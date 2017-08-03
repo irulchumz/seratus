@@ -280,7 +280,7 @@
             <!-- blog-item start -->
             <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image col-sm-6 col-xs-6" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -290,7 +290,7 @@
             </div>            
             <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image col-sm-6 col-xs-6" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6 no-padding" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -300,7 +300,7 @@
             </div>            
             <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image col-sm-6 col-xs-6" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6 no-padding" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -310,7 +310,7 @@
             </div>            
             <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image col-sm-6 col-xs-6" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6 no-padding" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>

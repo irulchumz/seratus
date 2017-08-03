@@ -38,6 +38,10 @@
                     border-left: solid thick white;
                     border-right: solid thick white;
                 }
+                .blog-item .image {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
             }
             @media (min-width: 768px) and (max-width: 992px) {
                 .magazine-btn{
@@ -208,6 +212,10 @@
             .pr-15{
                 padding-right: 15px;
             }
+            no-padding{
+                padding-left: 0;
+                padding-right: 0;
+            }
 
             //font
             .text-cabin{
@@ -339,13 +347,13 @@
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-6 col-sm-6 col-xs-6">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>TENTANG</li>
                                     </ul>
 
                                 </div>
-                                <div class="col-md-4 col-sm-6 col-xs-6">
+                                <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>100+</li>
                                         <li>SIMPUL GROUP</li>
