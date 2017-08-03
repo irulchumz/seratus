@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-<title>SeratusPlus || Brand Details</title>
+<title>SeratusPlus || Brand Account</title>
 @endsection
 @section('content')
 <div class="section pt-40 pb-55">
