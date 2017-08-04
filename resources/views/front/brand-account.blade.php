@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-<title>SeratusPlus || Brand Account</title>
+<title>SeratusPlus | Brand Account</title>
 @endsection
 @section('content')
 <div class="section pt-40 pb-55">
@@ -200,6 +200,93 @@
                         </div>
                     </div>
                 </div>                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section pt-30 pb-40" style="">
+    <div class="container">
+        <div class="col-md-12 pt-20 pb-60" style="border: solid 1px #c4c4c4;padding: 15px;">
+            <div class="col-md-12 mb-30 text-18" style="">
+                <div class="desc-left">
+                    <i class="fa fa-map-marker"></i>
+                    <span class="" style="margin-left: 15px;">TOP LOCATION</span>
+                </div>
+                <div class="desc-right">
+                    <button class="no-border warnadasar" style="width: 177px;height: 35px;">CITIES</button>
+                    <button class="bg-putih" style="border: solid 1px #d1d2d3;width: 177px;height: 35px;margin-left: -4px;">COUNTRIES</button>
+                </div>
+            </div>
+            <div class="col-md-12 mb-30" style="">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td style="width: 20%">Jakarta</td>
+                            <td style="width: 70%">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar bg-abuabu" role="progressbar" aria-valuenow="90"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 10%">90%</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 20%">Jakarta</td>
+                            <td style="width: 70%">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar bg-abuabu" role="progressbar" aria-valuenow="20"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:20%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 10%">20%</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 20%">Jakarta</td>
+                            <td style="width: 70%">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar bg-abuabu" role="progressbar" aria-valuenow="50"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 10%">50%</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 20%">Jakarta</td>
+                            <td style="width: 70%">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar bg-abuabu" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 10%">70%</td>
+                        </tr>
+                        <tr>
+                            <td style="width: 20%">Jakarta</td>
+                            <td style="width: 70%">
+                                <div class="progress" style="margin-bottom: 0;">
+                                    <div class="progress-bar bg-abuabu" role="progressbar" aria-valuenow="70"
+                                         aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                    </div>
+                                </div>
+                            </td>
+                            <td style="width: 10%">70%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="col-md-12 mb-30 text-18" style="">
+                <div class="desc-right">
+                    <button class="no-border warnadasar" style="width: 177px;height: 35px;">DAY</button>
+                    <button class="bg-putih" style="border: solid 1px #d1d2d3;width: 177px;height: 35px;margin-left: -4px;">WEEK</button>
+                    <button class="bg-putih" style="border: solid 1px #d1d2d3;width: 177px;height: 35px;margin-left: -4px;">MONTH</button>
+                    <button class="bg-putih" style="border: solid 1px #d1d2d3;width: 177px;height: 35px;margin-left: -4px;">YEAR</button>
+                </div>
             </div>
         </div>
     </div>
