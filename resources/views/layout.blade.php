@@ -230,6 +230,9 @@
             .text-16{
                 font-size: 16px;
             }
+            .text-15{
+                font-size: 15px;
+            }
             .text-14{
                 font-size: 14px;
             }

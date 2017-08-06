@@ -104,6 +104,9 @@ Route::get('brand-detail', function () {
 Route::get('brand-account', function () {
     return view('front.brand-account');
 });
+Route::get('manage-brand-account', function () {
+    return view('front.brand-account-manage');
+});
 Route::get('most-loved-product', function () {
     return view('front.most-loved-product');
 });

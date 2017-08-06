@@ -9,16 +9,46 @@
             <img class="" src="{{asset('front/img/icon/close.png')}}" style="width: 45px;margin-right: 20px;" height="45">
             <select class="select1" style="">
                 <option value="1">KEKAYUAN INDONESIA</option>
+                <option value="1">Manage Brand Page</option>
+                <option value="1">Manage Account</option>
             </select>
             <span class="text-16" style="font-style: italic">Your subcription ends in 3 days. <a href="">Click here</a> to extend</span>
         </div> 
         <div class="desc-right" style="display: inline-flex">
-            <div class="icon-corner">
-                <i class="fa fa-info-circle"></i>
+            <div class="header-cart float-left">
+                <!-- Cart Toggle -->
+                <a class="cart-toggle" href="#" data-toggle="dropdown">
+                    <i class="pe-7s-info"></i>
+                    <span>2</span>
+                </a>
+                <!-- Mini Cart Brief -->
+                <div class="mini-cart-brief dropdown-menu text-left">
+                    <div class="cart-items">Notification</div>
+                    <!-- Cart Products -->
+                    <div class="all-cart-product clearfix">
+                        <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
+                            Simpul approved your photo
+                        </div>                            
+                        <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
+                            Simpul approved your photo
+                        </div>                            
+                        <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
+                            Simpul approved your photo
+                        </div>                            
+                        <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
+                            Simpul approved your photo
+                        </div>                            
+                    </div>
+                    <!-- Cart Button -->
+                    <div class="cart-bottom">
+                        <a href="#">VIEW ALL NOTIFICATION</a>
+                    </div>
+                </div>
             </div>
             <div class="icon-corner">
                 <i class="fa fa-envelope"></i>
-            </div>            
+            </div>
+
         </div>
     </div>
 </div>
@@ -394,75 +424,44 @@
         height: 45px;
         margin-right: 25px;
     }
+    .select1 option{
+        border-bottom: solid 1px #d1d2d3;
+        padding: 10px;
+    }
     .icon-corner{
         padding-left: 20px;
         padding-right: 20px;
         border-left:solid 1px #b5b5b5;
         border-right:solid 1px #b5b5b5;
     }
-    .corner-left{
-        height: 60px;
-        width: 60px;
-        position: relative;
-        margin-top: -260px;
-        margin-left: -13px;
-        float: left;
-    }
-    .corner-right{
-        height: 60px;
-        width: 60px;
-        position: relative;
-        margin-top: -255px;
-        margin-right: -5px;
-        float: right;
-    }
-    .lokasi > label{
-        padding-left: 0;
-        padding-right: 30px;
-        font-weight: normal;
-        font-size: 12px;
-    }
-    div.operational{
-        padding-left: 0;
-        padding-right: 0;
-        border-top: solid 2px black;
-        border-bottom: solid 2px black;
-    }
-    .operational > label{
-        padding-left: 0;
-        padding-right: 30px;
-        font-weight: normal;
-        font-size: 12px;
-    }
-    .deskripsi{
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 30px;
-        line-height: 20px;
-    }
-    .tags{
-        padding-left: 0;
-        padding-right: 0;
-        padding-top: 80px;        
-    }
-    .corner-btn{
-        position: absolute;
-        top: 170px;
-        bottom: 0;
-        right: 0;
-        background-color: white;
-    }
-    .desc-product {
-        height: 30px;
-        padding: 2px 10px 20px 10px;
-        font-family: cabin;
-        font-size: 10px;
-    }
     .desc-left{
         float: left;
     }
     .desc-right{
         float: right;
+    }
+    .header-cart{
+        padding: 0 10px;
+
+    }
+    .mini-cart-brief .cart-items{
+        font-size: 13px;
+        background-color: #d1d2d3;
+        margin: -20px -20px 0;
+        padding: 15px 20px;
+    } 
+    .single-cart{
+        margin-bottom: 0;
+        line-height: 44px;
+    }
+    .cart-bottom{
+        margin: -1px -20px -20px;
+    }
+    .cart-bottom a{
+        background-color: gray;
+    }
+    .cart-bottom a:hover{
+        background-color: #e5c773;
     }
 </style>
 @endsection
