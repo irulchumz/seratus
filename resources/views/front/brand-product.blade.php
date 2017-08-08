@@ -70,11 +70,7 @@
                 </div>
                 <div class="bg-abuabu desc-product">
                     <div class="desc-left">
-                        Name, Brands, Store
-                    </div>
-                    <div class="desc-right">
-                        <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                        <a href="#"><i class="fa fa-heart"></i></a>
+                        Name of product
                     </div>
                 </div>
             </div>
