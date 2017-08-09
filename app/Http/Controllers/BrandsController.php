@@ -3,13 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Brands;
 
 class BrandsController extends Controller
 {
 
     public function index()
     {
-        //
+        $brands = Brands::all();
+
+        return view('brands.index', compact('brands'));
     }
 
   
@@ -22,7 +25,7 @@ class BrandsController extends Controller
    
     public function store(Request $request)
     {
-        //
+        Brands::create($request->all());
     }
 
    

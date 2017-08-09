@@ -34,6 +34,7 @@ Route::post('users', ['uses' => 'UsersController@store']);
 
 Route::resource('ads', 'AdsController');
 Route::resource('articles', 'ArticlesController');
+Route::resource('homepages', 'HomepagesController');
 Route::resource('brands', 'BrandsController');
 Route::resource('categories', 'CategoriesController');
 Route::resource('collections', 'CollectionsController');

@@ -4,17 +4,14 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Articles extends Model
+class Article extends Model
 {
-    protected $table = 'articles';
-
     protected $fillable = [
-    'name',
-    'title',
-    'content',
-    'photo_1',
-    'photo_2',
-    'photo_3',
-    'photo_4'
+    'user_id', 'content', 'live', 'post_on'
     ];
+
+    public function setLiveAttribute($value)
+    {
+        $this->attributes['live'] = (boolean)($value);
+    }
 }
