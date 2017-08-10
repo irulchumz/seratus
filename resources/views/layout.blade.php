@@ -227,6 +227,9 @@
             .text-18{
                 font-size: 18px;
             }
+            .text-17{
+                font-size: 17px;
+            }
             .text-16{
                 font-size: 16px;
             }
@@ -235,6 +238,9 @@
             }
             .text-14{
                 font-size: 14px;
+            }
+            .text-13{
+                font-size: 13px;
             }
             .text-12{
                 font-size: 12px;

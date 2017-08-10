@@ -113,6 +113,9 @@ Route::get('manage-brand-credential', function () {
 Route::get('manage-brand-product', function () {
     return view('front.brand-product');
 });
+Route::get('brand-message-room', function () {
+    return view('front.brand-message');
+});
 Route::get('most-loved-product', function () {
     return view('front.most-loved-product');
 });
