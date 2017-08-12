@@ -1,24 +1,35 @@
-@extends('layouts.header_menu')
+@extends('layouts.header_menu_admin')
 @section('content')
 
 <div id="admin_brands" class="container">
-	<h2>Brands List</h2>
-	@if (!empty($brands_list))
+	<h2>Brands List <a href="/brands/create" class="btn btn-primary"> Add Brand</a></h2>
+	@if (!empty($brands))
 	<table class="table">
 		<thead>
 			<tr>
 				<th>Nama</th>
 				<th>Kontak</th>
+				<th>Gambar</th>
 				<th>Alamat</th>
 				<th>Deskripsi</th>
 				<th>Action</th>
 			</tr>
 		</thead>
 		<tbody>
-			@foreach ($brands_list as $brand)
+			@foreach ($brands as $brand)
 			<tr>
 				<td>{{ $brand->name }}</td>
 				<td>{{ $brand->contact }}</td>
+				<td>
+					 @if(isset($brand->foto))
+      <img src="{{ asset('brand_photo/' . $brand->foto)}}" width="300px">
+      @else
+      Tidak Ada Foto
+      @endif
+					
+					
+					
+				</td>
 				<td>{{ $brand->address }}</td>
 				<td>{{ $brand->description }}</td>
 				<td>
@@ -42,13 +53,15 @@
 		<div class='pull-left'>
 			<strong>Jumlah Brand : {{ $brands_count}}</strong>
 		</div>
-		<div class='pull-right'>
-			Pagination
-		</div>
 	</div>
+	<div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		{{ $brands->links()}}
+	</div>
+</div>
 	<div class='bottom-nav'>
 		<div>
-			<a href="brands/create" class="btn btn-primary"> Add Brand</a>
+			
 		</div>
 	</div>
 </div>

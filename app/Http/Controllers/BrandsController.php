@@ -11,9 +11,11 @@ class BrandsController extends Controller
    //
 	public function index(){
 		$halaman = 'brands';
-		$brands_list = Brands::all()->sortBy('name');
+		$brands = Brands::paginate(10);
+		// $brands_list = Brands::all()->sortBy('name');
+		$brands_list = Brands::paginate(10)->sortBy('name');
 		$brands_count = $brands_list->count();
-		return view('admin.brands.index', compact('halaman' ,'brands_list', 'brands_count'));
+		return view('admin.brands.index', compact('halaman' ,'brands_list', 'brands_count', 'brands'));
 	}
 	public function create(){
 		return view('admin.brands.create');

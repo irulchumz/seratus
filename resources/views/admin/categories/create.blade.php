@@ -1,7 +1,7 @@
 @extends('layouts.header_menu')
 @section('content')
 <div class="container">
-  <form method="post" action="/brands" enctype="multipart/form-data">
+  <form method="post" action="/categories" enctype="multipart/form-data">
     {!! csrf_field() !!}
     <div class="form-group">
       <label for="name">Nama Brand</label>
