@@ -1,6 +1,6 @@
 @extends('layout')
 @section('title')
-<title>SeratusPlus || Brand Details</title>
+<title>SeratusPlus || Login</title>
 @endsection
 @section('content')
 <div class="section pt-60 pb-10" style="background-color: #c3dadd;">
@@ -10,31 +10,29 @@
 <div class="section pt-40 pb-10" style="background-color: #c3dadd;">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-3 col-md-6" style="width: 616px">
+            <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12 box-login-box" style="">
                 <div class="login-box">
                     <form action="" method="post">
                         <div class="row">
                             <div class="col-md-12 mb-40">
-                                <label style="font-size: 20px;line-height: 20px;font-weight: 400;font-family: roboto">Seratusplus will help you plan your next personal design acquisition lorem isum dolorsit amet.</label>
+                                <label class="title-login" style="">Seratusplus will help you plan your next personal design acquisition lorem isum dolorsit amet.</label>
                             </div>
-                            <div id="log1" class="">
+                            <div id="log1" class=" col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-md-12 mb-30">
                                     <label style="font-size: 16px">LOGIN</label>
                                     <hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 5px;margin-bottom: 0;">
                                 </div>
-                                <div class="col-md-12 mb-30">
-                                    <div class="col-md-4" style="text-align: center">
-                                        <a class="login-opt"><img width="100px" height="100px" src="{{asset('front/img/blog/1.jpg')}}"></a>
-                                        <span class="text-18" style="color: black;display: block">GENERAL</span>
-                                    </div>
-                                    <div class="col-md-4" style="text-align: center">
-                                        <a class="login-opt"><img width="100px" height="100px" src="{{asset('front/img/blog/1.jpg')}}"></a>
-                                        <span class="text-18" style="color: black;display: block">BRAND</span>
-                                    </div>
-                                    <div class="col-md-4" style="text-align: center">
-                                        <a class="login-opt"><img width="100px" height="100px" src="{{asset('front/img/blog/1.jpg')}}"></a>
-                                        <span class="text-18" style="color: black;display: block">PRESS</span>
-                                    </div>
+                                <div class="col-md-4 col-sm-12 col-xs-12 mb-20 login-block login-opt">
+                                    <img width="100px" height="100px" style="margin-right: 8px;" src="{{asset('front/img/blog/1.jpg')}}">
+                                    <span class="text-18" style="color: black;">GENERAL</span>
+                                </div>
+                                <div class="col-md-4 col-sm-12 col-xs-12 mb-20 login-block login-opt">
+                                    <img width="100px" height="100px" style="margin-right: 8px;" src="{{asset('front/img/blog/1.jpg')}}">
+                                    <span class="text-18" style="color: black;">BRAND</span>
+                                </div>
+                                <div class="col-md-4 col-sm-12 col-xs-12 mb-20 login-block login-opt">
+                                    <img width="100px" height="100px" style="margin-right: 8px;" src="{{asset('front/img/blog/1.jpg')}}">
+                                    <span class="text-18" style="color: black;">PRESS</span>
                                 </div>
                             </div>
                             <div id="log2" class="hidden">
@@ -80,6 +78,50 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
+    @media (min-width: 992px) {
+        .box-login-box{
+            width: 616px;
+        }
+        .title-login{
+            font-size: 20px!important;
+            line-height: 20px!important;
+            font-weight: 400!important;
+            font-family: roboto!important;
+        }
+        .login-block{
+            text-align: center;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .box-login-box{
+            width: 100%;
+        }
+        .title-login{
+            font-size: 14px!important;
+            line-height: 16px!important;
+            font-weight: 400!important;
+            font-family: roboto!important;
+        }
+        .login-block{
+            text-align: left;
+            padding-left: 15%;
+        }
+    }
+    @media (max-width: 768px) {
+        .box-login-box{
+            width: 100%;
+        }
+        .title-login{
+            font-size: 12px!important;
+            line-height: 14px!important;
+            font-weight: 400!important;
+            font-family: roboto!important;
+        }
+        .login-block{
+            text-align: left;
+            padding-left: 15%;
+        }
+    }
     .login-box{
         padding: 30px;
         background-color: white;
@@ -130,9 +172,9 @@
                 $('.brand-list').append('<li>CAHAYA</li>');
             }
         })
-        $('.login-opt').click(function (){
-           $('#log2').removeClass('hidden'); 
-           $('#log1').addClass('hidden'); 
+        $('.login-opt').click(function () {
+            $('#log2').removeClass('hidden');
+            $('#log1').addClass('hidden');
         });
     });
     function open() {
