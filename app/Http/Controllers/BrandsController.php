@@ -37,6 +37,7 @@ class BrandsController extends Controller
      		# code...
 		};
 		Brands::create($input);
+		// dd($input);
 		return redirect('brands');
 	}
 
