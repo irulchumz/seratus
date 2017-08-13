@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Brands;
 
 
+
 class BrandsController extends Controller
 {
    //
@@ -61,17 +62,42 @@ class BrandsController extends Controller
 		$brand_detail = Brands::findOrFail($id);
 
 		$input = $request->all();
+		if ($request->hasFile('foto')) {
+			$foto =$request->file('foto');
+			$ext = $foto->getClientOriginalExtension();
+
+			if ($request->file('foto')->isValid()) {
+				$photo_name = date('YmdHis').".$ext";
+				$upload_path = 'brand_photo';
+				$request->file('foto')->move($upload_path, $photo_name);
+				$input['foto']=$photo_name;
+     			# code...
+			};
+     		# code...
+		};
 
         // Cek apakah ada foto baru di form?
-        if ($request->hasFile('foto')) {
-            // Hapus foto lama
-            $this->hapusFoto($brand_detail);
+   //      if ($request->hasFile('foto')) {
+   //          // Hapus foto lama
+   //          // $this->hapusFoto($brand_detail);
 
-            // Upload foto baru
-           $input['foto'] = $this->uploadFoto($request);
-        }
+   //          // Upload foto baru
+   //         // $input['foto'] = $this->uploadFoto($request);
 
-        // Update siswa di tabel siswa
+			// $foto =$request->file('foto');
+			// $ext = $foto->getClientOriginalExtension();
+
+			// if ($request->file('foto')->isValid()) {
+			// 	$photo_name = date('YmdHis').".$ext";
+			// 	$upload_path = 'brand_photo';
+			// 	$request->file('foto')->move($upload_path, $photo_name);
+			// 	$input['foto']=$photo_name;
+   //   			# code...
+			// };
+   //   		# code...
+		
+   //      }
+
         $brand_detail->update($input);
 
 		// $check = $request->foto;
@@ -113,9 +139,10 @@ class BrandsController extends Controller
 		// 	};
   //    		# code...
 		// };
+		dd($input);
 		$brand_detail->update($request->all());
 		// return $request->all();
-		return redirect('brands');
+		// return redirect('brands');
 	}
 
 	public function destroy($id){
@@ -126,34 +153,34 @@ class BrandsController extends Controller
 
 
 	// ===============================================================
-    private function uploadFoto(BrandsRequest $request)
-    {
-        $foto = $request->file('foto');
-        $ext  = $foto->getClientOriginalExtension();
+    // private function uploadFoto(BrandsRequest $request)
+    // {
+    //     $foto = $request->file('foto');
+    //     $ext  = $foto->getClientOriginalExtension();
 
-        if ($request->file('foto')->isValid()) {
-            $foto_name   = date('YmdHis'). ".$ext";
-            $upload_path = 'brand_photo';
-            $request->file('foto')->move($upload_path, $foto_name);
+    //     if ($request->file('foto')->isValid()) {
+    //         $foto_name   = date('YmdHis'). ".$ext";
+    //         $upload_path = 'brand_photo';
+    //         $request->file('foto')->move($upload_path, $foto_name);
 
-            // Filename untuk database --> 20160220214738.jpg
-            return $foto_name;
-        }
-        return false;
-    }
+    //         // Filename untuk database --> 20160220214738.jpg
+    //         return $foto_name;
+    //     }
+    //     return false;
+    // }
 
-    private function hapusFoto(Brands $brand_detail)
-    {
-        $exist = Storage::disk('foto')->exists($brand_detail->foto);
+    // private function hapusFoto(Brands $brand_detail)
+    // {
+    //     $exist = Storage::disk('foto')->exists($brand_detail->foto);
 
-        if (isset($brand_detail->foto) && $exist) {
-            $delete = Storage::disk('foto')->delete($brand_detail->foto);
-            if ($delete) {
-                return true;
-            }
-            return false;
-        }
-    }
+    //     if (isset($brand_detail->foto) && $exist) {
+    //         $delete = Storage::disk('foto')->delete($brand_detail->foto);
+    //         if ($delete) {
+    //             return true;
+    //         }
+    //         return false;
+    //     }
+    // }
 
 	
 }

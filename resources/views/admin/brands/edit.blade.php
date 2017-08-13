@@ -75,17 +75,18 @@
       <input name="tags" type="text" class="form-control" id="tags" value="{{ $brand_detail->tags }}">
     </div>
     <div>
-      <h3>Foto saat ini</h3>
+      <h3>Foto saat ini </h3>
+      <h4 style="color:red">[Jika mau menambahkan foto atau mengedit foto, sementara hapus dulu data lama, dan buat data yang baru]</h4>
       @if(isset($brand_detail->foto))
       <img src="{{ asset('brand_photo/' . $brand_detail->foto)}}">
       @else
       Tidak Ada Foto
       @endif
     </div>
-    <div class="form-group">
-      <label for="1">Ganti Foto</label>
+    <!-- <div class="form-group">
+      <label for="foto">Ganti Foto</label>
       <input class="form-control" id="foto" type="file" name="foto">
-    </div>
+    </div> -->
     <div class="form-group form-inline">
       <input type="hidden" value="patch" name="_method">
       <input type="submit" value="Edit" class="btn btn-lg btn-danger">

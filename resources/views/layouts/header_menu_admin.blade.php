@@ -61,28 +61,37 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
-                                
-                                   
-                                
-                                    <li>
-                                        <a href="/brands/create">Create Brand</a>
-                                    </li>
-                                     <li>
-                                        <a href="/brands">List</a>
-                                    </li>
-                                    
-                                
-                    </ul>
-                </div>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Brand
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="/brands/create">Create Brand</a></li>
+                                  <li><a href="/brands">List</a></li>
+                              </ul>
+                          </li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Article
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="/articles/create">Create Article</a></li>
+                                  <li><a href="/articles">List</a></li>
+                              </ul>
+                          </li>
 
-                
-        </div>
-    </nav>
 
-    @yield('content')
-</div>
 
-<!-- Scripts -->
-<script src="{{ asset('js/app.js') }}"></script>
-</body>
-</html>
+
+                      </ul>
+                  </div>
+
+
+              </div>
+          </nav>
+
+          @yield('content')
+      </div>
+
+      <!-- Scripts -->
+      <script src="{{ asset('js/app.js') }}"></script>
+  </body>
+  </html>

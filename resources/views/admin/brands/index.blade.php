@@ -21,11 +21,11 @@
 				<td>{{ $brand->name }}</td>
 				<td>{{ $brand->contact }}</td>
 				<td>
-					 @if(isset($brand->foto))
-      <img src="{{ asset('brand_photo/' . $brand->foto)}}" width="300px">
-      @else
-      Tidak Ada Foto
-      @endif
+					@if(isset($brand->foto))
+					<img src="{{ asset('brand_photo/' . $brand->foto)}}" width="300px">
+					@else
+					Tidak Ada Foto
+					@endif
 					
 					
 					
@@ -55,10 +55,10 @@
 		</div>
 	</div>
 	<div class="row">
-	<div class="col-md-6 col-md-offset-3">
-		{{ $brands->links()}}
+		<div class="col-md-6 col-md-offset-3">
+			{{ $brands->links()}}
+		</div>
 	</div>
-</div>
 	<div class='bottom-nav'>
 		<div>
 			
