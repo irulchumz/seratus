@@ -42,6 +42,17 @@
                     padding-left: 0;
                     padding-right: 0;
                 }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 14px;
+                }
             }
             @media (min-width: 768px) and (max-width: 992px) {
                 .magazine-btn{
@@ -70,6 +81,17 @@
                 }
                 .text-center-sm {
                     text-align: center;
+                }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 10px;
                 }
             }
             @media (max-width: 768px) {
@@ -101,6 +123,17 @@
                 .text-center-xs {
                     text-align: center;
                 }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 10px;
+                }
             }
             .container{
                 padding-left: 2%;
@@ -117,18 +150,7 @@
             .breadcrumb > .active{
                 color: black;
                 font-weight: bold;
-            }
-            .title{
-                color: black;
-                font-weight: bold;
-                font-size: 24px;
-            }
-            .title span.kecil{
-                color: black;
-                margin-left: 20px;
-                font-weight: 300;
-                font-size: 14px;
-            }
+            }           
 
             .bg-putih {
                 background-color: white;
