@@ -9,9 +9,14 @@
     </div>
     <div class="form-group">
       <label for="category">Category:</label>
-      <input name="category" type="text" class="form-control" id="category">
+      
+      <select class="form-control" id="category" name="category">
+        @foreach ($categories as $category)
+        <option value="{{ $category->name }}">{{ $category->name }}</option>
+        @endforeach
+      </select>
     </div>
-     <div class="form-group">
+    <div class="form-group">
       <label for="city">City:</label>
       <input name="city" type="text" class="form-control" id="city">
     </div>
@@ -57,7 +62,7 @@
     <div class="checkbox">
       <label><input type="checkbox" name="international">International</label>
     </div>
-   
+
     <div class="form-group">
       <label for="telphone_number">Telphone:</label>
       <input name="telphone_number" type="text" class="form-control" id="telphone_number">

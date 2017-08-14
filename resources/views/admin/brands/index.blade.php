@@ -2,8 +2,12 @@
 @section('content')
 
 <div id="admin_brands" class="container">
-	<h2>Brands List <a href="/brands/create" class="btn btn-primary"> Add Brand</a></h2>
+	<h2>Brands List {{ $myname}} 
+
+
+	  <a href="/brands/create" class="btn btn-primary"> Add Brand</a></h2>
 	@if (!empty($brands))
+	
 	<table class="table">
 		<thead>
 			<tr>

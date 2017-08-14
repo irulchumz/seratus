@@ -12,6 +12,10 @@
     <th>Nama Brand</th>
     <td>{{ $brand_detail->name }}</td>
   </tr>
+   <tr>
+    <th>Kategori Brand</th>
+    <td>{{ $brand_detail->category }}</td>
+  </tr>
   <tr>
     <th>Lokasi Brand</th>
     <td>{{ $brand_detail->address }}</td>
