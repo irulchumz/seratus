@@ -16,7 +16,7 @@
 </div>-->
 <div class="section pt-40">
     <div class="container">
-        <span class="text-12">This is a monthly updated chart of most loved products in 100+</span>
+        <span class="text-12">Here are the most loved products of the month</span>
     </div>
 </div>
 <div class="section pt-40 pb-10">

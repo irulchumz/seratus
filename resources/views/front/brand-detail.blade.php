@@ -6,7 +6,7 @@
 <div class="section pt-60 pb-20">
     <div class="container">
         <ul class="breadcrumb">
-            <li><a href="{{URL::to('brand')}}"><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;BRANDS & SHOWROOM</a></li>
+            <li><a href="{{URL::to('brand')}}"><i class="fa fa-chevron-left"></i>&nbsp;&nbsp;Brands & Showrooms</a></li>
             <li><a href="#">A</a></li>
             <li><a href="#">AEDI</a></li>
         </ul>        
@@ -24,7 +24,7 @@
                 <h2 class="text-cabin hidden-sm hidden-xs" style="font-weight: bold">AEDI</h2>
                 <h5 class="text-cabin hidden-sm hidden-xs" style="font-weight: bold">www.aediinterior.com</h5>
                 <div class="lokasi col-md-12 col-sm-12 col-xs-12" style="width: 100%;padding-left: 0;padding-right: 0;">
-                    <label class="control-label text-roboto text-10 col-md-3 hidden-sm hidden-xs" style="font-weight: bold">LOKASI</label>
+                    <label class="control-label text-roboto text-10 col-md-3 hidden-sm hidden-xs" style="font-weight: bold">Address</label>
                     <label class="control-label text-roboto text-10 col-md-3 col-sm-4 col-xs-4" style="line-height: 20px;">
                         Jl Rambai 1 No. 3<br>
                         Jakarta Selatan<br>
@@ -42,9 +42,9 @@
                     </label>
                 </div>
                 <div class="operational col-md-12 col-sm-12 col-xs-12">
-                    <label class="control-label text-roboto text-10 col-md-3" style="font-weight: bold">JAM BUKA</label>
+                    <label class="control-label text-roboto text-10 col-md-3" style="font-weight: bold">Opening Hours</label>
                     <label class="control-label text-roboto text-10 col-md-3" style="line-height: 20px;">
-                        Setiap Hari<br>
+                        Everyday/Monday/Tuesday etc<br>
                         10.00 - 17.00
                     </label>
                 </div>
@@ -248,11 +248,11 @@
                         <div class="row">
                             <div class="col-sm-12 col-xs-12 mb-15" style="padding-left: 0;padding-right: 0;border-bottom: solid 1px white">
                                 <input type="checkbox"/>
-                                <label class="pull-right" for="ship_form">ASK FOR CATALOG</label>
+                                <label class="pull-right" for="ship_form">Ask for catalogue</label>
                             </div>
                             <div class="col-sm-12 col-xs-12 mb-15" style="padding-left: 0;padding-right: 0;border-bottom: solid 1px white">
                                 <input type="checkbox"/>
-                                <label class="pull-right" for="ship_form">FULL PRICELIST</label>
+                                <label class="pull-right" for="ship_form">Wholesale Inquiry</label>
                             </div>
                             <div class="col-sm-12 col-xs-12 mb-15" style="padding-left: 0;padding-right: 0;border-bottom: solid 1px white">
                                 <input type="checkbox"/>
@@ -270,7 +270,7 @@
 </div>
 <div class="section pt-20 pb-20">
     <div class="container">
-        <h5>RELATED ARTICLES IN THE MAGAZINE</h5>
+        <h5>Read more on our magazine</h5>
         <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
 </div>

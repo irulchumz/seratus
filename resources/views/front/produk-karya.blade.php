@@ -8,7 +8,7 @@
         <ul class="breadcrumb">
             <li><a href="#">HOME</a></li>
         </ul>
-        <span class="title">PRODUK & KARYA</span>
+        <span class="title">Products & Works</span>
     </div>
 </div>
 <!-- PRODUCT SECTION START -->
@@ -82,7 +82,7 @@
     <div class="container">
         <div class="single-sidebar">
             <form action="#" class="sidebar-search">
-                <input type="text" name="query" placeholder="Cari: Kursi, Meja, Pantry ...." style="border-color: #e0c4cc;color: #e0c4cc">                
+                <input type="text" name="query" placeholder="Search: seating,desk,kids" style="border-color: #e0c4cc;color: #e0c4cc">                
             </form>
         </div>
     </div>
@@ -128,7 +128,7 @@
             </li>
         </ul>
         <div class="item-per-page hidden-sm hidden-xs" style="float: right">
-            <button class="warnadasar no-border" style="font-size: 10px;font-family: Roboto;">SUPRISE ME/RANDOMIZE</button>
+            <button class="warnadasar no-border" style="font-size: 10px;font-family: Roboto;">Suprise Me/Randomize</button>
         </div>
     </div>
 </div>
@@ -351,7 +351,7 @@
 </div>
 <div class="section pt-30 pb-30 bg-abuabu">
     <div class="container text-center pt-30 pb-30">
-        <p class="text-cabin" style="color: black">INGIN MEMASTIKAN KONSUMEN TAU DIMANA BISA MENDAPATKAN PRODUK ANDA?<br>TEMUKAN CARANYA DISINI</p>
+        <p class="text-cabin" style="color: black">Designers, journalists and buyers, click here to find out how seratusplus.com benefits you!</p>
     </div>
 </div>
 
