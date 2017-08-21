@@ -1,4 +1,4 @@
-@extends('layouts.header_menu')
+@extends('layouts.header_menu_admin')
 @section('content')
 <div class="container">
 <h2></h2>
@@ -6,33 +6,28 @@
   
   <tr>
     <th>ID Brand</th>
-    <td>{{ $id_brand }}</td>
+    <td>{{ $id_article }}</td>
   </tr>
   <tr>
-    <th>Nama Brand</th>
-    <td>{{ $brand_detail->name }}</td>
+    <th>Judul Artikel</th>
+    <td>{{ $article_detail->title }}</td>
   </tr>
   <tr>
-    <th>Lokasi Brand</th>
-    <td>{{ $brand_detail->address }}</td>
+    <th>Tag</th>
+    <td>{{ $article_detail->tag }}</td>
   </tr>
   <tr>
-    <th>Kontak Brand</th>
-    <td>{{ $brand_detail->contact }}</td>
-  </tr>
-  <tr>
-    <th>Deskripsi Brand</th>
-    <td>{{ $brand_detail->description }}</td>
+    <th>Content</th>
+    <td>{{ $article_detail->content }}</td>
   </tr>
   <tr>
     <th>Foto</th>
     <td>
-      @if(isset($brand_detail->foto))
-      <img src="{{ asset('brand_photo/' . $brand_detail->foto)}}">
+      @if(isset($article_detail->foto))
+      <img src="{{ asset('article_photo/' . $article_detail->foto)}}">
       @else
       Tidak Ada Foto
       @endif
-      
     </td>
   </tr>
 </table>

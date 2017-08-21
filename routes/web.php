@@ -32,6 +32,10 @@ Route::get('brands/{brands}/edit', ['uses' => 'BrandsController@edit']);
 Route::patch('brands/{brands}', ['uses' => 'BrandsController@update']);
 Route::delete('brands/{brands}', ['uses' => 'BrandsController@destroy']);
 
+Route::get('login-user', function () {
+    return 'hello';
+});
+
 Route::resource('ads', 'AdsController');
 Route::resource('articles', 'ArticlesController');
 Route::resource('categories', 'CategoriesController');

@@ -1,4 +1,4 @@
-@extends('layouts.header_menu')
+@extends('layouts.header_menu_admin')
 @section('content')
 <div class="container">
 <h2></h2>
@@ -11,6 +11,10 @@
   <tr>
     <th>Nama Brand</th>
     <td>{{ $brand_detail->name }}</td>
+  </tr>
+   <tr>
+    <th>Kategori Brand</th>
+    <td>{{ $brand_detail->category }}</td>
   </tr>
   <tr>
     <th>Lokasi Brand</th>

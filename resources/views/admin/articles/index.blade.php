@@ -1,30 +1,36 @@
-@extends('layouts.header_menu')
+@extends('layouts.header_menu_admin')
 @section('content')
 
-<div id="admin_brands" class="container">
-	<h2>Brands List</h2>
-	@if (!empty($brands_list))
+<div id="article_brands" class="container">
+	<h2>Articles List <a href="articles/create" class="btn btn-primary"> Add Article</a></h2>
+	@if (!empty($articles_list))
 	<table class="table">
 		<thead>
 			<tr>
-				<th>Nama</th>
-				<th>Kontak</th>
-				<th>Alamat</th>
-				<th>Deskripsi</th>
+				<th>Title</th>
+				<th>Tags</th>
+				<th>Content</th>
+				<th>Foto</th>
 				<th>Action</th>
 			</tr>
 		</thead>
 		<tbody>
-			@foreach ($brands_list as $brand)
+			@foreach ($articles_list as $article)
 			<tr>
-				<td>{{ $brand->name }}</td>
-				<td>{{ $brand->contact }}</td>
-				<td>{{ $brand->address }}</td>
-				<td>{{ $brand->description }}</td>
+				<td>{{ $article->title }}</td>
+				<td>{{ $article->tag }}</td>
+				<td>{{ $article->content }}</td>
 				<td>
-					<a href="brands/{{ $brand->id }}"><button class="btn btn-success btn-sm">Detail</button></a>
-					<a href="brands/{{ $brand->id }}/edit"><button class="btn btn-warning btn-sm">Edit</button></a>
-					<form method="POST" action="/brands/{{ $brand->id }}">
+					@if(isset($article->foto))
+					<img src="{{ asset('article_photo/' . $article->foto)}}" width="300px">
+					@else
+					Tidak Ada Foto
+					@endif
+				</td>
+				<td>
+					<a href="articles/{{ $article->id }}"><button class="btn btn-success btn-sm">Detail</button></a>
+					<a href="articles/{{ $article->id }}/edit"><button class="btn btn-warning btn-sm">Edit</button></a>
+					<form method="POST" action="/articles/{{ $article->id }}">
 						{!! method_field('DELETE') !!}
 						{!! csrf_field() !!}
 						<button class="btn btn-default btn-sm">Delete</button>
@@ -36,19 +42,20 @@
 		</tbody>
 	</table>
 	@else
-	<p>Tidak ada data brands</p>
+	<p>Tidak ada data Artikel</p>
 	@endif
 	<div class="table-bottom">
 		<div class='pull-left'>
-			<strong>Jumlah Brand : {{ $brands_count}}</strong>
+			<strong>Jumlah Arikel : {{ $articles_count}}</strong>
 		</div>
-		<div class='pull-right'>
-			Pagination
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3">
+			{{ $articles->links()}}
 		</div>
 	</div>
 	<div class='bottom-nav'>
 		<div>
-			<a href="brands/create" class="btn btn-primary"> Add Brand</a>
 		</div>
 	</div>
 </div>
