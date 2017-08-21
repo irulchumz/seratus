@@ -51,7 +51,7 @@
                             </div>
                         </div>
                         <div class="col-xs-6 pt-20 slidermini">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >Featured Product</p>       
                             <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                             </div>
                         </div>
                         <div class="col-xs-6 pt-20 slidermini">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >Featured Product</p>       
                             <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
@@ -77,7 +77,7 @@
                             </div>
                         </div>
                         <div class="col-xs-6 pt-20 slidermini">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >Featured Product</p>       
                             <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
@@ -90,7 +90,7 @@
                             </div>
                         </div>
                         <div class="col-xs-6 pt-20 slidermini">
-                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >FEATURED PRODUCT</p>       
+                            <p class="text-cabin" style="color: black;font-size: 9px;line-height: normal;margin-bottom: 20px;" >Featured Product</p>       
                             <p class="text-cabin" style="color: black;font-size: 11px;line-height: normal;" >BIKA LIVING<br>FURNITURE</p>       
                         </div>
                     </div>
@@ -133,12 +133,12 @@
     <div class="container" style="margin-left: 15%;margin-right: 15%;width: 70%">
         <div class="row">
             <div class="col-md-4 text-center">
-                <button class="text-cabin box-btn">Browse by<br style="display: block;margin: 6px 0">Product / Work<br style="display: block;margin: 6px 0">Categories</button>
+                <button class="text-cabin box-btn">Browse by<br style="display: block;margin: 6px 0">Product / Work</button>
             </div>
             <div class="col-md-4 hidden-sm text-center">
             </div>
             <div class="col-md-4 text-center">
-                <button class="text-cabin box-btn">A - Z<br style="display: block;margin: 6px 0">Brand & Showroom<br style="display: block;margin: 6px 0">Names</button>
+                <button class="text-cabin box-btn">Browse by<br style="display: block;margin: 6px 0">Brand & Showroom</button>
 
             </div>
         </div>
@@ -215,7 +215,7 @@
 <!-- PRODUCT SECTION START -->
 <div class="product-section section pt-30 pb-30">
     <div class="container">
-        <p class="text-cabin text-center-sm text-center-xs" style="font-size: 12px;font-weight: 400;color: black;margin-bottom: 20px">Latest Product</p>
+        <p class="text-cabin text-center-sm text-center-xs" style="font-size: 12px;font-weight: 400;color: black;margin-bottom: 20px">Latest Products & Works</p>
     </div>
     <div class="container">        
         <div class="row">
@@ -329,7 +329,7 @@
 <!-- PRODUCT SECTION END --> 
 <div class="section pt-20 pb-50">
     <div class="container">
-        <button class="no-border text-cabin pt-20 pb-20" id="more" style="background-color: #e0c4cc;width: 100%;color: black;"> More Curated List</button>
+        <button class="no-border text-cabin pt-5 pb-5" id="more" style="background-color: #e0c4cc;width: 100%;color: black;"> More Curated List<br><i class="fa fa-angle-down"></i></button>
     </div>
 </div>
 @endsection

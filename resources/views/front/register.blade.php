@@ -10,12 +10,12 @@
 <div class="section pt-40 pb-10" style="background-color: #c3dadd;">
     <div class="container">
         <div class="row">
-            <div class="col-md-offset-3 col-md-6" style="width: 616px">
+            <div class="col-md-offset-3 col-md-6 col-sm-12 col-xs-12 box-login-box">
                 <div class="login-box">
                     <form action="" method="post">
                         <div class="row">
                             <div class="col-md-12 mb-40" id="title">
-                                <label style="font-size: 20px;line-height: 20px;font-weight: 400;font-family: roboto">Seratusplus will help you plan your next personal design acquisition lorem isum dolorsit amet.</label>
+                                <label class="title-login" style="">Seratusplus will help you plan your next personal design acquisition lorem isum dolorsit amet.</label>
                             </div>
                             <div class="col-md-12 mb-40 hidden" id="title2">
                                 <label style="font-size: 22px;font-weight: bold;font-family: roboto">Last one,we promise!</label>
@@ -63,36 +63,36 @@
                                 </div>
                             </div>
                             <div id="log-press" class="hidden">
-                                <div class="col-md-12 mb-10">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
                                     <label style="font-size: 16px;margin-bottom: 0;">PRESS SIGN-UP</label>
                                     <!--<hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 5px;margin-bottom: 0;">-->
                                 </div>
-                                <div class="col-md-12 mb-10">
-                                    <div class="col-md-6" style="padding-left: 0;">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
                                         <label class="form-label">Birthdate</label>
                                         <input type="text" name="nama">
                                     </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
                                         <label class="form-label">Gender</label>
                                         <input type="text" name="nama">
                                     </div>
                                 </div>
-                                <div class="col-md-12 mb-10">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
                                     <label class="form-label">Company</label>
                                     <input type="text" name="nama">
                                 </div>
-                                <div class="col-md-12 mb-10">
-                                    <div class="col-md-6" style="padding-left: 0;">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
                                         <label class="form-label">Type of Media</label>
                                         <input type="text" name="nama">
                                     </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
                                         <label class="form-label">Roles</label>
                                         <input type="text" name="nama">
                                     </div>
                                 </div>
-                                <div class="col-md-12 mb-10">
-                                    <div class="col-md-6" style="padding-left: 0;">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
                                         <label class="form-label">Country</label>
                                         <div class="select_style">
                                             <select>
@@ -104,7 +104,7 @@
                                             <hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 5px;margin-bottom: 0;margin-right: -30px">
                                         </div>
                                     </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
                                         <label class="form-label">City</label>
                                         <div class="select_style">
                                             <select>
@@ -117,35 +117,35 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
                                     <button type="button" id="next-press" class="bg-putih no-border text-cabin text-14" style="color: black;height: 40px;font-weight: bold;float: right">NEXT</button>
                                 </div>
                             </div>
                             <div id="log-pro" class="hidden">
-                                <div class="col-md-12 mb-10">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
                                     <label style="font-size: 16px;margin-bottom: 0;">PROFESSIONAL SIGN-UP</label>
                                     <!--<hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 5px;margin-bottom: 0;">-->
                                 </div>
-                                <div class="col-md-12 mb-10">
-                                    <div class="col-md-6" style="padding-left: 0;">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
                                         <label class="form-label">Birthdate</label>
                                         <input type="text" name="nama">
                                     </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
                                         <label class="form-label">Gender</label>
                                         <input type="text" name="nama">
                                     </div>
                                 </div>
-                                <div class="col-md-12 mb-10">
+                                <div class="col-md-12 col-sm-12 col-xs-12 col-sm-12 col-xs-12 mb-10">
                                     <label class="form-label">Occupation</label>
                                     <input type="text" name="nama">
                                 </div>
-                                <div class="col-md-12 mb-10">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
                                     <label class="form-label">Company</label>
                                     <input type="text" name="nama">
                                 </div>
-                                <div class="col-md-12 mb-10">
-                                    <div class="col-md-6" style="padding-left: 0;">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
                                         <label class="form-label">Country</label>
                                         <div class="select_style">
                                             <select>
@@ -157,7 +157,7 @@
                                             <hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 5px;margin-bottom: 0;margin-right: -30px">
                                         </div>
                                     </div>
-                                    <div class="col-md-6" style="padding-right: 0;">
+                                    <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
                                         <label class="form-label">City</label>
                                         <div class="select_style">
                                             <select>
@@ -170,7 +170,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
                                     <button type="button" id="next-pro" class="bg-putih no-border text-cabin text-14" style="color: black;height: 40px;font-weight: bold;float: right">NEXT</button>
                                 </div>
                             </div>
@@ -207,6 +207,50 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
+    @media (min-width: 992px) {
+        .box-login-box{
+            width: 616px;
+        }
+        .title-login{
+            font-size: 20px!important;
+            line-height: 20px!important;
+            font-weight: 400!important;
+            font-family: roboto!important;
+        }
+        .login-block{
+            text-align: center;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .box-login-box{
+            width: 100%;
+        }
+        .title-login{
+            font-size: 14px!important;
+            line-height: 16px!important;
+            font-weight: 400!important;
+            font-family: roboto!important;
+        }
+        .login-block{
+            text-align: left;
+            padding-left: 15%;
+        }
+    }
+    @media (max-width: 768px) {
+        .box-login-box{
+            width: 100%;
+        }
+        .title-login{
+            font-size: 12px!important;
+            line-height: 14px!important;
+            font-weight: 400!important;
+            font-family: roboto!important;
+        }
+        .login-block{
+            text-align: left;
+            padding-left: 15%;
+        }
+    }
     .login-box{
         padding: 30px;
         background-color: white;
@@ -349,7 +393,7 @@
         });
         $("#next").click(function () {
             var tipe = $("[name=tipe]").val();
-            alert(tipe);
+//            alert(tipe);
             if (tipe == "1") {
                 $("#log1").addClass('hidden');
                 $("#log-press").removeClass('hidden');

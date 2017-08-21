@@ -42,6 +42,17 @@
                     padding-left: 0;
                     padding-right: 0;
                 }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 14px;
+                }
             }
             @media (min-width: 768px) and (max-width: 992px) {
                 .magazine-btn{
@@ -70,6 +81,17 @@
                 }
                 .text-center-sm {
                     text-align: center;
+                }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 10px;
                 }
             }
             @media (max-width: 768px) {
@@ -101,6 +123,17 @@
                 .text-center-xs {
                     text-align: center;
                 }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 10px;
+                }
             }
             .container{
                 padding-left: 2%;
@@ -117,18 +150,7 @@
             .breadcrumb > .active{
                 color: black;
                 font-weight: bold;
-            }
-            .title{
-                color: black;
-                font-weight: bold;
-                font-size: 24px;
-            }
-            .title span.kecil{
-                color: black;
-                margin-left: 20px;
-                font-weight: 300;
-                font-size: 14px;
-            }
+            }           
 
             .bg-putih {
                 background-color: white;
@@ -296,49 +318,32 @@
                         <div class="col-md-9 col-xs-12">
                             <nav class="main-menu text-left garis">
                                 <ul class="warnaputih" style="padding-left: 25px">
-                                    <li><a href="index.html">BRANDS & SHOWROOM</a>
+                                    <li><a href="index.html">Brands & Showrooms</a>
                                         <ul class="sub-menu">
-                                            <li class="active"><a href="index.html">Home one</a></li>
-                                            <li><a href="index-2.html">Home two</a></li>
-                                            <li><a href="index-3.html">Home three</a></li>
-                                            <li><a href="index-4.html">Home four</a></li>
+                                            <li class="active"><a href="index.html">Brands</a></li>
+                                            <li class="active"><a href="index.html">Showrooms</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop.html">PRODUCTS & WORKS</a>
+                                    <li><a href="shop.html">Products & Works</a>
                                         <ul class="mega-menu ">
-                                            <li><a href="#">Chair</a>
+                                            <li><a href="#">By Type</a>
                                                 <ul>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Bras &amp; Tanks</a></li>
-                                                    <li><a href="#">Trousers</a></li>
-                                                    <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
-                                                    <li><a href="#">Tees</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">MORE</a>
-                                                <ul>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Bras &amp; Tanks</a></li>
-                                                    <li><a href="#">Trousers</a></li>
-                                                    <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
-                                                    <li><a href="#">Tees</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Cabinet</a>
-                                                <ul>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Bras &amp; Tanks</a></li>
-                                                    <li><a href="#">Trousers</a></li>
-                                                    <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
-                                                    <li><a href="#">Tees</a></li>
-                                                    <li><a href="#">Jackets</a></li>
+                                                    <li><a href="#">Home Furniture</a></li>
+                                                    <li><a href="#">Interior Accessories</a></li>
+                                                    <li><a href="#">Lighting</a></li>
+                                                    <li><a href="#">Tableware</a></li>
+                                                    <li><a href="#">Local Crafts</a></li>
+                                                    <li><a href="#">Tiles & Floorings</a></li>
+                                                    <li><a href="#">Storage</a></li>
+                                                    <li><a href="#">Kitchen</a></li>
+                                                    <li><a href="#">Bathroom</a></li>
+                                                    <li><a href="#">Furnishing</a></li>
+                                                    <li><a href="#">Kids</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop-list.html">SIGN UP/LOGIN</a></li>
+                                    <li><a href="shop-list.html">Sign Up / Login</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu"></div>
@@ -358,7 +363,7 @@
                             <div class="row">
                                 <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>TENTANG</li>
+                                        <li>ABOUT</li>
                                     </ul>
 
                                 </div>
@@ -366,22 +371,22 @@
                                     <ul>
                                         <li>100+</li>
                                         <li>SIMPUL GROUP</li>
-                                        <li>KERJA</li>
-                                        <li>MEDIA</li>
+                                        <li>JOBS</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>BERPARTNER</li>
-                                        <li>DENGAN 100+</li>
+                                        <li>Partnering</li>
+                                        <li>with 100+</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-3 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>UNTUK SHOWROOM</li>
-                                        <li>UNTUK BRAND</li>
-                                        <li>UNTUK DESAINER</li>
-                                        <li>LAINNYA</li>
+                                        <li>FOR SHOWROOM & BRANDS</li>
+                                        <li>FOR BUYERS</li>
+                                        <li>FOR DESIGNERS</li>
+                                        <li>FOR MEDIA</li>
+                                        <li>FOR ASSOCIATION</li>
                                     </ul>
                                 </div>
                             </div>
@@ -392,7 +397,7 @@
                                 <div class="col-md-6 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>FAQ</li>
-                                        <li>KONTAK KAMI</li>
+                                        <li>CONTACT US</li>
                                     </ul>
                                 </div>
                                 <div class="col-md-6 col-sm-6 col-xs-6">
