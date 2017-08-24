@@ -15,7 +15,7 @@
                     <form action="" method="post">
                         <div class="row">
                             <div class="col-md-12 mb-40">
-                                <label class="title-login" style="">Seratusplus will help you plan your next personal design acquisition lorem isum dolorsit amet.</label>
+                                <label class="title-login" style="">Seratusplus provides various essential materials needed by design professionals, buyers and media journalists. Login to enter your personal access</label>
                             </div>
                             <div id="log1" class=" col-md-12 col-sm-12 col-xs-12">
                                 <div class="col-md-12 mb-30">
@@ -24,7 +24,7 @@
                                 </div>
                                 <div class="col-md-4 col-sm-12 col-xs-12 mb-20 login-block login-opt">
                                     <img width="100px" height="100px" style="margin-right: 8px;" src="{{asset('front/img/blog/1.jpg')}}">
-                                    <span class="text-18" style="color: black;">GENERAL</span>
+                                    <span class="text-18" style="color: black;">GENERAL & PROFESSIONALS</span>
                                 </div>
                                 <div class="col-md-4 col-sm-12 col-xs-12 mb-20 login-block login-opt">
                                     <img width="100px" height="100px" style="margin-right: 8px;" src="{{asset('front/img/blog/1.jpg')}}">
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                             <div class="col-md-12 mb-10">
-                                <p class="divide"><span class="text-11">or</span></p>
+                                <p class="divide"><span class="text-11">Or,</span></p>
                             </div>
                             <div class="col-md-12">
                                 <button type="button" class="bg-putih no-border text-cabin text-14" style="width: 100%;color: black;font-weight: bold">SIGN-UP</button>

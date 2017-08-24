@@ -15,10 +15,13 @@
                     <form action="" method="post">
                         <div class="row">
                             <div class="col-md-12 mb-40" id="title">
-                                <label class="title-login" style="">Seratusplus will help you plan your next personal design acquisition lorem isum dolorsit amet.</label>
+                                <label class="title-login" style="">Seratuspluswill assist you with brand and company press releases and high resolution images.</label>
                             </div>
                             <div class="col-md-12 mb-40 hidden" id="title2">
                                 <label style="font-size: 22px;font-weight: bold;font-family: roboto">Last one,we promise!</label>
+                            </div>
+                            <div class="col-md-12 mb-40 hidden" id="title3">
+                                <label style="font-size: 22px;font-weight: bold;font-family: roboto">We're sending you a verification email within 2x24 hours.</label>
                             </div>
                             <div id="log1" class="">
                                 <div class="col-md-12 mb-10">
@@ -30,13 +33,13 @@
                                     <div class="col-md-3" style="padding-left: 0;">
                                         <div class="radio-item">
                                             <input type="radio" id="opt1" name="tipe1" checked value="1">
-                                            <label class="text-12" style="font-weight: bold;" for="opt1">Press/Media</label>
+                                            <label class="text-12" style="font-weight: bold;" for="opt1">Press</label>
                                         </div>                                        
                                     </div>
                                     <div class="col-md-6" style="padding-left: 0;">
                                         <div class="radio-item">
                                             <input type="radio" id="opt2" name="tipe1" value="2">
-                                            <label class="text-12" style="font-weight: bold;" for="opt2">Designer and other professionals</label>
+                                            <label class="text-12" style="font-weight: bold;" for="opt2">Designers & Buyers</label>
                                         </div>                                        
                                     </div>
                                     <div class="col-md-3" style="padding-left: 0;">
@@ -55,7 +58,7 @@
                                     <input type="text" name="email">
                                 </div>
                                 <div class="col-md-12 mb-20">
-                                    <label class="form-label">Passwords</label>
+                                    <label class="form-label">Password</label>
                                     <input id="password" name="password" type="password">
                                 </div>
                                 <div class="col-md-12">
@@ -73,27 +76,27 @@
                                         <input type="text" name="nama">
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
-                                        <label class="form-label">Gender</label>
+                                        <label class="form-label">Gender: F / M / Rather Not Say</label>
                                         <input type="text" name="nama">
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
-                                    <label class="form-label">Company</label>
+                                    <label class="form-label">Company / Media Name</label>
                                     <input type="text" name="nama">
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
                                     <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
-                                        <label class="form-label">Type of Media</label>
+                                        <label class="form-label">Type of Media: Printed, Online, Broadcast</label>
                                         <input type="text" name="nama">
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
-                                        <label class="form-label">Roles</label>
+                                        <label class="form-label">Roles:</label>
                                         <input type="text" name="nama">
                                     </div>
                                 </div>
                                 <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
                                     <div class="col-md-6 col-sm-6 col-xs-6" style="padding-left: 0;">
-                                        <label class="form-label">Country</label>
+                                        <label class="form-label">Country:</label>
                                         <div class="select_style">
                                             <select>
                                                 <option class="text-cabin text-11" value="" disabled selected>Select...</option>
@@ -105,7 +108,7 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
-                                        <label class="form-label">City</label>
+                                        <label class="form-label">City:</label>
                                         <div class="select_style">
                                             <select>
                                                 <option class="text-cabin text-11" value="" disabled selected>Select...</option>
@@ -132,7 +135,7 @@
                                         <input type="text" name="nama">
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-6" style="padding-right: 0;">
-                                        <label class="form-label">Gender</label>
+                                        <label class="form-label">Gender: F/M</label>
                                         <input type="text" name="nama">
                                     </div>
                                 </div>
@@ -184,7 +187,26 @@
                                     <input class="input-phone" type="text" name="nama">
                                 </div>
                                 <div class="col-md-12 mb-20">
-                                    <button type="button" class="warnadasar no-border text-cabin text-14" style="width: 100%;color: black;height: 40px;font-weight: bold">FINISH UP</button>
+                                    <button type="button" class="warnadasar no-border text-cabin text-14 finish" style="width: 100%;color: black;height: 40px;font-weight: bold">FINISH UP</button>
+                                </div>
+                            </div>
+                            <div id="log-thank" class="hidden">
+                                <div class="col-md-12 col-sm-12 col-xs-12 mb-10">
+                                    <label style="font-size: 16px;margin-bottom: 0;">Please check your inbox and spam</label><br>
+                                    <label style="font-size: 16px;margin-bottom: 0;">Thank You!</label>
+                                    <!--<hr style="color: gray;height: 1px;display: block;background: gray;border: 0;margin-top: 5px;margin-bottom: 0;">-->
+                                </div>
+                                <div class="col-md-12 mb-10">
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="bg-abuabu" style="height: 100%;padding: 20px">
+                                            <button type="button" class="warnadasar no-border thank-btn" style="width: 100%;color: black">Browse Products</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-sm-6 col-xs-6">
+                                        <div class="bg-abuabu" style="height: 100%;padding: 20px">
+                                            <button type="button" class="warnadasar no-border thank-btn" style="width: 100%;color: black">Read Magazine</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -220,6 +242,9 @@
         .login-block{
             text-align: center;
         }
+        .thank-btn{
+            height: 180px;
+        }
     }
     @media (min-width: 768px) and (max-width: 992px) {
         .box-login-box{
@@ -235,6 +260,9 @@
             text-align: left;
             padding-left: 15%;
         }
+        .thank-btn{
+            height: 120px;
+        }
     }
     @media (max-width: 768px) {
         .box-login-box{
@@ -249,6 +277,9 @@
         .login-block{
             text-align: left;
             padding-left: 15%;
+        }
+        .thank-btn{
+            height: 80px;
         }
     }
     .login-box{
@@ -397,8 +428,10 @@
             if (tipe == "1") {
                 $("#log1").addClass('hidden');
                 $("#log-press").removeClass('hidden');
+                $(".title-login").html('Seratusplus will assist you with brand and company press releases and high resolution images.');
             } else if (tipe == "2") {
                 $("#log1").addClass('hidden');
+                $(".title-login").html('Seratusplus will help you find great references for your design projects. we provide product fact sheet & 3D, as well as brand sales contact');
                 $("#log-pro").removeClass('hidden');
             } else if (tipe == "3") {
                 alert("Sign-up success!!")
@@ -419,6 +452,12 @@
 //            $(this).attr('checked', true);
             $("[name=tipe]").val($(this).val());
 //            alert();
+        });
+        $(".finish").click(function () {
+            $("#log-thank").removeClass('hidden');
+            $("#log-press2").addClass('hidden');
+            $("#title2").addClass('hidden');
+            $("#title3").removeClass('hidden');
         });
     });
     function open() {

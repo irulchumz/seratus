@@ -21,7 +21,7 @@
 <div class="section pt-20 pb-10" style="">
     <div class="container">
         <button type="button" class="no-border warnadasar" style="border-radius: 50%;height: 30px;width: 30px;padding-top: 2px;"><i class="fa fa-plus"></i></button>
-        <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">TAMBAH PRODUK</span>
+        <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">Add Products</span>
         <button type="button" id="compare-btn" data-tipe="0" class="warnadasar no-border text-10" style="float: right;height: 25px;color: black;font-weight: bold;margin-top: 2.5px;">COMPARE PRODUCTS</button>
     </div>
 </div>
@@ -375,7 +375,7 @@
     <div class="container">
         <div class="col-md-12" style="text-align: center">
             <button type="button" class="no-border warnadasar" style="border-radius: 50%;height: 30px;width: 30px;padding-top: 2px;"><i class="fa fa-plus"></i></button><br>
-            <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">TAMBAH PRODUK</span>
+            <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">Add Products</span>
         </div>
     </div>
 </div>
@@ -444,30 +444,30 @@
         <div class="modal-content">
             <div class="modal-body" style="padding-left: 0;padding-right: 0">
                 <div class="row" style="margin-left: 30px;margin-right: 30px">
-                    <div class="col-md-12 mb-30" style="font-size: 20px;font-weight: bold">Asking for Price Quote</div>
+                    <div class="col-md-12 mb-30" style="font-size: 20px;font-weight: bold">Asking for Pricing Detail</div>
                     <div class="col-md-4" style="padding-right: 40px;">
                         <img class="gambar-full" style="height: 100px;" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     </div>
                     <div class="col-md-8" style="height: 100px;border-bottom: solid 1px #d1d2d3;padding-left: 0;padding-right: 0;">
                         <div class="desc-left">
-                            <label class="text-cabin text-14" style="font-weight: bold">Name of Product,</label><br>
+                            <label class="text-cabin text-14" style="font-weight: bold">Product Name,</label><br>
                             <label class="text-cabin text-14" style="font-weight: bold">Brand,</label><br>
                             <label class="text-cabin text-14" style="font-weight: bold">Store.</label><br>
                         </div>
                         <div class="desc-right">
                             <input type="text" class="text-cabin" style="font-size: 20px;color: #d1d2d3;height: 50px;width: 50px;padding-left: 10px;">
                             <br>
-                            <label class="text-cabin text-14" style="font-weight: bold;padding-left: 8px">Piece</label>
+                            <label class="text-cabin text-14" style="font-weight: bold;padding-left: 8px">Piece(s)</label>
                         </div>
                     </div>                                     
                     <div class="col-md-offset-4 col-md-8 mb-15" style="padding-left: 0;padding-right: 0;">
-                        <textarea class="text-roboto text-11" style="height: 140px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Pesan Anda di sini :"></textarea>
+                        <textarea class="text-roboto text-11" style="height: 140px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Your message here"></textarea>
                     </div>
                     <div class="col-md-offset-4 col-md-8 mb-10" style="padding-left: 0;padding-right: 0;">
-                        <button type="button" class="warnadasar no-border text-cabin text-14" style="width: 100%;color: black;height: 40px;font-weight: bold">Minta Penawaran Harga</button>
+                        <button type="button" class="warnadasar no-border text-cabin text-14" style="width: 100%;color: black;height: 40px;font-weight: bold">Send Request</button>
                     </div>                    
                     <div class="col-md-offset-4 col-md-8 mb-30" style="padding-left: 0;padding-right: 0;">
-                        <label class="text-roboto text-14" style="font-weight: lighter">Check bla bla bla bla ....</label><br>
+                        <label class="text-roboto text-14" style="font-weight: lighter">Please check "Products You're Quoting" section for messages from brands.</label><br>
                     </div>                    
                 </div>
             </div>            

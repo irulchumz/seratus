@@ -79,7 +79,7 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
             <div class="text-10 mt-100 mt-sm-15" style="font-weight: bold">
-                12 Desember 2017
+                12 December 2017
             </div>
         </div>
     </div>
@@ -98,7 +98,7 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
             <div class="text-10 mt-100 mt-sm-15" style="font-weight: bold">
-                12 Desember 2017
+                12 December 2017
             </div>
         </div>
     </div>
