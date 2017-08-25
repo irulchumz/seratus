@@ -361,26 +361,26 @@
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>ABOUT</li>
                                     </ul>
 
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>100+</li>
                                         <li>SIMPUL GROUP</li>
                                         <li>JOBS</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>Partnering</li>
-                                        <li>with 100+</li>
+                                        <li>PARTNERING</li>
+                                        <li>WITH 100+</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>FOR SHOWROOM & BRANDS</li>
                                         <li>FOR BUYERS</li>

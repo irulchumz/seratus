@@ -12,7 +12,7 @@
                 <option value="1">Manage Brand Page</option>
                 <option value="1">Manage Account</option>
             </select>
-            <span class="text-16" style="font-style: italic">Your subcription ends in 3 days. <a href="">Click here</a> to extend</span>
+            <span class="text-16" style="font-style: italic">Your subscription ends in 3 days. <a href="">Click here</a> to extend</span>
         </div> 
         <div class="desc-right" style="display: inline-flex">
             <div class="header-cart float-left">
@@ -94,8 +94,8 @@
                     <img class="" src="{{asset('front/img/product/1.jpg')}}" width="155" height="155" alt=""/><br>                    
                 </div>
                 <div class="col-md-9 pt-40" style="">
-                    <div class="text-12 text-roboto" style="font-weight: bold">Name of Product<span class="text-13 text-roboto pull-right" style="font-weight: lighter">December 16, 2016 5:30 PM</span></div>
-                    <div class="text-12 text-roboto" style="font-weight: bold">10<span style="margin-left: 50px;font-weight: lighter">Piece</span></div>
+                    <div class="text-12 text-roboto" style="font-weight: bold">Product Name<span class="text-13 text-roboto pull-right" style="font-weight: lighter">December 16, 2016 5:30 PM</span></div>
+                    <div class="text-12 text-roboto" style="font-weight: bold">10<span style="margin-left: 50px;font-weight: lighter">Piece(s)</span></div>
                     <div class="col-md-3 mt-70 warnadasar text-12 text-roboto text-center" style="border: solid 1px #E5C773">HARGA</div>
                     <div class="col-md-8 mt-70 text-12 text-roboto text-right" style="border: solid 1px #E5C773">10.000.000</div>
                     <div class="col-md-1 mt-70 text-16 text-roboto text-center" style="border: solid 1px #E5C773"><i class="fa fa-pencil"></i></div>

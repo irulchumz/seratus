@@ -12,7 +12,7 @@
                 <option value="1">Manage Brand Page</option>
                 <option value="1">Manage Account</option>
             </select>
-            <span class="text-16" style="font-style: italic">Your subcription ends in 3 days. <a href="">Click here</a> to extend</span>
+            <span class="text-16" style="font-style: italic">Your subscription ends in 3 days. <a href="">Click here</a> to extend</span>
         </div> 
         <div class="desc-right" style="display: inline-flex">
             <div class="header-cart float-left">
@@ -27,21 +27,21 @@
                     <!-- Cart Products -->
                     <div class="all-cart-product clearfix">
                         <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
-                            Simpul approved your photo
+                            Seratusplus approved your photo
                         </div>                            
                         <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
-                            Simpul approved your photo
+                            Seratusplus approved your photo
                         </div>                            
                         <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
-                            Simpul approved your photo
+                            Seratusplus approved your photo
                         </div>                            
                         <div class="single-cart text-12 text-roboto" style="border-bottom: solid 1px #d1d2d3;">
-                            Simpul approved your photo
+                            Seratusplus approved your photo
                         </div>                            
                     </div>
                     <!-- Cart Button -->
                     <div class="cart-bottom">
-                        <a href="#">VIEW ALL NOTIFICATION</a>
+                        <a href="#">VIEW ALL NOTIFICATIONS</a>
                     </div>
                 </div>
             </div>
@@ -241,7 +241,7 @@
             <div class="col-md-12 mb-30 text-18" style="">
                 <div class="desc-left">
                     <i class="fa fa-map-marker"></i>
-                    <span class="" style="margin-left: 15px;">TOP LOCATION</span>
+                    <span class="" style="margin-left: 15px;">TOP LOCATIONS</span>
                 </div>
                 <div class="desc-right">
                     <button class="no-border warnadasar" style="width: 177px;height: 35px;">CITIES</button>

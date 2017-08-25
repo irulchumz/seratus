@@ -12,7 +12,7 @@
                 <option value="1">Manage Brand Page</option>
                 <option value="1">Manage Account</option>
             </select>
-            <span class="text-16" style="font-style: italic">Your subcription ends in 3 days. <a href="">Click here</a> to extend</span>
+            <span class="text-16" style="font-style: italic">Your subscription ends in 3 days. <a href="">Click here</a> to extend</span>
         </div> 
         <div class="desc-right" style="display: inline-flex">
             <div class="header-cart float-left">
@@ -55,29 +55,29 @@
 <div class="section pt-55 pb-65" style="border-top: solid 1px #c4c4c4">
     <div class="container">
         <div class="col-md-12 pb-10" style="border-bottom: solid 1px #c4c4c4;padding-left: 0;padding-right: 0;">               
-            <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="lebar-12 bg-putih" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3">Manage Product</button></a>
+            <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="lebar-12 bg-putih" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3">Manage Products</button></a>
             <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="lebar-15" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3">Manage Credentials</button></a>
             <button class="no-border warnadasar text-roboto text-12" style="height: 40px;float: right;padding: 0 15px;">UPLOAD PRODUCT</button>
         </div>
         <div class="col-md-2 pt-60" style="padding-left: 0;">               
             <img class="" src="{{asset('front/img/product/1.jpg')}}" width="155" height="155" alt=""/><br>
-            <button class="mt-15 no-border warnadasar text-roboto text-12" style="height: 40px;width: 155px;padding: 0 15px;">CHANGE BRAND LOGO</button>
+            <button class="mt-15 no-border warnadasar text-roboto text-12" style="height: 40px;width: 155px;padding: 0 15px;">Change Image</button>
         </div>
         <div class="col-md-10 pt-60" style="padding-left: 0;">
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Brand</div>
+                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Company/Brand Name</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Store</div>
+                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Store Name</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Location</div>
+                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Store Location</div>
                 <div class="col-md-5">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                     <span class="text-15" style="color: blue;font-style: italic;line-height: 45px;">+ Add location</span>
@@ -104,6 +104,12 @@
             </div>      
             <div class="col-md-12">
                 <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Video URL</div>
+                <div class="col-md-5 mb-15">
+                    <input type="text" class="input1 text-15 text-roboto" value="">
+                </div>
+            </div>      
+            <div class="col-md-12">
+                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Website</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
