@@ -341,6 +341,19 @@
                                                     <li><a href="#">Kids</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="#">By Material</a>
+                                                <ul>
+                                                    <li><a href="#">Metal</a></li>
+                                                    <li><a href="#">Textile</a></li>
+                                                    <li><a href="#">Wood</a></li>
+                                                    <li><a href="#">Plastic</a></li>
+                                                    <li><a href="#">Stone & Marble</a></li>
+                                                    <li><a href="#">Rattan</a></li>
+                                                    <li><a href="#">Bamboo</a></li>
+                                                    <li><a href="#">Leather</a></li>
+                                                    <li><a href="#">All</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li><a href="shop-list.html">Sign Up / Login</a></li>
