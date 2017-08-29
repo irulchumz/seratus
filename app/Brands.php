@@ -11,8 +11,11 @@ class Brands extends Model
     protected $fillable = [
     'name',
     'address',
+    'category',
     'contact',
     'description',
+    'operation_hour',
+    'comment',
     'toko',
     'brand',
     'online',
@@ -20,44 +23,36 @@ class Brands extends Model
     'local',
     'international',
     'city',
-    'operation_hour',
     'telphone_number',
     'email_sales',
     'email_media',
     'website',
     'tags',
-    'photo_showroom',
-    'photo_product_still_life',
-    'photo_product_white_background',
-    '3d_model',
-    'featured_100plus',
-    'link_photo_folder',
-    'category',
     'foto'
     ];
 
-     public function setTokoAttribute($value)
+    public function setTokoAttribute($value)
     {
-        $this->attributes['toko'] = (boolean)($value);
+    	$this->attributes['toko'] = (boolean)($value);
     }
     public function setBrandAttribute($value)
     {
-        $this->attributes['brand'] = (boolean)($value);
+    	$this->attributes['brand'] = (boolean)($value);
     }
     public function setOnlineAttribute($value)
     {
-        $this->attributes['online'] = (boolean)($value);
+    	$this->attributes['online'] = (boolean)($value);
     }
     public function setOfflineAttribute($value)
     {
-        $this->attributes['offline'] = (boolean)($value);
+    	$this->attributes['offline'] = (boolean)($value);
     }
     public function setLocalAttribute($value)
     {
-        $this->attributes['local'] = (boolean)($value);
+    	$this->attributes['local'] = (boolean)($value);
     }
     public function setInternationalAttribute($value)
     {
-        $this->attributes['international'] = (boolean)($value);
+    	$this->attributes['international'] = (boolean)($value);
     }
 }

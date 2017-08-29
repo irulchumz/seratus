@@ -69,7 +69,7 @@
 <div class="section pt-35">
     <div class="container">
         <div class="col-md-3" style="padding-left: 0;padding-right: 0;text-align: center">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 121px;width: 121px;" alt=""/>
+            <img src="{{asset('front/img/'.$title.'.png')}}" style="height: 121px;width: 121px;" alt=""/>
             <div class="" style="font-size: 24px;font-weight: bold;padding-top: 15px;">
                 {{$title}}
             </div>
@@ -80,7 +80,7 @@
             </div>
             <div class="col-md-8">
                 <div class="text-12" style="font-weight: bold">
-                    12 Desember 2017
+                    12 December 2017
                 </div>
                 <div class="" style="font-size: 21px;font-weight: bold;padding-top: 32px;">
                     10 Best Asian Resort Furniture
@@ -98,7 +98,7 @@
             </div>
             <div class="col-md-8">
                 <div class="text-12" style="font-weight: bold">
-                    12 Desember 2017
+                    12 December 2017
                 </div>
                 <div class="" style="font-size: 21px;font-weight: bold;padding-top: 32px;">
                     Miebi Sikoki

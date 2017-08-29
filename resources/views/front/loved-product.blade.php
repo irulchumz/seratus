@@ -5,15 +5,14 @@
 @section('content')
 <div class="section pt-60">
     <div class="container">
-        <span class="title" style="">Hello, Fryza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<span class="kecil">EDIT ACCOUNT</span></span>
-        <span style="float: right;font-weight: 16px;">Januari: The Futurist</span>
+        <span class="title" style="">Hello, Fryza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<span class="kecil">EDIT ACCOUNT</span></span>        
     </div>
 </div>
 <div class="section pt-50" style="">
     <div class="container">
-        <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'lebar-12':'bg-putih'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;&nbsp;Collection</button></a>
-        <a href="{{URL::to('loved-product/')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'bg-putih':'lebar-12'}}" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3;"><i class="fa fa-heart" style="color: blue"></i>&nbsp;&nbsp;&nbsp;Loved</button></a>
-        <a href="{{URL::to('loved-product/quote')}}"><span class="text-12" style="float: right;font-weight: bold;padding-top: 5px;">PRODUCTS YOU'RE QUOTING&nbsp;&nbsp;&nbsp;<i class="fa fa-dollar"></i></span></a>
+        <a href="{{URL::to('loved-product/collection')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'lebar-12':'bg-putih'}} text-sm-10 text-xs-10" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3"><i class="fa fa-folder-open"></i>&nbsp;&nbsp;&nbsp;Collection</button></a>
+        <a href="{{URL::to('loved-product/')}}"><button type="button" class="{{($tipe==2 || $tipe==3)?'bg-putih':'lebar-12'}} text-sm-10 text-xs-10" style="border-radius: 15px;padding: 5px 10px;border: solid 1px #d1d2d3;"><i class="fa fa-heart" style="color: blue"></i>&nbsp;&nbsp;&nbsp;Loved</button></a>
+        <a href="{{URL::to('loved-product/quote')}}"><span class="text-12 text-sm-9 text-xs-9" style="float: right;font-weight: bold;padding-top: 5px;">PRODUCTS YOU'RE QUOTING&nbsp;&nbsp;&nbsp;<i class="fa fa-dollar"></i></span></a>
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
             <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 5px;margin-bottom: 0;">
         </div>
@@ -22,20 +21,20 @@
 <div class="section pt-20 pb-10" style="">
     <div class="container">
         <button type="button" class="no-border warnadasar" style="border-radius: 50%;height: 30px;width: 30px;padding-top: 2px;"><i class="fa fa-plus"></i></button>
-        <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">TAMBAH PRODUK</span>
-        <button type="button" id="compare-btn" data-tipe="0" class="warnadasar no-border text-10" style="float: right;width: 12%;height: 25px;color: black;font-weight: bold;margin-top: 2.5px;">COMPARE PRODUCTS</button>
+        <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">Add Products</span>
+        <button type="button" id="compare-btn" data-tipe="0" class="warnadasar no-border text-10" style="float: right;height: 25px;color: black;font-weight: bold;margin-top: 2.5px;">COMPARE PRODUCTS</button>
     </div>
 </div>
 <div class="section pt-10 pb-10" style="">
     <div class="container">
         @if($tipe==0)
-        <div class="col-md-12 bg-abuabu" style="height: 334px;text-align: center;padding-top: 135px;">
-            <div style="font-size: 105px;font-weight: bold;color: blue;">No love...? :(</div>><br><br>
-            <div style="font-size: 24px;font-weight: bold;color: black;margin-top: 45px;">There must be something <a href="{{URL::to('produk-karya')}}" style="color: blue">here</a> you will love</div>
+        <div class="col-md-12 bg-abuabu box-love" style="">
+            <div class="head1" style="">No love...? :(</div><br><br>
+            <div class="head2" style="">There must be something <a href="{{URL::to('produk-karya')}}" style="color: blue">here</a> you will love</div>
         </div>
         @elseif($tipe==1)
-        <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
-            <div class="col-md-3 box-prod" style="">
+        <div class="col-md-12 col-xs-12 col-sm-12" style="padding-left: 0;padding-right: 0;">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -53,7 +52,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -71,7 +70,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -89,7 +88,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -107,7 +106,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -125,7 +124,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -143,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <!--<div>-->
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -161,21 +160,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 box-prod" style="">
-                <!--<div>-->
+            <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
                 <div class="bg-abuabu box-product2" style="">
-<!--                    <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
-                    <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="corner-right" src="{{asset('front/image/va-dollar.png')}}">-->
                 </div>
                 <div class="bg-abuabu desc-product">
-                    <!--                    <div class="desc-left">
-                                            Name, Brands, Store
-                                        </div>
-                                        <div class="desc-right">
-                                            <a href="#"><i class="fa fa-plus"></i></a>&nbsp;&nbsp;
-                                            <a href="#"><i class="fa fa-heart"></i></a>
-                                        </div>-->
                 </div>
             </div>
         </div>
@@ -387,7 +375,7 @@
     <div class="container">
         <div class="col-md-12" style="text-align: center">
             <button type="button" class="no-border warnadasar" style="border-radius: 50%;height: 30px;width: 30px;padding-top: 2px;"><i class="fa fa-plus"></i></button><br>
-            <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">TAMBAH PRODUK</span>
+            <span class="text-12" style="font-weight: bold;padding-top: 5px;margin-left: 10px;">Add Products</span>
         </div>
     </div>
 </div>
@@ -456,30 +444,30 @@
         <div class="modal-content">
             <div class="modal-body" style="padding-left: 0;padding-right: 0">
                 <div class="row" style="margin-left: 30px;margin-right: 30px">
-                    <div class="col-md-12 mb-30" style="font-size: 20px;font-weight: bold">Asking for Price Quote</div>
+                    <div class="col-md-12 mb-30" style="font-size: 20px;font-weight: bold">Asking for Pricing Detail</div>
                     <div class="col-md-4" style="padding-right: 40px;">
                         <img class="gambar-full" style="height: 100px;" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     </div>
                     <div class="col-md-8" style="height: 100px;border-bottom: solid 1px #d1d2d3;padding-left: 0;padding-right: 0;">
                         <div class="desc-left">
-                            <label class="text-cabin text-14" style="font-weight: bold">Name of Product,</label><br>
+                            <label class="text-cabin text-14" style="font-weight: bold">Product Name,</label><br>
                             <label class="text-cabin text-14" style="font-weight: bold">Brand,</label><br>
                             <label class="text-cabin text-14" style="font-weight: bold">Store.</label><br>
                         </div>
                         <div class="desc-right">
                             <input type="text" class="text-cabin" style="font-size: 20px;color: #d1d2d3;height: 50px;width: 50px;padding-left: 10px;">
                             <br>
-                            <label class="text-cabin text-14" style="font-weight: bold;padding-left: 8px">Piece</label>
+                            <label class="text-cabin text-14" style="font-weight: bold;padding-left: 8px">Piece(s)</label>
                         </div>
                     </div>                                     
                     <div class="col-md-offset-4 col-md-8 mb-15" style="padding-left: 0;padding-right: 0;">
-                        <textarea class="text-roboto text-11" style="height: 140px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Pesan Anda di sini :"></textarea>
+                        <textarea class="text-roboto text-11" style="height: 140px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Your message here"></textarea>
                     </div>
                     <div class="col-md-offset-4 col-md-8 mb-10" style="padding-left: 0;padding-right: 0;">
-                        <button type="button" class="warnadasar no-border text-cabin text-14" style="width: 100%;color: black;height: 40px;font-weight: bold">Minta Penawaran Harga</button>
+                        <button type="button" class="warnadasar no-border text-cabin text-14" style="width: 100%;color: black;height: 40px;font-weight: bold">Send Request</button>
                     </div>                    
                     <div class="col-md-offset-4 col-md-8 mb-30" style="padding-left: 0;padding-right: 0;">
-                        <label class="text-roboto text-14" style="font-weight: lighter">Check bla bla bla bla ....</label><br>
+                        <label class="text-roboto text-14" style="font-weight: lighter">Please check "Products You're Quoting" section for messages from brands.</label><br>
                     </div>                    
                 </div>
             </div>            
@@ -489,6 +477,166 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
+    @media (min-width: 992px) {
+        .lebar-12{
+            width: 12%;
+        } 
+        .head1{
+            font-size: 105px;
+            font-weight: bold;
+            color: blue;
+        }
+        .head2{
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            margin-top: 45px;
+        }
+        .box-love{
+            height: 334px;
+            text-align: center;
+            padding-top: 135px;
+        }
+        .box-product2 {
+            height: 177px;
+            width: 100%;
+            padding: 0 0 0 0;
+            text-align: center;
+        }
+        .box-product2 > .corner-left{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            margin-top: -190px;
+            margin-left: -13px;
+            float: left;
+        }
+        .box-product2 > .corner-right{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            margin-top: -185px;
+            margin-right: -4px;
+            float: right;
+        }
+        .desc-product {
+            height: 40px;
+            padding: 10px 10px 20px 10px;
+            font-family: cabin;
+            font-size: 10px;
+        }
+
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .text-sm-10 {
+            font-size: 10px;
+        }
+        .text-sm-9 {
+            font-size: 9px;
+        }
+        .lebar-12{
+            width: 95px;
+        } 
+        .head1{
+            font-size: 40px;
+            font-weight: bold;
+            color: blue;
+        }
+        .head2{
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            margin-top: 15px;
+        }
+        .box-love{
+            height: 280px;
+            text-align: center;
+            padding-top: 95px;
+        }
+        .box-product2 {
+            height: 120px;
+            width: 100%;
+            padding: 0 0 0 0;
+            text-align: center;
+        }
+        .box-product2 > .corner-left{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            margin-top: -130px;
+            margin-left: -13px;
+            float: left;
+        }
+        .box-product2 > .corner-right{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            margin-top: -125px;
+            margin-right: -4px;
+            float: right;
+        }
+        .desc-product {
+            height: 25px;
+            padding: 0px 10px 20px 10px;
+            font-family: cabin;
+            font-size: 10px;
+        }
+    }
+    @media (max-width: 768px) {
+        .text-xs-10 {
+            font-size: 10px;
+        }
+        .text-xs-9 {
+            font-size: 9px;
+        }
+        .lebar-12{
+            width: 95px;
+        } 
+        .head1{
+            font-size: 40px;
+            font-weight: bold;
+            color: blue;
+        }
+        .head2{
+            font-size: 16px;
+            font-weight: bold;
+            color: black;
+            margin-top: 15px;
+        }
+        .box-love{
+            height: 280px;
+            text-align: center;
+            padding-top: 95px;
+        }
+        .box-product2 {
+            height: 120px;
+            width: 100%;
+            padding: 0 0 0 0;
+            text-align: center;
+        }
+        .box-product2 > .corner-left{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            margin-top: -130px;
+            margin-left: -13px;
+            float: left;
+        }
+        .box-product2 > .corner-right{
+            height: 60px;
+            width: 60px;
+            position: relative;
+            margin-top: -125px;
+            margin-right: -4px;
+            float: right;
+        }
+        .desc-product {
+            height: 25px;
+            padding: 0px 10px 20px 10px;
+            font-family: cabin;
+            font-size: 10px;
+        }
+    }
     .magazine-left{
         width: 83px;  
         float: left;
@@ -523,39 +671,14 @@
         margin-right: -4px;
         float: right;
     }
-    .box-product2 {
-        height: 177px;
-        width: 100%;
-        padding: 0 0 0 0;
-        text-align: center;
-    }
-    .box-product2 > .corner-left{
-        height: 60px;
-        width: 60px;
-        position: relative;
-        margin-top: -190px;
-        margin-left: -13px;
-        float: left;
-    }
-    .box-product2 > .corner-right{
-        height: 60px;
-        width: 60px;
-        position: relative;
-        margin-top: -185px;
-        margin-right: -4px;
-        float: right;
-    }
+
+
     .box-product3 {
         height: 45px;
         width: 100%;
         padding: 0 0 0 0;
     }
-    .desc-product {
-        height: 40px;
-        padding: 10px 10px 20px 10px;
-        font-family: cabin;
-        font-size: 10px;
-    }
+
     .desc-left{
         float: left;
     }
@@ -568,10 +691,7 @@
         padding-left: 25px;
         padding-right: 25px;
         font-family: cabin;
-    }
-    .lebar-12{
-        width: 12%;
-    }  
+    }     
     a.add-compare i {
         color: #e0c4cc;
         opacity: 0.7;

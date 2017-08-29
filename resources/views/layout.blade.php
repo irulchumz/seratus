@@ -38,6 +38,102 @@
                     border-left: solid thick white;
                     border-right: solid thick white;
                 }
+                .blog-item .image {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 24px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 14px;
+                }
+            }
+            @media (min-width: 768px) and (max-width: 992px) {
+                .magazine-btn{
+                    border-left: solid thick white; 
+                }
+                .meanmenu-reveal{
+                    right: 150px!important;
+                }
+                .slidermini{
+                    position: relative;
+                    top: -88px;
+                    left: 15px;
+                }
+                .product-slider .slick-arrow {
+                    margin-top: -60px!important;
+                }
+                .blog-item {
+                    margin-top: 0px!important;
+                }
+                .blog-item .image {
+                    height: 184px!important;
+                }
+                .blog-item .image img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .text-center-sm {
+                    text-align: center;
+                }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 10px;
+                }
+            }
+            @media (max-width: 768px) {
+                .magazine-btn{
+                    border-left: solid thick white; 
+                }
+                .meanmenu-reveal{
+                    right: 100px!important;
+                    top: -65px!important;
+                }
+                .slidermini{
+                    position: relative;
+                    top: -88px;
+                    left: 15px;
+                }
+                .product-slider .slick-arrow {
+                    margin-top: -60px!important;
+                }
+                .blog-item {
+                    margin-top: 0px!important;
+                }
+                .blog-item .image {
+                    height: 184px!important;
+                }
+                .blog-item .image img {
+                    width: 100%;
+                    height: 100%;
+                }
+                .text-center-xs {
+                    text-align: center;
+                }
+                .title{
+                    color: black;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+                .title span.kecil{
+                    color: black;
+                    margin-left: 20px;
+                    font-weight: 300;
+                    font-size: 10px;
+                }
             }
             .container{
                 padding-left: 2%;
@@ -54,18 +150,7 @@
             .breadcrumb > .active{
                 color: black;
                 font-weight: bold;
-            }
-            .title{
-                color: black;
-                font-weight: bold;
-                font-size: 24px;
-            }
-            .title span.kecil{
-                color: black;
-                margin-left: 20px;
-                font-weight: 300;
-                font-size: 14px;
-            }
+            }           
 
             .bg-putih {
                 background-color: white;
@@ -149,6 +234,10 @@
             .pr-15{
                 padding-right: 15px;
             }
+            no-padding{
+                padding-left: 0;
+                padding-right: 0;
+            }
 
             //font
             .text-cabin{
@@ -160,11 +249,20 @@
             .text-18{
                 font-size: 18px;
             }
+            .text-17{
+                font-size: 17px;
+            }
             .text-16{
                 font-size: 16px;
             }
+            .text-15{
+                font-size: 15px;
+            }
             .text-14{
                 font-size: 14px;
+            }
+            .text-13{
+                font-size: 13px;
             }
             .text-12{
                 font-size: 12px;
@@ -205,13 +303,13 @@
                 <div class="container">
                     <div class="row">
                         <!-- logo -->
-                        <div class="col-md-2 col-sm-9 col-xs-9">
+                        <div class="col-md-2 col-sm-6 col-xs-6">
                             <div class="header-logo" style="padding-top: 30px;padding-bottom: 19px">
-                                <a href="index.html"><img src="{{asset('front/image/va-logo-100-top.png')}}" height="51" width="143" alt="main logo"></a>
+                                <a href="index.html"><img src="{{asset('front/img/header.png')}}" height="51" width="143" alt="main logo"></a>
                             </div>
                         </div>
                         <!-- header-search & total-cart -->
-                        <div class="col-md-1 col-sm-3 col-xs-3 float-right">
+                        <div class="col-md-1 col-sm-2 col-xs-2 float-right magazine-btn" style="padding-left: 0;padding-right: 0">
                             <div class="text-right" style="padding-top: 27px;padding-bottom: 19px">
                                 <a href="index.html"><img src="{{asset('front/image/va-magazine-icon.png')}}" height="54" width="86" alt="main logo"></a>
                             </div>
@@ -220,49 +318,45 @@
                         <div class="col-md-9 col-xs-12">
                             <nav class="main-menu text-left garis">
                                 <ul class="warnaputih" style="padding-left: 25px">
-                                    <li><a href="index.html">BRANDS & SHOWROOM</a>
+                                    <li><a href="index.html">Brands & Showrooms</a>
                                         <ul class="sub-menu">
-                                            <li class="active"><a href="index.html">Home one</a></li>
-                                            <li><a href="index-2.html">Home two</a></li>
-                                            <li><a href="index-3.html">Home three</a></li>
-                                            <li><a href="index-4.html">Home four</a></li>
+                                            <li class="active"><a href="index.html">Brands</a></li>
+                                            <li class="active"><a href="index.html">Showrooms</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop.html">PRODUCTS & WORKS</a>
+                                    <li><a href="shop.html">Products & Works</a>
                                         <ul class="mega-menu ">
-                                            <li><a href="#">Chair</a>
+                                            <li><a href="#">By Type</a>
                                                 <ul>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Bras &amp; Tanks</a></li>
-                                                    <li><a href="#">Trousers</a></li>
-                                                    <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
-                                                    <li><a href="#">Tees</a></li>
-                                                    <li><a href="#">Jackets</a></li>
+                                                    <li><a href="#">Home Furniture</a></li>
+                                                    <li><a href="#">Interior Accessories</a></li>
+                                                    <li><a href="#">Lighting</a></li>
+                                                    <li><a href="#">Tableware</a></li>
+                                                    <li><a href="#">Local Crafts</a></li>
+                                                    <li><a href="#">Tiles & Floorings</a></li>
+                                                    <li><a href="#">Storage</a></li>
+                                                    <li><a href="#">Kitchen</a></li>
+                                                    <li><a href="#">Bathroom</a></li>
+                                                    <li><a href="#">Furnishing</a></li>
+                                                    <li><a href="#">Kids</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">MORE</a>
+                                            <li><a href="#">By Material</a>
                                                 <ul>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Bras &amp; Tanks</a></li>
-                                                    <li><a href="#">Trousers</a></li>
-                                                    <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
-                                                    <li><a href="#">Tees</a></li>
-                                                    <li><a href="#">Jackets</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="#">Cabinet</a>
-                                                <ul>
-                                                    <li><a href="#">Tops</a></li>
-                                                    <li><a href="#">Bras &amp; Tanks</a></li>
-                                                    <li><a href="#">Trousers</a></li>
-                                                    <li><a href="#">Hoodies &amp; Sweatshirts</a></li>
-                                                    <li><a href="#">Tees</a></li>
-                                                    <li><a href="#">Jackets</a></li>
+                                                    <li><a href="#">Metal</a></li>
+                                                    <li><a href="#">Textile</a></li>
+                                                    <li><a href="#">Wood</a></li>
+                                                    <li><a href="#">Plastic</a></li>
+                                                    <li><a href="#">Stone & Marble</a></li>
+                                                    <li><a href="#">Rattan</a></li>
+                                                    <li><a href="#">Bamboo</a></li>
+                                                    <li><a href="#">Leather</a></li>
+                                                    <li><a href="#">All</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="shop-list.html">SIGN UP/LOGIN</a></li>
+                                    <li><a href="shop-list.html">Sign Up / Login</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu"></div>
@@ -277,49 +371,49 @@
             <div class="footer-top-section section pb-60 pt-20" style="background-color: white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>TENTANG</li>
+                                        <li>ABOUT</li>
                                     </ul>
 
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>100+</li>
                                         <li>SIMPUL GROUP</li>
-                                        <li>KERJA</li>
-                                        <li>MEDIA</li>
+                                        <li>JOBS</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>BERPARTNER</li>
-                                        <li>DENGAN 100+</li>
+                                        <li>PARTNERING</li>
+                                        <li>WITH 100+</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>UNTUK SHOWROOM</li>
-                                        <li>UNTUK BRAND</li>
-                                        <li>UNTUK DESAINER</li>
-                                        <li>LAINNYA</li>
+                                        <li>FOR SHOWROOM & BRANDS</li>
+                                        <li>FOR BUYERS</li>
+                                        <li>FOR DESIGNERS</li>
+                                        <li>FOR MEDIA</li>
+                                        <li>FOR ASSOCIATION</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>FAQ</li>
-                                        <li>KONTAK KAMU</li>
+                                        <li>CONTACT US</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6 col-xs-6">
                                     <div class="footer-social fix pull-right">
                                         <a href="#" style="color: black"><i class="fa fa-facebook"></i></a>
                                         <a href="#" style="color: black"><i class="fa fa-instagram"></i></a>

@@ -7,7 +7,10 @@ use Illuminate\Database\Eloquent\Model;
 class Article extends Model
 {
     protected $fillable = [
-    'user_id', 'content', 'live', 'post_on'
+    'title',
+    'tag',
+    'content',
+    'foto'
     ];
 
     public function setLiveAttribute($value)

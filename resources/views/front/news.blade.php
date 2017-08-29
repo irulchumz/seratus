@@ -34,7 +34,7 @@
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
             <div class="text-16" style="">
-                12 Desember 2017
+                12 December 2017
             </div>
         </div>
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">

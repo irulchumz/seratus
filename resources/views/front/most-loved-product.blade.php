@@ -16,13 +16,13 @@
 </div>-->
 <div class="section pt-40">
     <div class="container">
-        <span class="text-12">This is a monthly updated chart of most loved products in 100+</span>
+        <span class="text-12">Here are the most loved products of the month</span>
     </div>
 </div>
 <div class="section pt-40 pb-10">
     <div class="container">
         @for($i=0;$i<8;$i++)
-        <div class="col-md-3 box-prod" style="">
+        <div class="col-md-3 col-sm-6 col-xs-6 box-prod" style="">
             <!--<div>-->
             <div class="bg-abuabu title-product">
                 <div class="title-left">
@@ -48,19 +48,19 @@
         @endfor
     </div>
 </div>
-<div class="section pt-30 pb-10">
+<div class="section pt-20 pb-20">
     <div class="container">
-        <span class="text-14 text-cabin">RELATED ARTICLES IN THE MAGAZINE</span>
+        <h5>RELATED ARTICLES IN THE MAGAZINE</h5>
         <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
 </div>
-<div class="blog-section section pt-10 pb-20">
+<div class="blog-section section pt-20 pb-20">
     <div class="container">
         <div class="row">
             <!-- blog-item start -->
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -68,9 +68,9 @@
                     </div>
                 </div>
             </div>            
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6 no-padding" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -78,9 +78,9 @@
                     </div>
                 </div>
             </div>            
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6 no-padding" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -88,9 +88,9 @@
                     </div>
                 </div>
             </div>            
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-40">
+            <div class="col-md-3 col-sm-6 col-xs-12 mb-40 mb-xs-5">
                 <div class="blog-item">
-                    <a class="image" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
+                    <a class="image col-md-12 col-sm-6 col-xs-6 no-padding" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}" alt=""></a>
                     <div class="blog-dsc">
                         <span class="text-18" style="display: block">Out, of the Box<br>In Comfort.</span>
                         <span class="text-14" style="margin-top: 24px;display: block">SPONSORED, 100+</span>
@@ -110,6 +110,93 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
+    @media (min-width: 992px) {
+        .box-product1 {
+            height: 220px;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .title-product {
+            height: 70px;
+            padding: 23px 20px 20px 20px;
+            font-family: cabin;
+            font-size: 50px;
+        }
+        .title-left{
+            float: left;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .title-right{
+            float: right;
+            font-size: 15px;
+            color: maroon;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .box-product1 {
+            height: 160px;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .title-product {
+            height: 45px;
+            padding: 10px 10px 20px 15px;
+            font-family: cabin;
+            font-size: 50px;
+        }
+        .title-left{
+            float: left;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .title-right{
+            float: right;
+            font-size: 13px;
+            color: maroon;
+        }
+        .mb-xs-5{
+            margin-bottom: 5px!important;
+        }
+        .title{
+            font-size: 14px!important;
+        }
+        .pt-xs-25{
+            padding-top: 15px!important;
+        }
+    }
+    @media (max-width: 768px) {
+        .box-product1 {
+            height: 160px;
+            width: 100%;
+            padding: 0 0 0 0;
+        }
+        .title-product {
+            height: 45px;
+            padding: 10px 10px 20px 15px;
+            font-family: cabin;
+            font-size: 50px;
+        }
+        .title-left{
+            float: left;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .title-right{
+            float: right;
+            font-size: 13px;
+            color: maroon;
+        }
+        .mb-xs-5{
+            margin-bottom: 5px!important;
+        }
+        .title{
+            font-size: 14px!important;
+        }
+        .pt-xs-25{
+            padding-top: 15px!important;
+        }
+    }
     .gambar-full{
         width: 100%;
         height: 100%;
@@ -118,11 +205,6 @@
         padding: 0 8px 0 0;
         margin: 3px 0 3px 0;
         /*height: 300px;*/
-    }
-    .box-product1 {
-        height: 220px;
-        width: 100%;
-        padding: 0 0 0 0;
     }
     .box-product1 > .corner-left{
         height: 60px;
@@ -152,22 +234,7 @@
     .desc-right{
         float: right;
     }
-    .title-product {
-        height: 70px;
-        padding: 23px 20px 20px 20px;
-        font-family: cabin;
-        font-size: 50px;
-    }
-    .title-left{
-        float: left;
-        font-size: 50px;
-        font-weight: bold;
-    }
-    .title-right{
-        float: right;
-        font-size: 15px;
-        color: maroon;
-    }
+
 </style>
 @endsection
 @section('js')

@@ -32,6 +32,10 @@ Route::post('users', ['uses' => 'UsersController@store']);
 // Route::patch('brands/{brands}', ['uses' => 'BrandsController@update']);
 // Route::delete('brands/{brands}', ['uses' => 'BrandsController@destroy']);
 
+Route::get('login-user', function () {
+    return 'hello';
+});
+
 Route::resource('ads', 'AdsController');
 Route::resource('articles', 'ArticlesController');
 Route::resource('homepages', 'HomepagesController');
@@ -102,6 +106,21 @@ Route::get('brand', function () {
 });
 Route::get('brand-detail', function () {
     return view('front.brand-detail');
+});
+Route::get('brand-account', function () {
+    return view('front.brand-account');
+});
+Route::get('manage-brand-account', function () {
+    return view('front.brand-account-manage');
+});
+Route::get('manage-brand-credential', function () {
+    return view('front.brand-credential');
+});
+Route::get('manage-brand-product', function () {
+    return view('front.brand-product');
+});
+Route::get('brand-message-room', function () {
+    return view('front.brand-message');
 });
 Route::get('most-loved-product', function () {
     return view('front.most-loved-product');

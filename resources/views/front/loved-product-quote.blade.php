@@ -41,7 +41,7 @@
                         </div>
                         <div class="desc-right">
                             <label class="text-cabin text-14" style="font-weight: bold">10</label>
-                            <label class="text-roboto text-11" style="font-weight: lighter">Piece</label>
+                            <label class="text-roboto text-11" style="font-weight: lighter">Piece(s)</label>
                             <i class="fa fa-ellipsis-h no-border warnadasar" style="padding: 5px;border-radius: 50%;position: relative;top: 3px;margin-left: 7px;"></i>
                             <br><i class="fa fa-times pull-right" style="margin-right: 8px;color: #d1d2d3"></i>
                             <!--<button type="button" class="no-border warnadasar" style="font-size: 11px;border-radius: 50%"></button>-->
@@ -49,16 +49,16 @@
                     </div>
 
                     <div class="col-md-offset-3 col-md-5 mt-20 warnadasar text-14" style="border: solid 1px #E5C773;height: 33px;padding-top: 3px;">
-                        HARGA
+                        Price
                     </div>
                     <div class="col-md-4 mt-20 text-right text-roboto text-11" style="border: solid 1px #E5C773;height: 33px;padding-top: 3px;">
-                        Belum Terjawab
+                        No Info Yet
                     </div>
                     <div class="col-md-offset-3 col-md-5 warnadasar text-14" style="border: solid 1px #E5C773;margin-top: 1px;height: 33px;padding-top: 3px;">
-                        KOTAK PESAN ANDA
+                        Inbox
                     </div>
                     <div class="col-md-4 text-right text-11 text-roboto" style="border: solid 1px #E5C773;margin-top: 1px;height: 33px;padding-top: 3px;">
-                        0 PESAN
+                        0 Message(s)
                     </div>
                 </div>
                 @endfor

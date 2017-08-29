@@ -9,10 +9,10 @@
             <li><a href="#">HOME</a></li>
         </ul>
         <span class="title">Seratusplus Magazine<span class="kecil">Magazine Tagline Here</span></span>
-        <span style="float: right;font-weight: 16px;">Januari: The Futurist</span>
+        <span class="month" style="float: right;font-weight: 16px;">Januari: The Futurist</span>
     </div>
 </div>
-<div class="section pt-60">
+<div class="section pt-60 hidden-sm hidden-xs">
     <div class="container">
         <div class="col-md-2" style="padding-left: 0">
             <a href="{{URL::to('all-articles/personality')}}" style="color: black">
@@ -67,51 +67,51 @@
 </div>    
 <div class="section pt-35">
     <div class="container">
-        <div class="col-md-6 img-main" style="padding-left: 0;padding-right: 0">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 425px;width: 100%;" alt=""/>
+        <div class="col-md-6 img-main-left" style="">
+            <img class="magazine-img" src="{{asset('front/img/product/1.jpg')}}" style="" alt=""/>
         </div>
-        <div class="col-md-6 img-desc" style="padding-left: 35px;">
-            <div class="text-16 mt-35" style="font-weight: bold;">A-Story</div>
-            <div class="mt-35" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="">
+        <div class="col-md-6 img-desc" style="">
+            <div class="text-16 mt-35 mt-sm-15" style="font-weight: bold;">A-Story</div>
+            <div class="mt-35 mt-sm-15" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
+            <div class="mt-45 mt-sm-15 text-16" style="">
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
-            <div class="text-10 mt-100" style="font-weight: bold">
-                12 Desember 2017
+            <div class="text-10 mt-100 mt-sm-15" style="font-weight: bold">
+                12 December 2017
             </div>
         </div>
     </div>
 </div>
 <div class="section pt-35 pb-35">
     <div class="container">
-        <div class="col-md-6 img-main" style="padding-left: 0;padding-right: 0;float: right">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 425px;width: 100%;" alt=""/>
+        <div class="col-md-6 img-main-right" style="">
+            <img class="magazine-img" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
         </div>
-        <div class="col-md-6 img-desc" style="padding-left: 35px;">
-            <div class="text-16 mt-35" style="font-weight: bold;">A-Story</div>
-            <div class="mt-35" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="padding-right: 30px;">
+        <div class="col-md-6 img-desc" style="">
+            <div class="text-16 mt-35 mt-sm-15" style="font-weight: bold;">A-Story</div>
+            <div class="mt-35 mt-sm-15" style="font-size: 24px;line-height: 42px">Miebi Sikoki</div>
+            <div class="mt-45 mt-sm-15 text-16" style="padding-right: 30px;">
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
             </div>
-            <div class="text-10 mt-100" style="font-weight: bold">
-                12 Desember 2017
+            <div class="text-10 mt-100 mt-sm-15" style="font-weight: bold">
+                12 December 2017
             </div>
         </div>
     </div>
 </div>
 <div class="section bg-abuabu">
     <div class="container">
-        <div class="col-md-3 mt-50 mb-50" style="padding-left: 0;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 310px;width: 310px;border-radius: 50%" alt=""/>
+        <div class="col-md-3 col-sm-4 col-xs-4 mt-50 mb-50" style="padding-left: 0;">
+            <img class="journal-img" src="{{asset('front/img/product/1.jpg')}}" style="" alt=""/>
         </div>
-        <div class="col-md-9 mt-50" style="padding-left: 40px">
-            <div class="text-16 mt-25" style="font-weight: bold;">Journal/Joshua Simandjuntak</div>
-            <div class="mt-35" style="font-size: 24px;">Miebi Sikoki</div>
-            <div class="mt-45 text-16" style="padding-right: 30px;">
+        <div class="col-md-9 col-sm-8 col-xs-8 mt-50 mt-sm-5 journal-desc" style="">
+            <div class="text-16 mt-25 text-sm-10" style="font-weight: bold;">Journal/Joshua Simandjuntak</div>
+            <div class="mt-35 mt-sm-5 text-sm-14" style="font-size: 24px;">Miebi Sikoki</div>
+            <div class="mt-45 mt-sm-5 text-16 text-sm-10 lh-12" style="">
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
                 Bermula dari tindakan berolak dari amerika Serikat. Bermula dari tindakan berolak dari amerika Serikat.                
@@ -121,26 +121,26 @@
 </div>
 <div class="section pt-35">
     <div class="container">
-        <div class="col-md-6" style="padding-left: 0;">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 440px;width: 100%;position: relative" alt=""/>
-            <span class="text-14" style="position: absolute;top: 300px;left: 30px;">Visuals</span>
-            <span style="position: absolute;top: 360px;left: 30px;font-size: 24px;">8 Karya Terbaik Kiat Architects</span>
+        <div class="col-md-6 col-sm-7 col-xs-7" style="padding-left: 0;">
+            <img class="visual-img" src="{{asset('front/img/product/1.jpg')}}" style="" alt=""/>
+            <span class="text-14 text-sm-10 visual-title" style="position: absolute;top: 300px;left: 30px;">Visuals</span>
+            <span class="text-sm-12 visual-subtitle" style="position: absolute;top: 360px;left: 30px;font-size: 24px;">8 Karya Terbaik Kiat Architects</span>
         </div>
-        <div class="col-md-6" style="">
-            <div style="float: left;margin-bottom: 10px;">
-                <div class="col-md-6" style="">
-                    <img src="{{asset('front/img/product/1.jpg')}}" style="height: 215px;width: 100%;" alt=""/>
+        <div class="col-md-6 col-sm-5 col-xs-5 no-padding" style="">
+            <div class="mb-10 mb-sm-4" style="float: left;">
+                <div class="col-md-6 col-sm-12 col-xs-12 no-padding" style="">
+                    <img class="curation-img" src="{{asset('front/img/product/1.jpg')}}" style="" alt=""/>
                 </div>
-                <div class="col-md-6" style="">
+                <div class="col-md-6 hidden-sm hidden-xs" style="">
                     <div class="text-16 mt-20" style="font-weight: bold;">Curation</div>
                     <div class="mt-35" style="font-size: 24px;font-weight: bold">Amazon Interior Mengkhususkan Diri Pada Properti US</div>
                 </div>
             </div>
             <div style="float: left">
-                <div class="col-md-6" style="">
-                    <img src="{{asset('front/img/product/1.jpg')}}" style="height: 215px;width: 100%;" alt=""/>
+                <div class="col-md-6 col-sm-12 col-xs-12 no-padding" style="">
+                    <img class="curation-img" src="{{asset('front/img/product/1.jpg')}}" style="" alt=""/>
                 </div>
-                <div class="col-md-6" style="">
+                <div class="col-md-6 hidden-sm hidden-xs" style="">
                     <div class="text-16 mt-20" style="font-weight: bold;">Curation</div>
                     <div class="mt-35" style="font-size: 24px;font-weight: bold">Amazon Interior Mengkhususkan Diri Pada Properti US</div>
                 </div>
@@ -151,11 +151,11 @@
 
 <div class="section pt-45">
     <div class="container">
-        <div class="bg-pink" style="float: left;width: 15%;height: 80px;"></div>
-        <div class="" style="float: left;width: 70%;height: 80px;">
+        <div class="bg-pink hg-40" style="float: left;width: 15%;height: 80px;"></div>
+        <div class="hg-40" style="float: left;width: 70%;height: 80px;">
             <img src="{{asset('front/img/product/1.jpg')}}" style="height: 100%;width: 100%;" alt=""/>
         </div>
-        <div class="bg-pink" style="float: left;width: 15%;height: 80px;"></div>
+        <div class="bg-pink hg-40" style="float: left;width: 15%;height: 80px;"></div>
     </div>    
 </div>
 <div class="section pt-10 pb-10">
@@ -167,7 +167,7 @@
     <div class="container">
         <div class="row">
             <!-- blog-item start -->
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
                 <div class="blog-item">
                     <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
                     <div class="blog-dsc pt-5">
@@ -176,7 +176,7 @@
                     </div>
                 </div>
             </div>                      
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
                 <div class="blog-item">
                     <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
                     <div class="blog-dsc pt-5">
@@ -185,7 +185,7 @@
                     </div>
                 </div>
             </div>                      
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
                 <div class="blog-item">
                     <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
                     <div class="blog-dsc pt-5">
@@ -194,7 +194,7 @@
                     </div>
                 </div>
             </div>                      
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-30">
+            <div class="col-md-3 col-sm-6 col-xs-6 mb-30">
                 <div class="blog-item">
                     <a class="image" style="margin-bottom: 20px;" href="blog-details.html"><img src="{{asset('front/img/blog/1.jpg')}}"  alt=""></a>
                     <div class="blog-dsc pt-5">
@@ -218,6 +218,187 @@
 @endsection
 @section('css')
 <style media="screen" type="text/css">
+    @media (min-width: 992px) {
+        .magazine-img{
+            height: 425px;
+            width: 100%;
+        }
+        .img-desc{
+            padding-left: 35px;
+        }
+        .img-main-left{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .img-main-right{
+            padding-left: 0;
+            padding-right: 0;
+            float: right;
+        }
+        .journal-img{
+            height: 310px;
+            width: 310px;
+            border-radius: 50%;
+        }
+        .journal-desc{
+            padding-left: 40px;
+        }
+        .visual-img{
+            height: 440px;
+            width: 100%;
+            position: relative;
+        }
+    }
+    @media (min-width: 768px) and (max-width: 992px) {
+        .month{
+            position: relative;
+            top: -60px;
+        }
+        .magazine-img{
+            height: 207px;
+            width: 100%;
+        }
+        .img-desc{
+            padding-left: 0px;
+        }
+        .mt-sm-15{
+            margin-top: 15px!important;
+        }
+        .mt-sm-5{
+            margin-top: 5px!important;
+        }
+        .img-main-left{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .img-main-right{
+            padding-left: 0;
+            padding-right: 0;
+            /*float: right;*/
+        }
+        .journal-img{
+            height: 112px;
+            width: 112px;
+            border-radius: 50%;
+        }
+        .journal-desc{
+            padding-left: 15px;
+        }
+        .text-sm-10{
+            font-size: 10px!important;
+        }
+        .text-sm-14{
+            font-size: 14px!important;
+        }
+        .text-sm-12{
+            font-size: 12px!important;
+        }
+        .lh-12{
+            line-height: 12px;
+        }
+        .visual-img{
+            height: 208px;
+            width: 100%;
+            position: relative;
+        }
+        .visual-title{
+            left: 10px!important;
+            top: 140px!important;
+        }
+        .visual-subtitle{
+            left: 10px!important;
+            top: 165px!important;
+        }
+        .no-padding{
+            padding-left: 0!important;
+            padding-right: 0!important;
+        }
+        .curation-img{
+            height: 102px;
+            width: 100%;
+        }
+        .mb-sm-4{
+            margin-bottom: 4px!important;
+        }
+        .hg-40{
+            height: 40px!important;
+        }
+    }
+    @media (max-width: 768px) {
+        .month{
+            position: relative;
+            top: -60px;
+        }
+        .magazine-img{
+            height: 207px;
+            width: 100%;
+        }
+        .img-desc{
+            padding-left: 0px;
+        }
+        .mt-sm-15{
+            margin-top: 15px!important;
+        }
+        .mt-sm-5{
+            margin-top: 5px!important;
+        }
+        .img-main-left{
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .img-main-right{
+            padding-left: 0;
+            padding-right: 0;
+            /*float: right;*/
+        }
+        .journal-img{
+            height: 112px;
+            width: 112px;
+            border-radius: 50%;
+        }
+        .journal-desc{
+            padding-left: 15px;
+        }  
+        .text-sm-10{
+            font-size: 10px!important;
+        }
+        .text-sm-14{
+            font-size: 14px!important;
+        }
+        .text-sm-12{
+            font-size: 12px!important;
+        }
+        .lh-12{
+            line-height: 12px;
+        }
+        .visual-img{
+            height: 208px;
+            width: 100%;
+            position: relative;
+        }
+        .visual-title{
+            left: 10px!important;
+            top: 140px!important;
+        }
+        .visual-subtitle{
+            left: 10px!important;
+            top: 165px!important;
+        }
+        .no-padding{
+            padding-left: 0!important;
+            padding-right: 0!important;
+        }
+        .curation-img{
+            height: 102px;
+            width: 100%;
+        }
+        .mb-sm-4{
+            margin-bottom: 4px!important;
+        }
+        .hg-40{
+            height: 40px!important;
+        }
+    }
     .magazine-left{
         width: 83px;  
         float: left;
