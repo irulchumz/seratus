@@ -12,6 +12,17 @@
       <input class="form-control" id="tag" type="text" name="tag">
     </div>
     <div class="form-group">
+      <label for="rubric">Rubrik</label>
+      <select class="form-control">
+        <option value="astory">A Story</option>
+        <option value="journal">Journal</option>
+        <option value="personality">Personality</option>
+        <option value="visual">Visual</option>
+        <option value="curation">Curation</option>
+        <option value="news">News</option>
+      </select>
+    </div>
+    <div class="form-group">
       <label for="content">Konten</label>
       <textarea class="form-control" rows="10" id="content" name="content"></textarea>
     </div>
