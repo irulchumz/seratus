@@ -69,7 +69,7 @@
 <div class="section pt-35">
     <div class="container">
         <div class="col-md-3" style="padding-left: 0;padding-right: 0;text-align: center">
-            <img src="{{asset('front/img/product/1.jpg')}}" style="height: 121px;width: 121px;" alt=""/>
+            <img src="{{asset('front/img/'.$title.'.png')}}" style="height: 121px;width: 121px;" alt=""/>
             <div class="" style="font-size: 24px;font-weight: bold;padding-top: 15px;">
                 {{$title}}
             </div>

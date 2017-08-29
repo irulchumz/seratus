@@ -349,7 +349,7 @@
     <a href="#"><img class="expand expand-sm" src="{{asset('front/image/va-slide-down.png')}}"></a>
     <!--</div>-->
 </div>
-<div class="section pt-30 pb-30 bg-abuabu">
+<div class="section pt-30 pb-30" style="background-image: url('{{asset("front/img/bg-box-bottom1.png")}}');background-size:100%;">
     <div class="container text-center pt-30 pb-30">
         <p class="text-cabin" style="color: black">Designers, journalists and buyers, click here to find out how seratusplus.com benefits you!</p>
     </div>
