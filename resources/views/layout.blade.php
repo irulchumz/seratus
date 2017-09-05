@@ -304,8 +304,8 @@
                     <div class="row">
                         <!-- logo -->
                         <div class="col-md-2 col-sm-6 col-xs-6">
-                            <div class="header-logo" style="padding-top: 30px;padding-bottom: 19px">
-                                <a href="index.html"><img src="{{asset('front/img/header.png')}}" height="51" width="143" alt="main logo"></a>
+                            <div class="header-logo" style="padding-top: 1px;padding-bottom: 1px">
+                                    <a href="index.html"><img src="{{asset('front/img/header.png')}}" height="95" width="155" alt="main logo"></a>
                             </div>
                         </div>
                         <!-- header-search & total-cart -->

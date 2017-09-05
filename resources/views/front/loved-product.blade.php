@@ -39,7 +39,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -57,7 +57,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -75,7 +75,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -93,7 +93,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -111,7 +111,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -129,7 +129,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -147,7 +147,7 @@
                 <div class="bg-pink box-product2" style="text-align: center">
                     <img class="gambar-full" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
                     <img class="corner-left" src="{{asset('front/image/va-drop.png')}}">
-                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar.png')}}">
+                    <img class="add-quote corner-right" src="{{asset('front/image/va-dollar1.png')}}">
                     <a class="add-compare hidden"><i class="fa fa-plus" style="position: relative;font-size: 10em;top: -160px;"></i></a>
                 </div>
                 <div class="bg-abuabu desc-product">
@@ -384,9 +384,9 @@
         <hr style="color: gray;height: 1px;display: block;background: black;border: 0">
     </div>
 </div>
-<div class="section pt-30 pb-30 bg-abuabu">
+<div class="section pt-30 pb-30" style="background-image: url('{{asset("front/img/bg-box-bottom1.png")}}');background-size:100%;">
     <div class="container text-center pt-30 pb-30">
-        <p class="text-cabin" style="color: black">INGIN MEMASTIKAN KONSUMEN TAU DIMANA BISA MENDAPATKAN PRODUK ANDA?<br>TEMUKAN CARANYA DISINI</p>
+        <p class="text-cabin" style="color: black">Designers, journalists and buyers, click here to find out how seratusplus.com benefits you!</p>
     </div>
 </div>
 <!--modal compare-->
@@ -512,11 +512,11 @@
             float: left;
         }
         .box-product2 > .corner-right{
-            height: 60px;
-            width: 60px;
+            height: 40px;
+            width: 40px;
             position: relative;
-            margin-top: -185px;
-            margin-right: -4px;
+            margin-top: -173px;
+            margin-right: 3px;
             float: right;
         }
         .desc-product {
@@ -568,11 +568,11 @@
             float: left;
         }
         .box-product2 > .corner-right{
-            height: 60px;
-            width: 60px;
+            height: 40px;
+            width: 40px;
             position: relative;
-            margin-top: -125px;
-            margin-right: -4px;
+            margin-top: -117px;
+            margin-right: 4px;
             float: right;
         }
         .desc-product {
@@ -623,11 +623,11 @@
             float: left;
         }
         .box-product2 > .corner-right{
-            height: 60px;
-            width: 60px;
+            height: 40px;
+            width: 40px;
             position: relative;
-            margin-top: -125px;
-            margin-right: -4px;
+            margin-top: -117px;
+            margin-right: 4px;
             float: right;
         }
         .desc-product {

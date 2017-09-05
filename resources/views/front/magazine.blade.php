@@ -51,7 +51,7 @@
             <hr style="color: gray;height: 1px;display: block;background: black;border: 0;margin-top: 0;margin-bottom: 4px;">
         </div>        
         <div class="col-md-12" style="padding-left: 0;padding-right: 0;">
-            <i class="fa fa-youtube-play"></i><span class="text-12">&nbsp;&nbsp;&nbsp;Subscribe to Monthly E-Magazine</span>
+            <img src="{{asset('front/img/envelope.png')}}" width="18" height="12"><span class="text-12">&nbsp;&nbsp;&nbsp;Subscribe to Monthly E-Magazine</span>
             <div class="text-12" style="float: right;">
                 <form action="" autocomplete="on" style="border-bottom: solid 1px black">
                     <input class="no-border" name="search" type="text" placeholder="Cari Topik">
@@ -209,9 +209,9 @@
         </div>
     </div>
 </div>
-<div class="section pt-30 pb-30 bg-abuabu">
+<div class="section pt-30 pb-30" style="background-image: url('{{asset("front/img/bg-box-bottom1.png")}}');background-size:100%;">
     <div class="container text-center pt-30 pb-30">
-        <p class="text-cabin" style="color: black">INGIN MEMASTIKAN KONSUMEN TAU DIMANA BISA MENDAPATKAN PRODUK ANDA?<br>TEMUKAN CARANYA DISINI</p>
+        <p class="text-cabin" style="color: black">Designers, journalists and buyers, click here to find out how seratusplus.com benefits you!</p>
     </div>
 </div>
 

@@ -101,9 +101,9 @@
         </div>
     </div>
 </div>
-<div class="section pt-30 pb-30 bg-abuabu">
+<div class="section pt-30 pb-30" style="background-image: url('{{asset("front/img/bg-box-bottom1.png")}}');background-size:100%;">
     <div class="container text-center pt-30 pb-30">
-        <p class="text-cabin" style="color: black">INGIN MEMASTIKAN KONSUMEN TAU DIMANA BISA MENDAPATKAN PRODUK ANDA?<br>TEMUKAN CARANYA DISINI</p>
+        <p class="text-cabin" style="color: black">Designers, journalists and buyers, click here to find out how seratusplus.com benefits you!</p>
     </div>
 </div>
 
