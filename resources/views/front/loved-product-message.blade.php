@@ -40,7 +40,7 @@
                         </div>
                         <div class="desc-right">
                             <label class="text-cabin text-14" style="font-weight: bold">10</label>
-                            <label class="text-roboto text-11" style="font-weight: lighter">Piece</label>                        
+                            <label class="text-roboto text-11" style="font-weight: lighter">Piece(s)</label>                        
                             <!--<button type="button" class="no-border warnadasar" style="font-size: 11px;border-radius: 50%"></button>-->
                         </div>
                     </div>
@@ -51,10 +51,10 @@
                         </div>
                     </div>
                     <div class="col-md-2 mt-20 warnadasar text-14 text-center" style="border: solid 1px #E5C773;height: 33px;padding-top: 3px;">
-                        HARGA
+                        Price
                     </div>
                     <div class="col-md-6 mt-20 text-right text-roboto text-11" style="border: solid 1px #E5C773;height: 33px;padding-top: 3px;">
-                        Belum Terjawab
+                        No Info Yet
                     </div>
                     <div class="col-md-12" style="padding-left: 0;padding-right: 0;padding-top: 33px;">
                         <hr style="margin: 0;">
@@ -63,22 +63,20 @@
                 <div class="col-md-12" style="padding: 20px;float: left;margin-top: 13px;margin-right: 25%">
                     <div class="col-md-offset-3 col-md-6 no-padding">
                         <div class="row">
-                            <div class="col-md-12 no-padding" style="font-weight: bold">Message</div>
+                            <div class="col-md-12 no-padding" style="font-weight: bold">Message(s)</div>
                             <div class="col-md-12 no-padding" style="">
                                 <button class="no-border" style="background-color: whitesmoke;width: 73px;height: 20px;border-radius: 25%;position: relative;bottom: 5px;"></button>
-                                <span class="text-roboto text-12" style="margin-left: 35px;font-weight: lighter
-                                      ">Apakah tersedia warna lain jika memesan banyak?</span>
+                                <span class="text-roboto text-12" style="margin-left: 35px;font-weight: lighter">Apakah tersedia warna lain jika memesan banyak?</span>
                             </div>
                             <div class="col-md-12 no-padding" style="">
                                 <button class="no-border bg-pink" style="width: 73px;height: 20px;border-radius: 25%;position: relative;bottom: 5px;"></button>
-                                <span class="text-roboto text-12" style="margin-left: 35px;font-weight: lighter
-                                      ">Bisa, Namun minimal 100 buah</span>
+                                <span class="text-roboto text-12" style="margin-left: 35px;font-weight: lighter">Bisa, Namun minimal 100 buah</span>
                             </div>
                             <div class="col-md-12 mt-20" style="background-color: whitesmoke;padding: 15px;">
-                                <textarea class="text-14 text-roboto" style="height: 133px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Tulis pesan Anda disini"></textarea>
+                                <textarea class="text-14 text-roboto" style="height: 133px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Your message here"></textarea>
                             </div>
                             <div class="col-md-12 mt-15 no-padding" style="">
-                                <button class="no-border warnadasar pull-right text-14" style="height: 31px;font-weight: bold;color: black;width: 100px;">Kirim</button>
+                                <button class="no-border warnadasar pull-right text-14" style="height: 31px;font-weight: bold;color: black;width: 100px;">Send</button>
                             </div>
                         </div>
                     </div>

@@ -305,7 +305,7 @@
                         <!-- logo -->
                         <div class="col-md-2 col-sm-6 col-xs-6">
                             <div class="header-logo" style="padding-top: 30px;padding-bottom: 19px">
-                                <a href="index.html"><img src="{{asset('front/image/va-logo-100-top.png')}}" height="51" width="143" alt="main logo"></a>
+                                <a href="index.html"><img src="{{asset('front/img/header.png')}}" height="51" width="143" alt="main logo"></a>
                             </div>
                         </div>
                         <!-- header-search & total-cart -->
@@ -341,6 +341,19 @@
                                                     <li><a href="#">Kids</a></li>
                                                 </ul>
                                             </li>
+                                            <li><a href="#">By Material</a>
+                                                <ul>
+                                                    <li><a href="#">Metal</a></li>
+                                                    <li><a href="#">Textile</a></li>
+                                                    <li><a href="#">Wood</a></li>
+                                                    <li><a href="#">Plastic</a></li>
+                                                    <li><a href="#">Stone & Marble</a></li>
+                                                    <li><a href="#">Rattan</a></li>
+                                                    <li><a href="#">Bamboo</a></li>
+                                                    <li><a href="#">Leather</a></li>
+                                                    <li><a href="#">All</a></li>
+                                                </ul>
+                                            </li>
                                         </ul>
                                     </li>
                                     <li><a href="shop-list.html">Sign Up / Login</a></li>
@@ -361,26 +374,26 @@
                         <div class="col-md-6 col-sm-6 col-xs-6">
                             <hr style="color: #e0c4cc;height: 5px;display: block;background: #e0c4cc;border: 0">
                             <div class="row">
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>ABOUT</li>
                                     </ul>
 
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>100+</li>
                                         <li>SIMPUL GROUP</li>
                                         <li>JOBS</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-2 col-sm-6 col-xs-6">
                                     <ul>
-                                        <li>Partnering</li>
-                                        <li>with 100+</li>
+                                        <li>PARTNERING</li>
+                                        <li>WITH 100+</li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3 col-sm-6 col-xs-6">
+                                <div class="col-md-4 col-sm-6 col-xs-6">
                                     <ul>
                                         <li>FOR SHOWROOM & BRANDS</li>
                                         <li>FOR BUYERS</li>

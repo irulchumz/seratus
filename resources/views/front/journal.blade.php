@@ -22,7 +22,7 @@
             <div class="col-md-6" style="padding-left: 0;">
                 <div class="text-16 mt-35" style="font-weight: bold;">Journal / Joshua Simandjuntak</div>
                 <div class="mt-35" style="font-weight: bold;font-size: 40px;">Policy of Creativity</div>
-                <div class="mt-10 text-12" style="font-weight: bold;">12 Desember 2017</div>
+                <div class="mt-10 text-12" style="font-weight: bold;">12 December 2017</div>
             </div>
             <div class="col-md-3" style="padding-left: 30px;">
                 <ul style="margin-top: 20px;border: solid 1px white;width: 110px;float: right">

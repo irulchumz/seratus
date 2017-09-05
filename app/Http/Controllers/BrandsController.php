@@ -22,11 +22,9 @@ class BrandsController extends Controller
 		return view('admin.brands.create');
 	}
 
-	public function store(Request $request){
-		$input = $request->all();
-		if ($request->hasFile('foto')) {
-			$foto =$request->file('foto');
-			$ext = $foto->getClientOriginalExtension();
+    public function index()
+    {
+        $brands = Brands::all();
 
 			if ($request->file('foto')->isValid()) {
 				$photo_name = date('YmdHis').".$ext";
@@ -42,12 +40,12 @@ class BrandsController extends Controller
 		return redirect('brands');
 	}
 
-	public function show($id){
-		$halaman = 'brands';
-		$id_brand = $id;
-		$brand_detail = Brands::findOrFail($id);
-		return view('admin.brands.show', compact('halaman' ,'brand_detail', 'id_brand'));
-	}
+  
+    public function create()
+    {
+        return view('brands.create');
+        //
+    }
 
 	public function edit($id){
 		$halaman = 'brands';
@@ -182,5 +180,9 @@ class BrandsController extends Controller
     //     }
     // }
 
-	
+   
+    public function destroy($id)
+    {
+        //
+    }
 }

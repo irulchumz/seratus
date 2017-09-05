@@ -24,13 +24,13 @@ Route::get('users', ['uses' => 'UsersController@index']);
 Route::get('users/create', ['uses' => 'UsersController@create']);
 Route::post('users', ['uses' => 'UsersController@store']);
 
-Route::get('brands', ['uses' => 'BrandsController@index']);
-Route::get('brands/create', ['uses' => 'BrandsController@create']);
-Route::get('brands/{brands}', ['uses' => 'BrandsController@show']);
-Route::post('brands', ['uses' => 'BrandsController@store']);
-Route::get('brands/{brands}/edit', ['uses' => 'BrandsController@edit']);
-Route::patch('brands/{brands}', ['uses' => 'BrandsController@update']);
-Route::delete('brands/{brands}', ['uses' => 'BrandsController@destroy']);
+// Route::get('brands', ['uses' => 'BrandsController@index']);
+// Route::get('brands/create', ['uses' => 'BrandsController@create']);
+// Route::get('brands/{brands}', ['uses' => 'BrandsController@show']);
+// Route::post('brands', ['uses' => 'BrandsController@store']);
+// Route::get('brands/{brands}/edit', ['uses' => 'BrandsController@edit']);
+// Route::patch('brands/{brands}', ['uses' => 'BrandsController@update']);
+// Route::delete('brands/{brands}', ['uses' => 'BrandsController@destroy']);
 
 Route::get('login-user', function () {
     return 'hello';
@@ -38,6 +38,8 @@ Route::get('login-user', function () {
 
 Route::resource('ads', 'AdsController');
 Route::resource('articles', 'ArticlesController');
+Route::resource('homepages', 'HomepagesController');
+Route::resource('brands', 'BrandsController');
 Route::resource('categories', 'CategoriesController');
 Route::resource('collections', 'CollectionsController');
 Route::resource('favorites', 'FavoritesController');

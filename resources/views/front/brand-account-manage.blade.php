@@ -12,7 +12,7 @@
                 <option value="1">Manage Brand Page</option>
                 <option value="1">Manage Account</option>
             </select>
-            <span class="text-16" style="font-style: italic">Your subcription ends in 3 days. <a href="">Click here</a> to extend</span>
+            <span class="text-16" style="font-style: italic">Your subscription ends in 3 days. <a href="">Click here</a> to extend</span>
         </div> 
         <div class="desc-right" style="display: inline-flex">
             <div class="header-cart float-left">
@@ -81,7 +81,7 @@
         </div>
         <div class="col-md-12 pb-65" style="border-top: solid 1px #d1d2d3"></div>
         <div class="col-md-offset-3 col-md-7" style="padding-left: 0;">
-            <div class="col-md-12 pb-45 text-15">SUBCRIPTION INFO</div>
+            <div class="col-md-12 pb-45 text-15">SUBSCRIPTION INFO</div>
             <div class="col-md-12 pb-45 text-15" style="font-weight: bold;">Your subscription ended in xx - xx - xxxx</div>
             <div class="col-md-4 text-15 text-roboto" style="">Status</div>
             <div class="col-md-8 mb-20" style="font-weight: bold;">Active</div>
