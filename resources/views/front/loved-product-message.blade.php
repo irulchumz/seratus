@@ -27,7 +27,11 @@
 <div class="section pt-10 pb-10" style="">
     <div class="container">
         <div class="col-md-12 no-padding warnadasar">
-            <div class="col-md-offset-2 col-md-10 bg-putih" style="border: solid 1px #d1d2d3;padding: 20px;">
+            <div class="col-md-2">
+                <div class="text-roboto text-12" style="font-weight: bold;padding-top: 40px;padding-left: 10px;"><i class="fa fa-angle-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;Kembali</div>
+                
+            </div>
+            <div class="col-md-10 bg-putih" style="border: solid 1px #d1d2d3;padding: 20px;">
                 <div class="col-md-12" style="padding: 20px;float: left;">
                     <div class="col-md-3" style="padding-right: 40px;padding-left: 0">
                         <img class="gambar-full" style="height: 150px;" src="{{asset('front/img/product/1.jpg')}}" alt=""/>
@@ -73,7 +77,7 @@
                                 <span class="text-roboto text-12" style="margin-left: 35px;font-weight: lighter">Bisa, Namun minimal 100 buah</span>
                             </div>
                             <div class="col-md-12 mt-20" style="background-color: whitesmoke;padding: 15px;">
-                                <textarea class="text-14 text-roboto" style="height: 133px;width: 100%;border: solid 1px #d1d2d3;color: #d1d2d3" placeholder="Your message here"></textarea>
+                                <textarea class="text-14 text-roboto" style="height: 133px;width: 100%;border: solid 1px #d1d2d3;color: #333" placeholder="Your message here"></textarea>
                             </div>
                             <div class="col-md-12 mt-15 no-padding" style="">
                                 <button class="no-border warnadasar pull-right text-14" style="height: 31px;font-weight: bold;color: black;width: 100px;">Send</button>

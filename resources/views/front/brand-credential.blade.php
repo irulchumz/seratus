@@ -65,56 +65,56 @@
         </div>
         <div class="col-md-10 pt-60" style="padding-left: 0;">
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Company/Brand Name</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Company/Brand Name</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Store Name</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Store Name</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Store Location</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Store Location</div>
                 <div class="col-md-5">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                     <span class="text-15" style="color: blue;font-style: italic;line-height: 45px;">+ Add location</span>
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Phone Numbers</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Phone Numbers</div>
                 <div class="col-md-5">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                     <span class="text-15" style="color: blue;font-style: italic;line-height: 45px;">+ Add phone numbers</span>
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">PR Email</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">PR Email</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Sales Email</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Sales Email</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Video URL</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Video URL</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
             <div class="col-md-12">
-                <div class="col-md-2 text-15 text-roboto" style="font-weight: bold">Website</div>
+                <div class="col-md-3 text-15 text-roboto" style="font-weight: bold">Website</div>
                 <div class="col-md-5 mb-15">
                     <input type="text" class="input1 text-15 text-roboto" value="">
                 </div>
             </div>      
-            <div class="col-md-7 mt-25">
+            <div class="col-md-8 mt-25">
                 <button class="no-border warnadasar text-roboto text-10" style="width: 100%;height: 40px;">SAVE</button>
             </div>      
         </div>

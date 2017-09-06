@@ -131,7 +131,7 @@
             </div>
             <div class="col-md-12 pt-35 text-16 text-roboto" style="">
                 <div class="col-md-12" style="padding-left: 20px;">
-                    <textarea style="width: 100%;height: 67px;border: solid 1px #c4c4c4;color: #c4c4c4;padding: 15px;" placeholder="Write a reply..."></textarea>
+                    <textarea style="width: 100%;height: 67px;border: solid 1px #c4c4c4;color: #333;padding: 15px;" placeholder="Write a reply..."></textarea>
                 </div>
                 <div class="col-md-4 pt-25" style="padding-left: 20px;">
                     <button class="no-border warnadasar" style="height: 35px;width: 100%">REPLY MESSAGE</button>

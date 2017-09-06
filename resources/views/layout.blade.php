@@ -174,7 +174,15 @@
                 color: white;
                 font-family: Cabin;
                 font-weight: bold;
-                font-size: 12px;
+                font-size: 16px;
+            }
+            .mega-menu > li ul li:hover a {
+                color: black;
+                padding-left: 5px;
+            }
+            .sub-menu li:hover a {
+                color: black;
+                padding-left: 5px;
             }
             ul.sub-menu {
                 background-color: lightgray;
@@ -285,6 +293,7 @@
                 padding: 0 30px 0 10px;
                 /*width: 160px;*/
             }
+            
 
 
 
@@ -305,7 +314,7 @@
                         <!-- logo -->
                         <div class="col-md-2 col-sm-6 col-xs-6">
                             <div class="header-logo" style="padding-top: 1px;padding-bottom: 1px">
-                                    <a href="index.html"><img src="{{asset('front/img/header.png')}}" height="95" width="155" alt="main logo"></a>
+                                <a href="index.html"><img src="{{asset('front/img/header.png')}}" height="95" width="155" alt="main logo"></a>
                             </div>
                         </div>
                         <!-- header-search & total-cart -->
@@ -320,20 +329,24 @@
                                 <ul class="warnaputih" style="padding-left: 25px">
                                     <li><a href="index.html">Brands & Showrooms</a>
                                         <ul class="sub-menu">
-                                            <li class="active"><a href="index.html">Brands</a></li>
-                                            <li class="active"><a href="index.html">Showrooms</a></li>
+                                            <li><a href="index.html">Brands</a></li>
+                                            <li><a href="index.html">Showrooms</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="shop.html">Products & Works</a>
                                         <ul class="mega-menu ">
-                                            <li><a href="#">By Type</a>
+                                            <li style="width: 20%"><a href="#">By Type</a>
                                                 <ul>
                                                     <li><a href="#">Home Furniture</a></li>
                                                     <li><a href="#">Interior Accessories</a></li>
                                                     <li><a href="#">Lighting</a></li>
                                                     <li><a href="#">Tableware</a></li>
                                                     <li><a href="#">Local Crafts</a></li>
-                                                    <li><a href="#">Tiles & Floorings</a></li>
+                                                    <li><a href="#">Tiles & Floorings</a></li>                                                    
+                                                </ul>
+                                            </li>
+                                            <li style="width: 30%"><a href="#">&nbsp;</a>
+                                                <ul>
                                                     <li><a href="#">Storage</a></li>
                                                     <li><a href="#">Kitchen</a></li>
                                                     <li><a href="#">Bathroom</a></li>
@@ -341,7 +354,7 @@
                                                     <li><a href="#">Kids</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="#">By Material</a>
+                                            <li style="width: 20%"><a href="#">By Material</a>
                                                 <ul>
                                                     <li><a href="#">Metal</a></li>
                                                     <li><a href="#">Textile</a></li>
@@ -349,6 +362,10 @@
                                                     <li><a href="#">Plastic</a></li>
                                                     <li><a href="#">Stone & Marble</a></li>
                                                     <li><a href="#">Rattan</a></li>
+                                                </ul>
+                                            </li>
+                                            <li style="width: 30%"><a href="#">&nbsp;</a>
+                                                <ul>
                                                     <li><a href="#">Bamboo</a></li>
                                                     <li><a href="#">Leather</a></li>
                                                     <li><a href="#">All</a></li>

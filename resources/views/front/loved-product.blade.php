@@ -512,11 +512,11 @@
             float: left;
         }
         .box-product2 > .corner-right{
-            height: 40px;
-            width: 40px;
+            height: 25px;
+            width: 25px;
             position: relative;
-            margin-top: -173px;
-            margin-right: 3px;
+            margin-top: -170px;
+            margin-right: 7px;
             float: right;
         }
         .desc-product {
@@ -568,11 +568,11 @@
             float: left;
         }
         .box-product2 > .corner-right{
-            height: 40px;
-            width: 40px;
+            height: 25px;
+            width: 25px;
             position: relative;
-            margin-top: -117px;
-            margin-right: 4px;
+            margin-top: -113px;
+            margin-right: 7px;
             float: right;
         }
         .desc-product {
@@ -623,11 +623,11 @@
             float: left;
         }
         .box-product2 > .corner-right{
-            height: 40px;
-            width: 40px;
+            height: 25px;
+            width: 25px;
             position: relative;
-            margin-top: -117px;
-            margin-right: 4px;
+            margin-top: -113px;
+            margin-right: 7px;
             float: right;
         }
         .desc-product {
