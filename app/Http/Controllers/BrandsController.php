@@ -22,9 +22,28 @@ class BrandsController extends Controller
 		return view('admin.brands.create');
 	}
 
-    public function index()
-    {
-        $brands = Brands::all();
+ //    public function store()
+ //    {
+ //        $brands = Brands::all();
+
+	// 		if ($request->file('foto')->isValid()) {
+	// 			$photo_name = date('YmdHis').".$ext";
+	// 			$upload_path = 'brand_photo';
+	// 			$request->file('foto')->move($upload_path, $photo_name);
+	// 			$input['foto']=$photo_name;
+ //     			# code...
+	// 		};
+ //     		# code...
+	// 	}
+	// 	// Brands::create($input);
+	// 	// dd($input);
+	// 	return redirect('brands');
+	// }
+	public function store(Request $request){
+		$input = $request->all();
+		if ($request->hasFile('foto')) {
+			$foto =$request->file('foto');
+			$ext = $foto->getClientOriginalExtension();
 
 			if ($request->file('foto')->isValid()) {
 				$photo_name = date('YmdHis').".$ext";
@@ -36,16 +55,14 @@ class BrandsController extends Controller
      		# code...
 		};
 		Brands::create($input);
-		// dd($input);
 		return redirect('brands');
 	}
 
-  
-    public function create()
-    {
-        return view('brands.create');
-        //
-    }
+ //    public function create()
+ //    {
+ //        return view('brands.create');
+ //        //
+ //    }
 
 	public function edit($id){
 		$halaman = 'brands';
@@ -96,7 +113,7 @@ class BrandsController extends Controller
 		
    //      }
 
-        $brand_detail->update($input);
+		$brand_detail->update($input);
 
 		// $check = $request->foto;
 		// if (isset($check)) {
@@ -137,17 +154,18 @@ class BrandsController extends Controller
 		// 	};
   //    		# code...
 		// };
-		dd($input);
+		// dd($input);
 		$brand_detail->update($request->all());
 		// return $request->all();
 		// return redirect('brands');
-	}
-
-	public function destroy($id){
-		$brand_detail = Brands::findOrFail($id);
-		$brand_detail->delete();
 		return redirect('brands');
 	}
+
+	// public function destroy($id){
+	// 	$brand_detail = Brands::findOrFail($id);
+	// 	$brand_detail->delete();
+	// 	return redirect('brands');
+	// }
 
 
 	// ===============================================================
@@ -179,10 +197,17 @@ class BrandsController extends Controller
     //         return false;
     //     }
     // }
+	public function show($id){
+		$halaman = 'brands';
+		$id_brand = $id;
+		$brand_detail = Brands::findOrFail($id);
+		return view('admin.brands.show', compact('halaman' ,'brand_detail', 'id_brand'));
+	}
 
-   
-    public function destroy($id)
-    {
-        //
-    }
+	public function destroy($id)
+	{
+        $brand_detail = Brands::findOrFail($id);
+		$brand_detail->delete();
+		return redirect('brands');
+	}
 }

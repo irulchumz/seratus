@@ -9,6 +9,7 @@
 			<tr>
 				<th>Title</th>
 				<th>Tags</th>
+				<th>Rubrik</th>
 				<th>Content</th>
 				<th>Foto</th>
 				<th>Action</th>
@@ -19,7 +20,8 @@
 			<tr>
 				<td>{{ $article->title }}</td>
 				<td>{{ $article->tag }}</td>
-				<td>{{ $article->content }}</td>
+				<td>{{ $article->rubric }}</td>
+				<td>{!! $article->content !!}</td>
 				<td>
 					@if(isset($article->foto))
 					<img src="{{ asset('article_photo/' . $article->foto)}}" width="300px">
@@ -28,13 +30,15 @@
 					@endif
 				</td>
 				<td>
-					<a href="articles/{{ $article->id }}"><button class="btn btn-success btn-sm">Detail</button></a>
-					<a href="articles/{{ $article->id }}/edit"><button class="btn btn-warning btn-sm">Edit</button></a>
-					<form method="POST" action="/articles/{{ $article->id }}">
+					
+					<a href="articles/{{ $article->id }}"><button class="btn btn-success btn-sm pull-left">Detail</button></a>
+					<a href="articles/{{ $article->id }}/edit"><button class="btn btn-warning btn-sm pull-left">Edit</button></a> 
+					<form method="POST" action="/articles/{{ $article->id }}" class="pull-left">
 						{!! method_field('DELETE') !!}
 						{!! csrf_field() !!}
 						<button class="btn btn-default btn-sm">Delete</button>
 					</form>
+					
 
 				</td>
 			</tr>

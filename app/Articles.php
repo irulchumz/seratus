@@ -4,12 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Article extends Model
+class Articles extends Model
 {
-    protected $fillable = [
+     protected $fillable = [
     'title',
     'tag',
     'content',
+    'rubric',
     'foto'
     ];
 
