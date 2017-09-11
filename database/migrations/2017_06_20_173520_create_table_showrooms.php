@@ -15,6 +15,9 @@ class CreateTableShowrooms extends Migration
     {
         Schema::create('showrooms', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('name', 255);
+            $table->string('description', 255);
+            $table->string('foto', 255)->nullable();
             $table->timestamps();
         });
     }

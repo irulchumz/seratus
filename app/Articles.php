@@ -11,6 +11,7 @@ class Articles extends Model
     'tag',
     'content',
     'rubric',
+    'magazine',
     'foto'
     ];
 

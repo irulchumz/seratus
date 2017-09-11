@@ -18,6 +18,7 @@ class CreateTableArticles extends Migration
             $table->string('title', 255);
             $table->string('tag', 255)->nullable();
             $table->string('rubric', 255)->nullable();
+            $table->string('magazine', 255)->nullable();
             $table->string('content', 255);
             $table->string('foto', 255)->nullable();
             $table->timestamps();

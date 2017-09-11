@@ -10,12 +10,17 @@ class Products extends Model
 
     protected $fillable = [
     'name',
-    'id_brand',
+    'brands',
+    'comment',
+    'description',
+    'tags',
+    'category',
     'photo_1',
     'photo_2',
     'photo_3',
-    'file_a',
-    'file_b',
-    'file_c'
+    'file_1',
+    'file_2',
+    'file_3',
+    'file_4'
     ];
 }

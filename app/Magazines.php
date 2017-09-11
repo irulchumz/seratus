@@ -11,6 +11,5 @@ class Magazines extends Model
     protected $fillable = [
     'name',
     'title',
-    'id_articles'
     ];
 }

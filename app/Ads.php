@@ -10,7 +10,7 @@ class Ads extends Model
 
     protected $fillable = [
     'name',
-    'pages',
+    'page',
     'description',
     'photo'
     ];
