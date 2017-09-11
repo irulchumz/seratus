@@ -1,5 +1,7 @@
 @extends('layouts.header_menu_admin')
 @section('content')
+<script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+  <script>tinymce.init({ selector:'textarea' });</script>
 <div class="container">
   <form method="post" action="/articles" enctype="multipart/form-data">
     {!! csrf_field() !!}
@@ -10,6 +12,17 @@
     <div class="form-group">
       <label for="tag">Tags</label>
       <input class="form-control" id="tag" type="text" name="tag">
+    </div>
+    <div class="form-group">
+      <label for="rubric">Rubrik</label>
+      <select class="form-control" id="rubric" name="rubric">
+        <option value="astory">A Story</option>
+        <option value="journal">Journal</option>
+        <option value="personality">Personality</option>
+        <option value="visual">Visual</option>
+        <option value="curation">Curation</option>
+        <option value="news">News</option>
+      </select>
     </div>
     <div class="form-group">
       <label for="content">Konten</label>

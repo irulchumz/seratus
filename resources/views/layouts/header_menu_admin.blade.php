@@ -61,7 +61,14 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="nav navbar-nav navbar-right">
                         <!-- Authentication Links -->
-
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Product
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="/products/create">Create Product</a></li>
+                                  <li><a href="/products">List</a></li>
+                              </ul>
+                          </li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">Category
                                 <span class="caret"></span></a>
@@ -86,6 +93,15 @@
                                   <li><a href="/articles">List</a></li>
                               </ul>
                           </li>
+                          <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Magazine
+                                <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                  <li><a href="/magazines/create">Create Magazine</a></li>
+                                  <li><a href="/magazines">List</a></li>
+                              </ul>
+                          </li>
+
 
 
 
