@@ -185,7 +185,7 @@ Route::get('all-articles/journal', function () {
     return view('front.all-articles', ['title' => 'Journal']);
 });
 Route::get('all-articles/a-story', function () {
-    return view('front.all-articles', ['title' => 'A Story']);
+    return view('front.all-articles', ['title' => 'A-Story']);
 });
 Route::get('all-articles/curation', function () {
     return view('front.all-articles', ['title' => 'Curation']);
